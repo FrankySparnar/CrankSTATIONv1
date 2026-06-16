@@ -4,12 +4,12 @@
 	name = "Urban Camouflage BDU"
 	item_path = /obj/item/clothing/under/rank/security/officer/hecu
 	donator_only = TRUE
-	restricted_roles = list(ALL_JOBS_SEC, JOB_BLUESHIELD)
+	restricted_roles = list(ALL_JOBS_SEC)
 
 /datum/loadout_item/uniform/security/camo
 	name = "Armored Camouflage Uniform"
 	item_path = /obj/item/clothing/under/rank/security/camo
-	restricted_roles = list(ALL_JOBS_SEC, JOB_BLUESHIELD)
+	restricted_roles = list(ALL_JOBS_SEC)
 
 /datum/loadout_item/uniform/camo
 	name = "Camouflage Uniform"

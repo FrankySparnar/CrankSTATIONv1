@@ -7760,7 +7760,6 @@
 #include "modular_skyrat\modules\blastwave_outfits\code\clothing\blastwave_mask.dm"
 #include "modular_skyrat\modules\blastwave_outfits\code\clothing\blastwave_suit.dm"
 #include "modular_skyrat\modules\blastwave_outfits\code\clothing\blastwave_uniform.dm"
-#include "modular_skyrat\modules\blueshield\code\blueshield.dm"
 #include "modular_skyrat\modules\blueshield\code\closet.dm"
 #include "modular_skyrat\modules\blueshield\code\clothing.dm"
 #include "modular_skyrat\modules\blueshield\code\encryptionkey.dm"

@@ -185,7 +185,7 @@
 /datum/loadout_item/accessory/medal/cc_pin
 	name = "Neckpin - CentCom"
 	item_path = /obj/item/clothing/accessory/bubber/acc_medal/neckpin/centcom
-	restricted_roles = list(JOB_NT_REP, JOB_CAPTAIN, JOB_BLUESHIELD)
+	restricted_roles = list(JOB_NT_REP, JOB_CAPTAIN)
 
 /datum/loadout_item/accessory/medal/nt_pin
 	name = "Neckpin - Nanotrasen"

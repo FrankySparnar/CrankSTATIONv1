@@ -42,12 +42,6 @@
 	donator_only = TRUE
 	restricted_roles = list(JOB_CAPTAIN)
 
-/datum/loadout_item/head/hats/blueshield/drill
-	name = "Blueshield's Campaign Hat"
-	item_path = /obj/item/clothing/head/hats/warden/drill/blueshield
-	donator_only = TRUE
-	restricted_roles = list(JOB_BLUESHIELD)
-
 /datum/loadout_item/head/hats/hos/drill
 	name = "Head of Security's Campaign Hat"
 	item_path = /obj/item/clothing/head/hats/warden/drill/hos

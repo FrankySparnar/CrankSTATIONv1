@@ -8,7 +8,6 @@
 #define SECHUD_BOUNCER "hudbouncer"
 #define SECHUD_SCIENCE_GUARD "hudscienceguard"
 //SR Nanotrasen
-#define SECHUD_BLUESHIELD "hudblueshield"
 #define SECHUD_NT_CONSULTANT "hudnanotrasenconsultant"
 //blacksmith
 #define SECHUD_BLACKSMITH "hudblacksmith"
