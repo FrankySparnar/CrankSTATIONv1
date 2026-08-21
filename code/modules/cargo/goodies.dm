@@ -15,49 +15,49 @@
 /datum/supply_pack/goody/dumdum38
 	name = ".38 DumDum Speedloader Single-Pack"
 	desc = "Contains one speedloader of .38 DumDum ammunition, good for embedding in soft targets."
-	cost = PAYCHECK_CREW * 2
+	cost = PAYCHECK_CREW * 8
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/ammo_box/speedloader/c38/dumdum)
 
 /datum/supply_pack/goody/match38
 	name = ".38 Match Grade Speedloader Single-Pack"
 	desc = "Contains one speedloader of match grade .38 ammunition, perfect for showing off trickshots."
-	cost = PAYCHECK_CREW * 2
+	cost = PAYCHECK_CREW * 6.5
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/ammo_box/speedloader/c38/match)
 
 /datum/supply_pack/goody/rubber
 	name = ".38 Rubber Speedloader Single-Pack"
 	desc = "Contains one speedloader of bouncy rubber .38 ammunition, for when you want to bounce your shots off anything and everything."
-	cost = PAYCHECK_CREW * 1.5
+	cost = PAYCHECK_CREW * 6
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/ammo_box/speedloader/c38/match/bouncy)
 
 /datum/supply_pack/goody/dumdum38br
 	name = ".38 DumDum Magazine Single-Pack"
 	desc = "Contains one magazine of .38 DumDum ammunition, good for embedding in soft targets."
-	cost = PAYCHECK_CREW * 2
+	cost = PAYCHECK_CREW * 10
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/ammo_box/magazine/m38/dumdum)
 
 /datum/supply_pack/goody/match38br
 	name = ".38 Match Grade Magazine Single-Pack"
 	desc = "Contains one magazine of match grade .38 ammunition, perfect for showing off trickshots."
-	cost = PAYCHECK_CREW * 2
+	cost = PAYCHECK_CREW * 8.5
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/ammo_box/magazine/m38/match)
 
 /datum/supply_pack/goody/rubber
 	name = ".38 Rubber Magazine Single-Pack"
 	desc = "Contains one magazine of bouncy rubber .38 ammunition, for when you want to bounce your shots off anything and everything."
-	cost = PAYCHECK_CREW * 1.5
+	cost = PAYCHECK_CREW * 7.5
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/ammo_box/magazine/m38/match/bouncy)
 	
 /datum/supply_pack/goody/mars_single
 	name = "Colt Detective Special Single-Pack"
 	desc = "The HoS took your gun and your badge? No problem! Just pay the absurd taxation fee and you too can be reunited with the lethal power of a .38!"
-	cost = PAYCHECK_CREW * 40 //they really mean a premium here
+	cost = PAYCHECK_COMMAND * 11.5 //they really mean a premium here
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/gun/ballistic/revolver/c38/detective)
 
@@ -71,13 +71,13 @@
 /datum/supply_pack/goody/Survivalknives_single
 	name = "Survival Knife Single-Pack"
 	desc = "Contains one sharpened survival knife. Guaranteed to fit snugly inside any Nanotrasen-standard boot."
-	cost = PAYCHECK_COMMAND * 1.75
+	cost = PAYCHECK_COMMAND * 5
 	contains = list(/obj/item/knife/combat/survival)
 
 /datum/supply_pack/goody/ballistic_single
 	name = "Combat Shotgun Single-Pack"
 	desc = "For when the enemy absolutely needs to be replaced with lead. Contains one Aussec-designed Combat Shotgun, and one Shotgun Bandolier."
-	cost = PAYCHECK_COMMAND * 15
+	cost = PAYCHECK_COMMAND * 18.5
 	access_view = ACCESS_ARMORY
 	contains = list(
 		/obj/item/gun/ballistic/shotgun/automatic/combat,
@@ -87,21 +87,21 @@
 /datum/supply_pack/goody/disabler_single
 	name = "Disabler Single-Pack"
 	desc = "Contains one disabler, the non-lethal workhorse of Nanotrasen security everywhere. Comes in an energy holster, just in case you happen to have an extra disabler."
-	cost = PAYCHECK_COMMAND * 3
+	cost = PAYCHECK_COMMAND * 7.5
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/storage/belt/holster/energy/disabler)
 
 /datum/supply_pack/goody/energy_single
 	name = "Energy Gun Single-Pack"
 	desc = "Contains one energy gun, capable of firing both non-lethal and lethal blasts of light."
-	cost = PAYCHECK_COMMAND * 12
+	cost = PAYCHECK_COMMAND * 14
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/gun/energy/e_gun)
 
 /datum/supply_pack/goody/laser_single
 	name = "Type 5 Laser Gun Single-Pack"
 	desc = "Contains one Type 5 laser gun, the lethal workhorse of Nanotrasen security everywhere."
-	cost = PAYCHECK_COMMAND * 6
+	cost = PAYCHECK_COMMAND * 13
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/gun/energy/laser)
 
@@ -152,7 +152,7 @@
 /datum/supply_pack/goody/sologamermitts
 	name = "Insulated Gloves Single-Pack"
 	desc = "The backbone of modern society. Barely ever ordered for actual engineering."
-	cost = PAYCHECK_CREW * 8
+	cost = PAYCHECK_CREW * 7.5
 	contains = list(/obj/item/clothing/gloves/color/yellow)
 
 /datum/supply_pack/goody/gorilla_single
@@ -164,31 +164,31 @@
 /datum/supply_pack/goody/firstaidbruises_single
 	name = "Bruise Treatment Kit Single-Pack"
 	desc = "A single brute medkit, perfect for recovering from being crushed in an airlock. Did you know people get crushed in airlocks all the time? Interesting..."
-	cost = PAYCHECK_CREW * 4
+	cost = PAYCHECK_CREW * 8
 	contains = list(/obj/item/storage/medkit/brute)
 
 /datum/supply_pack/goody/firstaidburns_single
 	name = "Burn Treatment Kit Single-Pack"
 	desc = "A single burn medkit. The advertisement displays a winking atmospheric technician giving a thumbs up, saying \"Mistakes happen!\""
-	cost = PAYCHECK_CREW * 4
+	cost = PAYCHECK_CREW * 8
 	contains = list(/obj/item/storage/medkit/fire)
 
 /datum/supply_pack/goody/firstaid_single
 	name = "First Aid Kit Single-Pack"
 	desc = "A single medkit, fit for healing most types of bodily harm."
-	cost = PAYCHECK_CREW * 3
+	cost = PAYCHECK_CREW * 9
 	contains = list(/obj/item/storage/medkit/regular)
 
 /datum/supply_pack/goody/firstaidoxygen_single
 	name = "Oxygen Deprivation Kit Single-Pack"
 	desc = "A single oxygen deprivation medkit, marketed heavily to those with crippling fears of asphyxiation."
-	cost = PAYCHECK_CREW * 4
+	cost = PAYCHECK_CREW * 7.5
 	contains = list(/obj/item/storage/medkit/o2)
 
 /datum/supply_pack/goody/firstaidtoxins_single
 	name = "Toxin Treatment Kit Single-Pack"
 	desc = "A single first aid kit focused on healing damage dealt by heavy toxins."
-	cost = PAYCHECK_CREW * 4
+	cost = PAYCHECK_CREW * 7.5
 	contains = list(/obj/item/storage/medkit/toxin)
 
 /datum/supply_pack/goody/bandagebox_singlepack
@@ -200,7 +200,7 @@
 /datum/supply_pack/goody/toolbox // mostly just to water down coupon probability
 	name = "Mechanical Toolbox"
 	desc = "A fully stocked mechanical toolbox, for when you're too lazy to just print them out."
-	cost = PAYCHECK_CREW * 3
+	cost = PAYCHECK_CREW * 4
 	contains = list(/obj/item/storage/toolbox/mechanical)
 
 /datum/supply_pack/goody/autolatheboard
@@ -265,7 +265,7 @@
 /datum/supply_pack/goody/medipen_twopak
 	name = "Medipen Two-Pak"
 	desc = "Contains one standard epinephrine medipen and one standard emergency medkit medipen. For when you want to prepare for the worst."
-	cost = PAYCHECK_CREW * 2
+	cost = PAYCHECK_CREW * 4
 	contains = list(
 		/obj/item/reagent_containers/hypospray/medipen,
 		/obj/item/reagent_containers/hypospray/medipen/ekit
@@ -406,7 +406,7 @@
 /datum/supply_pack/goody/double_barrel
 	name = "Double-barreled Shotgun Single-Pack"
 	desc = "Lost your beloved bunny to a demonic invasion? Clown broke in and stole your beloved gun? No worries! Get a new gun as long as you can pay the absurd fees."
-	cost = PAYCHECK_COMMAND * 18
+	cost = PAYCHECK_COMMAND * 15
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/gun/ballistic/shotgun/doublebarrel)
 

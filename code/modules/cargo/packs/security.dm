@@ -7,7 +7,7 @@
 	name = "Ammo Crate"
 	desc = "Contains three boxes of beanbag shotgun shells, three boxes \
 		of rubbershot shotgun shells and one of each special .38 speedloaders."
-	cost = CARGO_CRATE_VALUE * 8
+	cost = CARGO_CRATE_VALUE * 9.5
 	access_view = ACCESS_ARMORY
 	contains = list(/obj/item/storage/box/beanbag = 3,
 					/obj/item/storage/box/rubbershot = 3,
@@ -20,7 +20,7 @@
 /datum/supply_pack/security/armor
 	name = "Armor Crate"
 	desc = "Three vests of well-rounded, decently-protective armor."
-	cost = CARGO_CRATE_VALUE * 3
+	cost = CARGO_CRATE_VALUE * 8
 	access_view = ACCESS_SECURITY
 	contains = list(/obj/item/clothing/suit/armor/vest = 3)
 	crate_name = "armor crate"
@@ -36,7 +36,7 @@
 /datum/supply_pack/security/disabler
 	name = "Disabler Crate"
 	desc = "Three stamina-draining disabler weapons."
-	cost = CARGO_CRATE_VALUE * 3
+	cost = CARGO_CRATE_VALUE * 8.5
 	access_view = ACCESS_SECURITY
 	contains = list(/obj/item/gun/energy/disabler = 3)
 	crate_name = "disabler crate"
@@ -61,7 +61,7 @@
 /datum/supply_pack/security/helmets
 	name = "Helmets Crate"
 	desc = "Contains three standard-issue brain buckets."
-	cost = CARGO_CRATE_VALUE * 3
+	cost = CARGO_CRATE_VALUE * 5
 	contains = list(/obj/item/clothing/head/helmet/sec = 3)
 	crate_name = "helmet crate"
 
@@ -70,7 +70,7 @@
 	desc = "Stem the tide with four Security Barrier grenades."
 	access_view = ACCESS_BRIG
 	contains = list(/obj/item/grenade/barrier = 4)
-	cost = CARGO_CRATE_VALUE * 2
+	cost = CARGO_CRATE_VALUE * 2.5
 	crate_name = "security barriers crate"
 
 /datum/supply_pack/security/securityclothes
@@ -78,7 +78,7 @@
 	desc = "Contains appropriate outfits for the station's private security force. \
 		Contains outfits for the Warden, Head of Security, and two Security Officers. \
 		Each outfit comes with a rank-appropriate jumpsuit, suit, and beret."
-	cost = CARGO_CRATE_VALUE * 3
+	cost = CARGO_CRATE_VALUE * 3.25
 	access_view = ACCESS_SECURITY
 	contains = list(/obj/item/clothing/under/rank/security/officer/formal = 2,
 					/obj/item/clothing/suit/jacket/officer/blue = 2,
@@ -96,7 +96,7 @@
 	name = "Stingbang Grenade Pack"
 	desc = "Contains five \"stingbang\" grenades, perfect for stopping \
 		riots and playing morally unthinkable pranks."
-	cost = CARGO_CRATE_VALUE * 5
+	cost = CARGO_CRATE_VALUE * 6.5
 	access_view = ACCESS_ARMORY
 	contains = list(/obj/item/storage/box/stingbangs)
 	crate_name = "stingbang grenade pack crate"
@@ -104,7 +104,7 @@
 /datum/supply_pack/security/supplies
 	name = "Security Supplies Crate"
 	desc = "Contains seven flashbangs, seven teargas grenades, six flashes, and seven handcuffs."
-	cost = CARGO_CRATE_VALUE * 3.5
+	cost = CARGO_CRATE_VALUE * 6.75
 	access_view = ACCESS_ARMORY
 	contains = list(/obj/item/storage/box/flashbangs,
 					/obj/item/storage/box/teargas,
@@ -154,7 +154,7 @@
 /datum/supply_pack/security/baton
 	name = "Stun Batons Crate"
 	desc = "Arm the Civil Protection Forces with three stun batons. Batteries included."
-	cost = CARGO_CRATE_VALUE * 3
+	cost = CARGO_CRATE_VALUE * 8.5
 	access_view = ACCESS_SECURITY
 	contains = list(/obj/item/melee/baton/security/loaded = 3)
 	crate_name = "stun baton crate"
@@ -162,7 +162,7 @@
 /datum/supply_pack/security/wall_flash
 	name = "Wall-Mounted Flash Crate"
 	desc = "Contains four wall-mounted flashes."
-	cost = CARGO_CRATE_VALUE * 2
+	cost = CARGO_CRATE_VALUE * 4
 	contains = list(/obj/item/storage/box/wall_flash = 4)
 	crate_name = "wall-mounted flash crate"
 
@@ -193,14 +193,14 @@
 	name = "Bulletproof Armor Crate"
 	desc = "Contains three sets of bulletproof armor. Guaranteed to reduce a bullet's \
 		stopping power by over half."
-	cost = CARGO_CRATE_VALUE * 3
+	cost = CARGO_CRATE_VALUE * 19.5
 	contains = list(/obj/item/clothing/suit/armor/bulletproof = 3)
 	crate_name = "bulletproof armor crate"
 
 /datum/supply_pack/security/armory/bullethelmets
 	name = "Bulletproof Helmets Crate"
 	desc = "Contains three bulletproof helmets."
-	cost = CARGO_CRATE_VALUE * 3
+	cost = CARGO_CRATE_VALUE * 9.5
 	contains = list(/obj/item/clothing/head/helmet/alt = 3)
 	crate_name = "bulletproof helmets crate"
 
@@ -215,7 +215,7 @@
 	name = "Combat Shotguns Crate"
 	desc = "For when the enemy absolutely needs to be replaced with lead. \
 		Contains three Aussec-designed Combat Shotguns, and three Shotgun Bandoliers."
-	cost = CARGO_CRATE_VALUE * 17.5
+	cost = CARGO_CRATE_VALUE * 23
 	contains = list(/obj/item/gun/ballistic/shotgun/automatic/combat = 3,
 					/obj/item/storage/belt/bandolier = 3)
 	crate_name = "combat shotguns crate"
@@ -224,7 +224,7 @@
 	name = "DRAGnet Translocation Shotgun Crate"
 	desc = "Contains two \"Dynamic Rapid-Apprehension of the Guilty Network\" translocation shotguns, \
 		a recent breakthrough in law enforcement prisoner management technology. Includes a DRAGnet beacon."
-	cost = CARGO_CRATE_VALUE * 18
+	cost = CARGO_CRATE_VALUE * 14
 	contains = list(
 		/obj/item/gun/energy/e_gun/dragnet = 2,
 		/obj/item/dragnet_beacon = 1
@@ -244,7 +244,7 @@
 	name = "Type 5 Laser Gun Crate"
 	desc = "Contains three Type 5 laser guns, developed by Nanotrasen. For when the going gets tough, you get going with the \
 		Type 5 Heat Delivery System. As developed by Nanotrasen."
-	cost = CARGO_CRATE_VALUE * 4
+	cost = CARGO_CRATE_VALUE * 17.5
 	contains = list(/obj/item/gun/energy/laser = 3)
 	crate_name = "\improper Type 5 laser crate"
 	crate_type = /obj/structure/closet/crate/secure/plasma
@@ -331,7 +331,7 @@
 	desc = "Contains two vests of highly reflective material. Each armor piece \
 		diffuses a laser's energy by over half, as well as offering a good chance \
 		to reflect the laser entirely."
-	cost = CARGO_CRATE_VALUE * 5
+	cost = CARGO_CRATE_VALUE * 10
 	contains = list(/obj/item/clothing/suit/armor/laserproof = 2)
 	crate_name = "reflector vest crate"
 	crate_type = /obj/structure/closet/crate/secure/plasma
@@ -341,21 +341,21 @@
 	desc = "Contains three sets of heavy body armor. Advanced padding protects \
 		against close-ranged weaponry, making melee attacks feel only half as \
 		potent to the user."
-	cost = CARGO_CRATE_VALUE * 6
+	cost = CARGO_CRATE_VALUE * 19.5
 	contains = list(/obj/item/clothing/suit/armor/riot = 3)
 	crate_name = "riot armor crate"
 
 /datum/supply_pack/security/armory/riothelmets
 	name = "Riot Helmets Crate"
 	desc = "Contains three riot helmets."
-	cost = CARGO_CRATE_VALUE * 4
+	cost = CARGO_CRATE_VALUE * 9.5
 	contains = list(/obj/item/clothing/head/helmet/toggleable/riot = 3)
 	crate_name = "riot helmets crate"
 
 /datum/supply_pack/security/armory/riotshields
 	name = "Riot Shields Crate"
 	desc = "For when the greytide gets really uppity. Contains three riot shields."
-	cost = CARGO_CRATE_VALUE * 5
+	cost = CARGO_CRATE_VALUE * 11
 	contains = list(/obj/item/shield/riot = 3)
 	crate_name = "riot shields crate"
 
@@ -364,7 +364,7 @@
 	desc = "Contains two fullbody sets of tough, fireproof suits designed in a joint \
 		effort by IS-ERI and Nanotrasen. Each set contains a suit, helmet, mask, combat belt, \
 		and gorilla gloves."
-	cost = CARGO_CRATE_VALUE * 7
+	cost = CARGO_CRATE_VALUE * 20.5
 	contains = list(/obj/item/clothing/head/helmet/swat/nanotrasen = 2,
 					/obj/item/clothing/suit/armor/swat = 2,
 					/obj/item/clothing/mask/gas/sechailer/swat = 2,
@@ -384,7 +384,7 @@
 /datum/supply_pack/security/sunglasses
 	name = "Sunglasses Crate"
 	desc = "A single pair of flash-proof sunglasses."
-	cost = CARGO_CRATE_VALUE * 2
+	cost = CARGO_CRATE_VALUE * 3.5
 	access_view = ACCESS_SECURITY
 	contains = list(/obj/item/clothing/glasses/sunglasses = 1)
 	crate_name = "sunglasses crate"

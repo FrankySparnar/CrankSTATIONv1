@@ -1,14 +1,14 @@
 /datum/supply_pack/security/armory/wt550
 	name = "WT-550 Autorifle Crate"
-	desc = "Contains a trifecta of pre-loaded WT-550 Autorifles. Additional ammo sold seperately."
-	cost = CARGO_CRATE_VALUE * 10
-	contains = list(/obj/item/gun/ballistic/automatic/wt550 = 3)
+	desc = "Contains a pair of WT-550 Autorifles pre-loaded with less-lethal rubber-tipped rounds. Additional ammo sold seperately. Backwards-compatible with WT-550 magazines. Nanotrasen reminds you that the other weapon is for a friend, and not for going guns akimbo."
+	cost = CARGO_CRATE_VALUE * 22
+	contains = list(/obj/item/gun/ballistic/automatic/wt550/security = 3)
 	crate_name = "wt-550 autorifle crate"
 
 /datum/supply_pack/security/armory/wt550_ammo_regular
 	name = "WT-550 Autorifle Ammo Crate (Regular)"
 	desc = "Contains 4 magazines with lethal regular rounds for the WT-550."
-	cost = CARGO_CRATE_VALUE * 4 //these are printable, price can be lowered safely to 800ish
+	cost = CARGO_CRATE_VALUE * 10 //these are printable, price can be lowered safely to 800ish
 	contains = list(/obj/item/ammo_box/magazine/wt550m9 = 4)
 	crate_name = "wt-550 magazine crate (regular)"
 
@@ -78,7 +78,7 @@
 /datum/supply_pack/security/Tasers
 	name = "Taser Crate"
 	desc = "Contains three hybrid tasers, a non-lethal weapon that fires electric projectiles and features a secondary disabler."
-	cost = CARGO_CRATE_VALUE * 5.5
+	cost = CARGO_CRATE_VALUE * 10.5
 	contains = list(/obj/item/gun/energy/e_gun/advtaser = 3)
 	access = ACCESS_SECURITY
 
@@ -88,7 +88,7 @@
 /datum/supply_pack/security/armory/energy
 	desc = "Contains three energy guns, capable of firing both nonlethal and lethal \
 		blasts of light."
-	cost = CARGO_CRATE_VALUE * 7
+	cost = CARGO_CRATE_VALUE * 18
 	contains = list(/obj/item/gun/energy/e_gun = 3)
 
 /datum/supply_pack/security/armory/laser_carbine
@@ -201,7 +201,7 @@
 /datum/supply_pack/security/armory/tacticool_laser_crate
 	name = "Tacticool energy gun crate"
 	desc = "Three tacticool energy guns to express your individuality compared to all those other energy gun users!"
-	cost = CARGO_CRATE_VALUE * 8
+	cost = CARGO_CRATE_VALUE * 18
 	contains = list(
 		/obj/item/gun/energy/tacticool,
 		/obj/item/gun/energy/tacticool,

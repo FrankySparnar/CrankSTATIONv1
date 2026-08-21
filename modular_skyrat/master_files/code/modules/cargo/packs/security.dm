@@ -15,7 +15,7 @@
 /datum/supply_pack/goody/energy_single
 	name = "Energy Gun Single-Pack"
 	desc = "Contains one energy gun, capable of firing both nonlethal and lethal blasts of light."
-	cost = PAYCHECK_COMMAND * 6
+	cost = PAYCHECK_COMMAND * 14
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/gun/energy/e_gun)
 
@@ -32,3 +32,11 @@
 	desc = "Contains two Ion Carbines, for when you need to deal with speedy space tiders, mechs, or upstart silicons."
 	contains = list(/obj/item/gun/energy/ionrifle/carbine = 2)
 	crate_name = "Ion Carbine Crate"
+
+/datum/supply_pack/security/miniegun
+	name = "Mini E-Gun Bulk Crate"
+	cost = CARGO_CRATE_VALUE * 12
+	desc = "Contains three mini e-guns, cheap and semi-effective, for when you need to arm up on a budget."
+	contains = list(/obj/item/gun/energy/e_gun/mini = 3)
+	crate_name = "Mini E-Gun Bulk Crate"
+//You know the problem is literally nobody want to buy the mini-egun even if it was cheap
