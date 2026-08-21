@@ -169,7 +169,7 @@
 	name = "Survival Knives Crate"
 	desc = "Contains three sharpened survival knives. Each knife guaranteed to fit snugly \
 		inside any Nanotrasen-standard boot."
-	cost = CARGO_CRATE_VALUE * 3
+	cost = CARGO_CRATE_VALUE * 6.5
 	contains = list(/obj/item/knife/combat/survival = 3)
 	crate_name = "survival knife crate"
 	crate_type = /obj/structure/closet/crate/cargo/mining

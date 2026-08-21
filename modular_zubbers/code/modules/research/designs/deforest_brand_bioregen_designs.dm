@@ -88,27 +88,28 @@
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_DFBBR_MEDICAL)
 
 // Synth Treatments
+// Crank Edit - Removes foam and adjusts biomass for patches until we return to this.
 
 /datum/design/biogen/dfbbr_synth_patch
 	name = "Robotic Repair Patch"
 	id = "dfbbr_repair_patch"
-	materials = list(/datum/material/biomass = 50)
+	materials = list(/datum/material/biomass = 80)
 	build_path = /obj/item/reagent_containers/applicator/pill/robotic_patch/synth_repair
 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_DFBBR_MEDICAL)
 
-/datum/design/biogen/dfbbr_repair_foam
-	name = "Robotic Repair Spray"
-	id = "dfbbr_repair_foam"
-	materials = list(/datum/material/biomass = 80)
-	build_path = /obj/item/stack/medical/wound_recovery/robofoam
-	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_DFBBR_MEDICAL)
+// /datum/design/biogen/dfbbr_repair_foam
+// 	name = "Robotic Repair Spray"
+// 	id = "dfbbr_repair_foam"
+// 	materials = list(/datum/material/biomass = 80)
+// 	build_path = /obj/item/stack/medical/wound_recovery/robofoam
+// 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_DFBBR_MEDICAL)
 
-/datum/design/biogen/dfbbr_repair_foam_premium
-	name = "Premium Robotic Repair Spray"
-	id = "dfbbr_repair_foam_premium"
-	materials = list(/datum/material/biomass = 160)
-	build_path = /obj/item/stack/medical/wound_recovery/robofoam_super
-	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_DFBBR_MEDICAL)
+// /datum/design/biogen/dfbbr_repair_foam_premium
+// 	name = "Premium Robotic Repair Spray"
+// 	id = "dfbbr_repair_foam_premium"
+// 	materials = list(/datum/material/biomass = 160)
+// 	build_path = /obj/item/stack/medical/wound_recovery/robofoam_super
+// 	category = list(RND_CATEGORY_INITIAL, RND_CATEGORY_DFBBR_MEDICAL)
 
 // Fracture Treatments
 

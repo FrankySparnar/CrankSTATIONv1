@@ -249,46 +249,6 @@
 	crate_name = "\improper Type 5 laser crate"
 	crate_type = /obj/structure/closet/crate/secure/plasma
 
-/datum/supply_pack/security/armory/laser_carbine
-	name = "Type 5/R Laser Carbine Crate"
-	desc = "Contains three Type 5R laser carbines, developed by Nanotrasen. Fires a rapid burst of slightly weaker laser projectiles."
-	cost = CARGO_CRATE_VALUE * 9
-	contains = list(/obj/item/gun/energy/laser/carbine = 3)
-	crate_name = "\improper Type 5R laser carbine crate"
-	crate_type = /obj/structure/closet/crate/secure/plasma
-
-/datum/supply_pack/security/armory/disabler_smg
-	name = "Disabler SMG Crate"
-	desc = "Contains three disabler SMGs, capable of rapidly firing weak disabler beams."
-	cost = CARGO_CRATE_VALUE * 7
-	contains = list(/obj/item/gun/energy/disabler/smg = 3)
-	crate_name = "disabler smg crate"
-	crate_type = /obj/structure/closet/crate/secure/plasma
-
-/datum/supply_pack/security/armory/battle_rifle
-	name = "NT BR-38 Crate"
-	desc = "An experimental energy-based ballistic battle rifle, as developed by Nanotrasen. \
-		Only available to Nanotrasen stations for security purposes. DO NOT RESELL TO OUTSIDE \
-		COMPANIES. Contains three NT BR-38 rifles and 6 magazines containing .38 Standard."
-	cost = CARGO_CRATE_VALUE * 100
-	contains = list(
-		/obj/item/gun/ballistic/automatic/battle_rifle = 3,
-		/obj/item/ammo_box/magazine/m38 = 6,
-	)
-	crate_name = "battle rifle crate"
-
-/datum/supply_pack/security/armory/br_mag
-	name = "NT BR-38 Magazine Crate"
-	desc = "Six .38 magazines, able to fit into the NT BR-38. Contains \
-		two standard magazines, two Hot Shot magazines and two Iceblox magazines."
-	cost = CARGO_CRATE_VALUE * 7
-	contains = list(
-		/obj/item/ammo_box/magazine/m38 = 2,
-		/obj/item/ammo_box/magazine/m38/hotshot = 2,
-		/obj/item/ammo_box/magazine/m38/iceblox =2,
-	)
-	crate_name = ".38 magazine crate"
-
 /datum/supply_pack/security/armory/exileimp
 	name = "Exile Implants Crate"
 	desc = "Contains five Exile implants."

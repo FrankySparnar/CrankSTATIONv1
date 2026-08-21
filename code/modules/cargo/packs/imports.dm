@@ -14,7 +14,7 @@
 /datum/supply_pack/imports/foamforce
 	name = "Foam Force Crate"
 	desc = "Break out the big guns with eight Foam Force shotguns!"
-	cost = CARGO_CRATE_VALUE * 2
+	cost = CARGO_CRATE_VALUE * 4
 	contains = list(/obj/item/gun/ballistic/shotgun/toy = 8)
 	crate_name = "foam force crate"
 	crate_type = /obj/structure/closet/crate/freezer/donk
@@ -41,22 +41,6 @@
 	crate_name = "MEAT MEAT MEAT MEAT MEAT"
 	crate_type = /obj/structure/closet/crate/necropolis
 	discountable = SUPPLY_PACK_RARE_DISCOUNTABLE
-
-/datum/supply_pack/imports/duct_spider
-	name = "Duct Spider Crate"
-	desc = "Awww! Straight from the Australicus sector to your station's ventilation system!"
-	cost = CARGO_CRATE_VALUE * 4
-	contains = list(/mob/living/basic/spider/maintenance)
-	crate_name = "duct spider crate"
-	crate_type = /obj/structure/closet/crate/critter
-	discountable = SUPPLY_PACK_UNCOMMON_DISCOUNTABLE
-
-/datum/supply_pack/imports/duct_spider/dangerous
-	name = "Duct Spider Crate?"
-	desc = "Wait, is this the right crate? It has a frowny face, what does that mean?"
-	cost = CARGO_CRATE_VALUE * 4
-	contains = list(/mob/living/basic/spider/giant/hunter)
-	order_flags = ORDER_CONTRABAND
 
 /datum/supply_pack/imports/bamboo50
 	name = "50 Bamboo Cuttings"

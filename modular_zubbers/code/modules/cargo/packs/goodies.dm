@@ -68,7 +68,7 @@
 /datum/supply_pack/goody/security_maid
 	name = "CnC Maid Operator Kit"
 	desc = "Contains a set of armoured janitorial kit for combat scenario."
-	cost = PAYCHECK_COMMAND * 7.5
+	cost = PAYCHECK_COMMAND * 9
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/clothing/under/rank/security/maid, /obj/item/clothing/suit/armor/vest/maid, /obj/item/clothing/head/security_maid, /obj/item/pushbroom)
 
@@ -95,13 +95,6 @@
 	desc = "Going on an adventure far from the comforts of your station? Unsure you'll make it back in one piece? Kahraman Industries and Nanotrasen present the Off-Station Deathrattle implant! This little chip connected to your vitals will send an automatic distress signal in case of your early demise. It will only work outside of Station areas. Warranty is void if death results from falling into pits or diving into lava or plasma lakes."
 	cost = PAYCHECK_COMMAND * 7.5
 	contains = list(/obj/item/storage/box/offstation_deathrattle)
-
-/datum/supply_pack/goody/ntusp_single
-	name = "NT22-HCS 'Enforcer' Single-Pack"
-	desc = "Contains one NT22-HCS 'Enforcer' pistol case, a non-lethal weapon that fires hardlight, non-lethal projectiles. Includes two power pack magazines."
-	cost = PAYCHECK_COMMAND * 12
-	access_view = ACCESS_SECURITY
-	contains = list(/obj/item/storage/toolbox/guncase/skyrat/pistol/ntusp)
 
 /datum/supply_pack/goody/pepperball_gun
 	name = "Pepperball Gun Single-Pack"

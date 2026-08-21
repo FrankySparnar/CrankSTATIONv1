@@ -105,50 +105,6 @@
 	access_view = ACCESS_WEAPONS
 	contains = list(/obj/item/gun/energy/laser)
 
-/datum/supply_pack/goody/carbine_single
-	name = "Type 5/R Laser Carbine Single-Pack"
-	desc = "Contains one laser carbine. Fires a rapid burst of slightly weaker laser projectiles."
-	cost = PAYCHECK_COMMAND * 8
-	access_view = ACCESS_WEAPONS
-	contains = list(/obj/item/gun/energy/laser/carbine)
-
-/datum/supply_pack/goody/laser_pistol_single
-	name = "Type 5/C Laser Pistol Single-Pack"
-	desc = "Contains one Type 5C laser pistol in an energy shoulder holster. Groovy."
-	cost = PAYCHECK_COMMAND * 2
-	access_view = ACCESS_WEAPONS
-	contains = list(/obj/item/storage/belt/holster/energy/laser_pistol)
-
-/datum/supply_pack/goody/laser_single_soul
-	name = "Type 3 Laser Gun Single-Pack"
-	desc = "Contains one Type 3 laser gun. They don't make 'em like they used to."
-	cost = PAYCHECK_COMMAND * 6
-	access_view = ACCESS_WEAPONS
-	contains = list(/obj/item/gun/energy/laser/soul)
-
-/datum/supply_pack/goody/smg_single
-	name = "Disabler SMG Single_Pack"
-	desc = "Contains one disabler SMG, capable of rapidly firing weak disabler beams."
-	cost = PAYCHECK_COMMAND * 6
-	access_view = ACCESS_WEAPONS
-	contains = list(/obj/item/gun/energy/disabler/smg)
-
-/datum/supply_pack/goody/hell_single
-	name = "Hellgun Kit Single-Pack"
-	desc = "Contains one hellgun degradation kit, to convert regular laser guns into an older pattern of laser gun, \
-		infamous for its ability to horribly disfigure targets with burns. \
-		Technically violates the Space Geneva Convention when used on humanoids."
-	cost = PAYCHECK_CREW * 2
-	access_view = ACCESS_WEAPONS
-	contains = list(/obj/item/weaponcrafting/gunkit/hellgun)
-
-/datum/supply_pack/goody/thermal_single
-	name = "Thermal Pistol Holster Single-Pack"
-	desc = "Contains twinned thermal pistols in a holster, ready for use in the field."
-	cost = PAYCHECK_COMMAND * 15
-	access_view = ACCESS_WEAPONS
-	contains = list(/obj/item/storage/belt/holster/energy/thermal)
-
 /datum/supply_pack/goody/sologamermitts
 	name = "Insulated Gloves Single-Pack"
 	desc = "The backbone of modern society. Barely ever ordered for actual engineering."
@@ -164,43 +120,43 @@
 /datum/supply_pack/goody/firstaidbruises_single
 	name = "Bruise Treatment Kit Single-Pack"
 	desc = "A single brute medkit, perfect for recovering from being crushed in an airlock. Did you know people get crushed in airlocks all the time? Interesting..."
-	cost = PAYCHECK_CREW * 8
+	cost = PAYCHECK_COMMAND * 8
 	contains = list(/obj/item/storage/medkit/brute)
 
 /datum/supply_pack/goody/firstaidburns_single
 	name = "Burn Treatment Kit Single-Pack"
 	desc = "A single burn medkit. The advertisement displays a winking atmospheric technician giving a thumbs up, saying \"Mistakes happen!\""
-	cost = PAYCHECK_CREW * 8
+	cost = PAYCHECK_COMMAND * 8
 	contains = list(/obj/item/storage/medkit/fire)
 
 /datum/supply_pack/goody/firstaid_single
 	name = "First Aid Kit Single-Pack"
 	desc = "A single medkit, fit for healing most types of bodily harm."
-	cost = PAYCHECK_CREW * 9
+	cost = PAYCHECK_COMMAND * 9
 	contains = list(/obj/item/storage/medkit/regular)
 
 /datum/supply_pack/goody/firstaidoxygen_single
 	name = "Oxygen Deprivation Kit Single-Pack"
 	desc = "A single oxygen deprivation medkit, marketed heavily to those with crippling fears of asphyxiation."
-	cost = PAYCHECK_CREW * 7.5
+	cost = PAYCHECK_COMMAND * 7.5
 	contains = list(/obj/item/storage/medkit/o2)
 
 /datum/supply_pack/goody/firstaidtoxins_single
 	name = "Toxin Treatment Kit Single-Pack"
 	desc = "A single first aid kit focused on healing damage dealt by heavy toxins."
-	cost = PAYCHECK_CREW * 7.5
+	cost = PAYCHECK_COMMAND * 7.5
 	contains = list(/obj/item/storage/medkit/toxin)
 
 /datum/supply_pack/goody/bandagebox_singlepack
 	name = "Box of Bandages Single-Pack"
 	desc = "A single box of DeForest brand bandages. For when you don't want to see your doctor."
-	cost = PAYCHECK_CREW * 3
+	cost = PAYCHECK_COMMAND * 3
 	contains = list(/obj/item/storage/box/bandages)
 
 /datum/supply_pack/goody/toolbox // mostly just to water down coupon probability
 	name = "Mechanical Toolbox"
 	desc = "A fully stocked mechanical toolbox, for when you're too lazy to just print them out."
-	cost = PAYCHECK_CREW * 4
+	cost = PAYCHECK_CREW * 6
 	contains = list(/obj/item/storage/toolbox/mechanical)
 
 /datum/supply_pack/goody/autolatheboard
@@ -270,24 +226,6 @@
 		/obj/item/reagent_containers/hypospray/medipen,
 		/obj/item/reagent_containers/hypospray/medipen/ekit
 	)
-
-/datum/supply_pack/goody/mothic_rations
-	name = "Surplus Mothic Ration Pack"
-	desc = "A single surplus ration pack from the Mothic Fleet. Comes with 3 random sustenance bars, and a package of Activin chewing gum."
-	cost = PAYCHECK_COMMAND * 2
-	contains = list(/obj/item/storage/box/mothic_rations)
-
-/datum/supply_pack/goody/ready_donk
-	name = "Ready-Donk Single Meal"
-	desc = "A complete meal package for the terminally lazy. Contains one Ready-Donk meal."
-	cost = PAYCHECK_CREW * 2
-	contains = list(/obj/item/food/ready_donk)
-
-/datum/supply_pack/goody/pill_mutadone
-	name = "Emergency Mutadone Pill Single-Pack"
-	desc = "A single pill for curing genetic defects. Useful for when you can't procure one from medbay."
-	cost = PAYCHECK_CREW * 2.5
-	contains = list(/obj/item/reagent_containers/applicator/pill/mutadone)
 
 /datum/supply_pack/goody/rapid_lighting_device
 	name = "Rapid Lighting Device (RLD) Single-Pack"
@@ -382,7 +320,7 @@
 /datum/supply_pack/goody/coffee_cartridge
 	name = "Coffee Cartridge Single-Pack"
 	desc = "A basic cartridge for a coffeemaker. Makes 4 pots."
-	cost = PAYCHECK_LOWER
+	cost = PAYCHECK_CREW
 	contains = list(/obj/item/coffee_cartridge)
 
 /datum/supply_pack/goody/coffee_cartridge_fancy
@@ -400,7 +338,7 @@
 /datum/supply_pack/goody/climbing_hook
 	name = "Climbing Hook Single-Pack"
 	desc = "A less cheap imported climbing hook. Absolutely no use outside of multi-floor stations."
-	cost = PAYCHECK_CREW * 5
+	cost = PAYCHECK_CREW * 10
 	contains = list(/obj/item/climbing_hook)
 
 /datum/supply_pack/goody/double_barrel

@@ -21,7 +21,7 @@
 	desc = "Explosions got you down? These supplies are guaranteed to patch up holes, \
 		in stations and people alike! Comes with two floorbots, two medbots, five oxygen \
 		masks and five small oxygen tanks."
-	cost = CARGO_CRATE_VALUE * 4
+	cost = CARGO_CRATE_VALUE * 5
 	contains = list(
 		/mob/living/basic/bot/medbot = 2,
 		/mob/living/basic/bot/repairbot = 2,
@@ -35,7 +35,7 @@
 	name = "Explosive Emergency Crate"
 	desc = "Science gone bonkers? Beeping behind the airlock? Buy now and be the hero the station des... \
 		I mean needs! (time not included). Contains one bomb suit and hood, gas mask, and bomb defusal tools."
-	cost = CARGO_CRATE_VALUE * 2
+	cost = CARGO_CRATE_VALUE * 5
 	contains = list(/obj/item/clothing/head/utility/bomb_hood,
 					/obj/item/clothing/suit/utility/bomb_suit,
 					/obj/item/clothing/mask/gas,
@@ -49,7 +49,7 @@
 	name = "Firefighting Crate"
 	desc = "Only you can prevent station fires. Partner up with two firefighter suits, gas masks, \
 		flashlights, large oxygen tanks, extinguishers, and hardhats!"
-	cost = CARGO_CRATE_VALUE * 2
+	cost = CARGO_CRATE_VALUE * 3
 	contains = list(/obj/item/clothing/suit/utility/fire/firefighter = 2,
 					/obj/item/clothing/mask/gas = 2,
 					/obj/item/flashlight = 2,
@@ -84,7 +84,7 @@
 /datum/supply_pack/emergency/metalfoam
 	name = "Metal Foam Grenade Crate"
 	desc = "Seal up those pesky hull breaches with seven metal foam grenades."
-	cost = CARGO_CRATE_VALUE * 2.4
+	cost = CARGO_CRATE_VALUE * 2.7
 	contains = list(/obj/item/storage/box/metalfoam)
 	crate_name = "metal foam grenade crate"
 
@@ -117,7 +117,7 @@
 	desc = "Survive the Nuclear Apocalypse and Supermatter Engine alike with two sets of radiation suits. \
 		Each set contains a helmet, suit, and Geiger counter. We'll even throw in a bottle of vodka and some glasses too, \
 		considering the life-expectancy of people who order this."
-	cost = CARGO_CRATE_VALUE * 2
+	cost = CARGO_CRATE_VALUE * 4
 	contains = list(/obj/item/clothing/head/utility/radiation = 2,
 					/obj/item/clothing/suit/utility/radiation = 2,
 					/obj/item/geiger_counter = 2,
@@ -153,12 +153,3 @@
 				)
 	crate_name = "weed control crate"
 	crate_type = /obj/structure/closet/crate/secure/hydroponics
-
-/datum/supply_pack/emergency/mothic_rations
-	name = "Surplus Mothic Rations Triple-Pak"
-	desc = "Crew starving? Chef slacking off? Keep everyone fed on the barest minimum of what can be considered food \
-		with surplus ration packs, directly from the Mothic Fleet! Pack includes 3 packs of 3 bars each."
-	cost = CARGO_CRATE_VALUE * 3
-	contains = list(/obj/item/storage/box/mothic_rations = 3)
-	crate_name = "surplus rations box"
-	crate_type = /obj/structure/closet/crate/cardboard/mothic
