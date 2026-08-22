@@ -17,7 +17,6 @@ GAME_VERB(/client, sooc, "SOOC", "OOC", msg as text)
 		JOB_HEAD_OF_SECURITY=TRUE,
 		JOB_WARDEN=TRUE, JOB_DETECTIVE=TRUE,
 		JOB_SECURITY_OFFICER=TRUE,
-		JOB_CORRECTIONS_OFFICER=TRUE,
 		JOB_SECURITY_MEDIC=TRUE,
 		)
 	if(!holder)
@@ -93,7 +92,7 @@ GAME_VERB(/client, sooc, "SOOC", "OOC", msg as text)
 	else //otherwise just toggle it
 		GLOB.sooc_allowed = !GLOB.sooc_allowed
 	var/list/listeners = list()
-	var/static/list/job_lookup = list(JOB_SECURITY_OFFICER = TRUE, JOB_WARDEN = TRUE, JOB_DETECTIVE = TRUE, JOB_HEAD_OF_SECURITY = TRUE, JOB_CAPTAIN = TRUE, JOB_BLUESHIELD = TRUE)
+	var/static/list/job_lookup = list(JOB_SECURITY_OFFICER = TRUE, JOB_WARDEN = TRUE, JOB_DETECTIVE = TRUE, JOB_HEAD_OF_SECURITY = TRUE, JOB_CAPTAIN = TRUE)
 	for(var/iterated_player in GLOB.player_list)
 		var/mob/iterated_mob = iterated_player
 		if(!iterated_mob.client?.holder?.deadmined)

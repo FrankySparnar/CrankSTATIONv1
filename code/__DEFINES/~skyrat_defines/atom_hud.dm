@@ -1,14 +1,4 @@
-//SR Security
-#define SECHUD_CORRECTIONS_OFFICER "hudcorrectionsofficer"
-#define SECHUD_SECURITY_MEDIC "hudsecuritymedic" // zubbers revert from skrat
-//SR Departmental Guards
-#define SECHUD_ENGINEERING_GUARD "hudengineeringguard"
-#define SECHUD_ORDERLY "hudorderly"
-#define SECHUD_CUSTOMS_AGENT "hudcustomsagent"
-#define SECHUD_BOUNCER "hudbouncer"
-#define SECHUD_SCIENCE_GUARD "hudscienceguard"
 //SR Nanotrasen
-#define SECHUD_BLUESHIELD "hudblueshield"
 #define SECHUD_NT_CONSULTANT "hudnanotrasenconsultant"
 //blacksmith
 #define SECHUD_BLACKSMITH "hudblacksmith"
@@ -28,6 +18,4 @@
 #define SECHUD_TERRAGOV "hudterragov"
 #define SECHUD_TERRAGOV_LIASON "hudterragovliasion"
 //SR Misc
-#define SECHUD_BARBER "hudbarber"
 #define SECHUD_SCRAMBLED "hudscrambled"
-#define SECHUD_TELECOMMS_SPECIALIST "hudtelecommsspecialist"

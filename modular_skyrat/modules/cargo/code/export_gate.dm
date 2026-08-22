@@ -35,7 +35,7 @@
 	/// The holding bank account used for the export gate
 	var/datum/bank_account/holding_account
 	/// Which crew members receive a share of the scanned bounties
-	var/payment_mode = EX_CARGO_TECHNICIAN | EX_CUSTOMS_AGENT
+	var/payment_mode = EX_CARGO_TECHNICIAN
 	/// List of crew accounts associated with the current payment mode
 	var/list/payment_accounts
 	///Our internal radio
@@ -207,7 +207,7 @@
 #define MODE_QUARTERMASTER "Cargo Technician / Customs Agent / Quartermaster"
 
 /obj/machinery/export_gate/proc/set_payment_mode(mob/user, obj/item/card/id/id_card)
-	var/list/payment_modes = list(MODE_CARGO_TECH, MODE_CUSTOMS_AGENT, MODE_QUARTERMASTER)
+	var/list/payment_modes = list(MODE_CARGO_TECH, MODE_QUARTERMASTER)
 	var/selected_mode = tgui_input_list(user, "Set bounty payment mode:", src.name, payment_modes)
 	if(!selected_mode)
 		return
@@ -216,9 +216,9 @@
 		if(MODE_CARGO_TECH)
 			payment_mode = EX_CARGO_TECHNICIAN
 		if(MODE_CUSTOMS_AGENT)
-			payment_mode = EX_CARGO_TECHNICIAN | EX_CUSTOMS_AGENT
+			payment_mode = EX_CARGO_TECHNICIAN
 		if(MODE_QUARTERMASTER)
-			payment_mode = EX_CARGO_TECHNICIAN | EX_CUSTOMS_AGENT | EX_QUARTERMASTER
+			payment_mode = EX_CARGO_TECHNICIAN | EX_QUARTERMASTER
 
 	log_econ("[src.name] payment mode changed by [user] ([id_card.registered_name]) to [display_payment_mode()].")
 	radio.talk_into(src, "Payment mode set to [display_payment_mode()] by authorized ID [id_card.registered_name].", RADIO_CHANNEL_SUPPLY)
@@ -226,37 +226,25 @@
 /obj/machinery/export_gate/proc/display_payment_mode()
 	if(payment_mode & EX_QUARTERMASTER)
 		return MODE_QUARTERMASTER
-	if(payment_mode & EX_CUSTOMS_AGENT)
-		return MODE_CUSTOMS_AGENT
-	else
-		return MODE_CARGO_TECH
+	if(payment_mode & EX_CARGO_TECHNICIAN)
+		return EX_CARGO_TECHNICIAN
 
 #undef MODE_CARGO_TECH
-#undef MODE_CUSTOMS_AGENT
+// #undef MODE_CUSTOMS_AGENT
 #undef MODE_QUARTERMASTER
 
 /obj/machinery/export_gate/proc/refresh_payment_accounts(retry = FALSE)
 	LAZYINITLIST(payment_accounts)
 	var/list/manifest_accounts = list()
 	var/list/CT_accounts = SSeconomy.bank_accounts_by_job[/datum/job/cargo_technician]
-	var/list/CA_accounts = SSeconomy.bank_accounts_by_job[/datum/job/customs_agent]
 	var/list/QM_accounts = SSeconomy.bank_accounts_by_job[/datum/job/quartermaster]
-	if(isnull(CT_accounts) && isnull(CA_accounts) && isnull(QM_accounts))
+	if(isnull(CT_accounts) && isnull(QM_accounts))
 		return
 
 	if(payment_mode & EX_CARGO_TECHNICIAN)
 		for(var/datum/bank_account/CT_account as anything in CT_accounts)
 			if(CT_account.off_duty_check())
 				continue
-
-			manifest_accounts += CT_account
-
-	if(payment_mode & EX_CUSTOMS_AGENT)
-		for(var/datum/bank_account/CA_account as anything in CA_accounts)
-			if(CA_account.off_duty_check())
-				continue
-
-			manifest_accounts += CA_account
 
 	if(payment_mode & EX_QUARTERMASTER)
 		for(var/datum/bank_account/QM_account as anything in QM_accounts)
@@ -267,7 +255,7 @@
 
 	// If there's nobody to pay, fallback to paying everyone
 	if(LAZYLEN(manifest_accounts) == 0 && !retry)
-		payment_mode = EX_CARGO_TECHNICIAN | EX_CUSTOMS_AGENT | EX_QUARTERMASTER
+		payment_mode = EX_CARGO_TECHNICIAN| EX_QUARTERMASTER
 		log_econ("[src.name] payment mode falling back to [display_payment_mode()] due to lack of crew")
 		radio.talk_into(src, "Payment mode falling back to [display_payment_mode()] due to lack of crew.", RADIO_CHANNEL_SUPPLY)
 		refresh_payment_accounts(retry = TRUE)

@@ -16,9 +16,6 @@
 	desired_atom = /mob/living/basic/pet/poppy
 
 // Structures
-/datum/area_spawn/secmed_locker
-	target_areas = list(/area/station/security/medical, /area/station/security/lockers)
-	desired_atom = /obj/structure/closet/secure_closet/security_medic
 
 // Removed the Blueshield's Locker because they get their own offices now
 // /datum/area_spawn/blueshield_locker
@@ -81,7 +78,6 @@
 // Job spawners
 /datum/area_spawn/barber_landmark
 	target_areas = list(/area/station/service/salon, /area/station/hallway/secondary/service)
-	desired_atom = /obj/effect/landmark/start/barber
 
 // Removed Blueshield automatic spawns because they're mapped now
 // /datum/area_spawn/blueshield_landmark
@@ -89,28 +85,19 @@
 //	desired_atom = /obj/effect/landmark/start/blueshield
 
 /datum/area_spawn/bouncer_landmark
-	desired_atom = /obj/effect/landmark/start/bouncer
 	target_areas = list(/area/station/service/bar, /area/station/service/cafeteria, /area/station/service/kitchen/diner)
 
 /datum/area_spawn/engineering_guard_landmark
-	desired_atom = /obj/effect/landmark/start/engineering_guard
 	target_areas = list(/area/station/security/checkpoint/engineering, /area/station/engineering/break_room, /area/station/engineering/lobby)
 
 /datum/area_spawn/science_guard_landmark
-	desired_atom = /obj/effect/landmark/start/science_guard
 	target_areas = list(/area/station/security/checkpoint/science, /area/station/science/lobby, /area/station/science/lab)
 
 /datum/area_spawn/orderly_landmark
-	desired_atom = /obj/effect/landmark/start/orderly
 	target_areas = list(/area/station/security/checkpoint/medical, /area/station/medical/medbay/lobby)
 
 /datum/area_spawn/customs_agent_landmark
-	desired_atom = /obj/effect/landmark/start/customs_agent
 	target_areas = list(/area/station/security/checkpoint/supply, /area/station/cargo/storage)
-
-/datum/area_spawn/corrections_officer_landmark
-	desired_atom = /obj/effect/landmark/start/corrections_officer
-	target_areas = list(/area/station/security/brig, /area/station/security/prison/)
 
 /datum/area_spawn/telecomms_specialist_landmark
 	target_areas = list(
@@ -118,7 +105,6 @@
 		/area/station/engineering/lobby,
 		/area/station/engineering/break_room,
 	)
-	desired_atom = /obj/effect/landmark/start/telecomms_specialist
 
 // Bubber Edit: BA?
 /datum/area_spawn/bridge_assistant_landmark

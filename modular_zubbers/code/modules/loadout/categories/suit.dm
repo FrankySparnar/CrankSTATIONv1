@@ -67,7 +67,7 @@
 /datum/loadout_item/suit/armor/vest/nri_police
 	name = "Imperial Police Vest"
 	item_path = /obj/item/clothing/suit/armor/vest/nri_police
-	restricted_roles = list(ALL_JOBS_SEC, JOB_CUSTOMS_AGENT)
+	restricted_roles = list(ALL_JOBS_SEC)
 
 /datum/loadout_item/suit/jacket/fedsec
 	name = "Modern Security Federation Jacket"
@@ -77,21 +77,11 @@
 /datum/loadout_item/suit/jacket/corrections_officer
 	name = "Correction's Officer's Blazer"
 	item_path = /obj/item/clothing/suit/toggle/jacket/corrections_officer
-	restricted_roles = list(JOB_CORRECTIONS_OFFICER, JOB_WARDEN)
-
-/datum/loadout_item/suit/jacket/security_medic
-	name = "Security Medic Labcoat"
-	item_path = /obj/item/clothing/suit/toggle/labcoat/skyrat/security_medic
-	restricted_roles = list(JOB_SECURITY_MEDIC)
-
-/datum/loadout_item/suit/jacket/security_medic
-	name = "Security Medic's Labcoat"
-	item_path = /obj/item/clothing/suit/toggle/labcoat/skyrat/security_medic
-	restricted_roles = list(JOB_SECURITY_MEDIC)
+	restricted_roles = list(JOB_WARDEN)
 
 // Silver Jacket Mk2 but for all of Command
 /datum/loadout_item/suit/lt3_armor/New()
-	restricted_roles += list(JOB_HEAD_OF_SECURITY, JOB_BLUESHIELD, JOB_RESEARCH_DIRECTOR, JOB_CHIEF_ENGINEER, JOB_CAPTAIN, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER)
+	restricted_roles += list(JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_CHIEF_ENGINEER, JOB_CAPTAIN, JOB_QUARTERMASTER, JOB_CHIEF_MEDICAL_OFFICER)
 	return ..()
 
 /datum/loadout_item/suit/command/blueshield_jacket

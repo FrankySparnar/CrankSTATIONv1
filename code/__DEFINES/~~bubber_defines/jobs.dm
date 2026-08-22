@@ -15,12 +15,6 @@
  * and it will hurt the entire time
  */
 
-// Our exclusive jobs
-#define JOB_SECURITY_MEDIC "Security Medic"
-#define JOB_BLACKSMITH "Blacksmith"
-
-#define JOB_DISPLAY_ORDER_BLACKSMITH 48
-
 /// Time after clocking out before you can clock in again
 #define TIMECLOCK_COOLDOWN 5 MINUTES
 

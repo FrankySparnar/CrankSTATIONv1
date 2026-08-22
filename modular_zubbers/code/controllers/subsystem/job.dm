@@ -32,54 +32,32 @@
 			return new /obj/item/modular_computer/pda/heads/quartermaster
 		if(JOB_RESEARCH_DIRECTOR)
 			return new /obj/item/modular_computer/pda/heads/rd
-		if(JOB_BLUESHIELD)
-			return new /obj/item/modular_computer/pda/blueshield
-		if(JOB_NT_REP)
-			return new /obj/item/modular_computer/pda/nanotrasen_consultant
 		if(JOB_WARDEN) // SEC
 			return new /obj/item/modular_computer/pda/warden
 		if(JOB_DETECTIVE)
 			return new /obj/item/modular_computer/pda/detective
 		if(JOB_SECURITY_OFFICER)
 			return new /obj/item/modular_computer/pda/security
-		if(JOB_SECURITY_MEDIC)
-			return new /obj/item/modular_computer/pda/security
-		if(JOB_CORRECTIONS_OFFICER)
-			return new /obj/item/modular_computer/pda/security
 		if(JOB_STATION_ENGINEER) //ENGI
 			return new /obj/item/modular_computer/pda/engineering
 		if(JOB_ATMOSPHERIC_TECHNICIAN)
 			return new /obj/item/modular_computer/pda/atmos
-		if(JOB_ENGINEERING_GUARD)
-			return new /obj/item/modular_computer/pda/engineering
-		if(JOB_TELECOMMS_SPECIALIST)
-			return new /obj/item/modular_computer/pda/telecomms
 		if(JOB_MEDICAL_DOCTOR) //MEDICAL
 			return new /obj/item/modular_computer/pda/medical
-		if(JOB_CORONER)
-			return new /obj/item/modular_computer/pda/coroner
 		if(JOB_CHEMIST)
 			return new /obj/item/modular_computer/pda/chemist
-		if(JOB_PARAMEDIC)
-			return new /obj/item/modular_computer/pda/medical/paramedic
-		if(JOB_ORDERLY)
-			return new /obj/item/modular_computer/pda/medical
 		if(JOB_SCIENTIST) // SCI
 			return new /obj/item/modular_computer/pda/science
 		if(JOB_ROBOTICIST)
 			return new /obj/item/modular_computer/pda/roboticist
 		if(JOB_GENETICIST)
 			return new /obj/item/modular_computer/pda/geneticist
-		if(JOB_SCIENCE_GUARD)
-			return new /obj/item/modular_computer/pda/science
 		if(JOB_CARGO_TECHNICIAN) // CARGO
 			return new /obj/item/modular_computer/pda/cargo
 		if(JOB_SHAFT_MINER)
 			return new /obj/item/modular_computer/pda/shaftminer
 		if(JOB_BITRUNNER)
 			return new /obj/item/modular_computer/pda/bitrunner
-		if(JOB_CUSTOMS_AGENT)
-			return new /obj/item/modular_computer/pda/cargo
 		if(JOB_BARTENDER) // SERVICE
 			return new /obj/item/modular_computer/pda/bar
 		if(JOB_BOTANIST)
@@ -102,9 +80,5 @@
 			return new /obj/item/modular_computer/pda/chaplain
 		if(JOB_PSYCHOLOGIST)
 			return new /obj/item/modular_computer/pda/psychologist
-		if(JOB_BARBER)
-			return new /obj/item/modular_computer/pda
-		if(JOB_BOUNCER)
-			return new /obj/item/modular_computer/pda/bar
 		else
 			return null

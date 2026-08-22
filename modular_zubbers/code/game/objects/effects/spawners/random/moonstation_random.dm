@@ -196,7 +196,6 @@
 	loot = list(
 		/obj/machinery/vending/assist = 400,
 		/obj/machinery/vending/autodrobe = 200,
-		/obj/machinery/vending/barbervend = 50,
 		/obj/machinery/vending/boozeomat = 100,
 		/obj/machinery/vending/cigarette = 50,
 		/obj/machinery/vending/cigarette/beach = 25,

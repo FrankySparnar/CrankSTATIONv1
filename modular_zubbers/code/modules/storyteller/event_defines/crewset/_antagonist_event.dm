@@ -5,7 +5,6 @@
 	/// Protected roles from the antag roll. People will not get those roles if a config is enabled
 	var/protected_roles = list(
 		JOB_CAPTAIN,
-		JOB_BLUESHIELD,
 		JOB_BRIDGE_ASSISTANT,
 
 		// Heads of staff
@@ -21,16 +20,7 @@
 		JOB_DETECTIVE,
 		JOB_SECURITY_OFFICER,
 		JOB_WARDEN,
-		JOB_CORRECTIONS_OFFICER,
 		JOB_PRISONER,
-		JOB_SECURITY_MEDIC,
-
-		// Department Guards-Additional
-		JOB_BOUNCER,
-		JOB_ORDERLY,
-		JOB_CUSTOMS_AGENT,
-		JOB_ENGINEERING_GUARD,
-		JOB_SCIENCE_GUARD,
 		)
 
 	/// Restricted roles from the antag roll

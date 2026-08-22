@@ -40,13 +40,6 @@
 "Spawn Positions" = 2
 "Total Positions" = 3
 
-[BARBER]
-"Playtime Requirements" = 0
-"Required Account Age" = 0
-"# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 2
-
 [BARTENDER]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
@@ -74,13 +67,6 @@
 "# Required Character Age" = 0
 "Spawn Positions" = 2
 "Total Positions" = 3
-
-[BOUNCER]
-"Playtime Requirements" = 180
-"Required Account Age" = 0
-"# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 2
 
 [BRIDGE_ASSISTANT]
 "# Playtime Requirements" = 300
@@ -148,29 +134,8 @@
 "Spawn Positions" = 1
 "Total Positions" = 2
 
-[CORRECTIONS_OFFICER]
-"Playtime Requirements" = 150
-"Required Account Age" = 7
-"# Required Character Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
-
-[CORONER]
-"# Playtime Requirements" = 0
-"# Required Account Age" = 0
-"# Required Character Age" = 0
-"# Spawn Positions" = 1
-"# Total Positions" = 1
-
 [CURATOR]
 "Playtime Requirements" = 0
-"Required Account Age" = 0
-"# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 2
-
-[CUSTOMS_AGENT]
-"Playtime Requirements" = 180
 "Required Account Age" = 0
 "# Required Character Age" = 0
 "Spawn Positions" = 2
@@ -186,13 +151,6 @@
 [DETECTIVE]
 "Playtime Requirements" = 300
 "Required Account Age" = 7
-"# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 2
-
-[ENGINEERING_GUARD]
-"Playtime Requirements" = 180
-"Required Account Age" = 0
 "# Required Character Age" = 0
 "Spawn Positions" = 2
 "Total Positions" = 2
@@ -255,20 +213,6 @@
 "Spawn Positions" = 1
 "Total Positions" = 1
 
-[ORDERLY]
-"Playtime Requirements" = 180
-"Required Account Age" = 0
-"# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 2
-
-[PARAMEDIC]
-"Playtime Requirements" = 0
-"Required Account Age" = 0
-"# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 3
-
 [PRISONER]
 "Playtime Requirements" = 0
 "Required Account Age" = 0
@@ -306,26 +250,12 @@
 "Spawn Positions" = 2
 "Total Positions" = 3
 
-[SCIENCE_GUARD]
-"Playtime Requirements" = 180
-"Required Account Age" = 0
-"# Required Character Age" = 0
-"Spawn Positions" = 2
-"Total Positions" = 2
-
 [SCIENTIST]
 "Playtime Requirements" = 60
 "Required Account Age" = 0
 "# Required Character Age" = 0
 "Spawn Positions" = 5
 "Total Positions" = 5
-
-[SECURITY_MEDIC]
-"Playtime Requirements" = 180
-"Required Account Age" = 7
-"# Required Character Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
 
 [SECURITY_OFFICER]
 "Playtime Requirements" = 300

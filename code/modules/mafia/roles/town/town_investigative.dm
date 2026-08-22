@@ -21,14 +21,3 @@
 	revealed_icon = "psychologist"
 
 	role_unique_actions = list(/datum/mafia_ability/reveal_role)
-
-/datum/mafia_role/coroner
-	name = "Coroner"
-	desc = "You can perform autopsies on the dead each night to discover their role."
-	revealed_outfit = /datum/outfit/mafia/coroner
-	role_type = TOWN_INVEST
-	hud_icon = SECHUD_CORONER
-	revealed_icon = "coroner"
-	winner_award = /datum/award/achievement/mafia/coroner
-
-	role_unique_actions = list(/datum/mafia_ability/autopsy)

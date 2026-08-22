@@ -91,8 +91,6 @@
 #define ACCESS_PSYCHOLOGY "psychology"
 /// Access for the Chief Medical Officer's personal quarters in mapping, as well as some other CMO-related things.
 #define ACCESS_CMO "cmo"
-/// Access to the Paramedic dispatch.
-#define ACCESS_PARAMEDIC "paramedic"
 
 /// General access for Cargo, allows for entry to Cargo Bay and Cargo's Office.
 #define ACCESS_CARGO "cargo"
@@ -333,7 +331,6 @@
 	ACCESS_NETWORK, \
 	ACCESS_ORDNANCE, \
 	ACCESS_ORDNANCE_STORAGE, \
-	ACCESS_PARAMEDIC, \
 	ACCESS_PHARMACY, \
 	ACCESS_PLUMBING, \
 	ACCESS_PSYCHOLOGY, \
@@ -349,8 +346,6 @@
 	ACCESS_VIROLOGY, \
 	ACCESS_WEAPONS, \
 	ACCESS_XENOBIOLOGY, \
-	ACCESS_BARBER, \
-	ACCESS_BLACKSMITH, \
 ) // SKYRAT EDIT ADDITION
 
 /// Command staff/secure accesses, think bridge/armoury, ai_upload, notably access to modify ID cards themselves. Do not use direct, access via SSid_access.get_flag_access_list(ACCESS_FLAG_COMMAND)
@@ -475,7 +470,6 @@
 	ACCESS_MEDICAL, \
 	ACCESS_MORGUE, \
 	ACCESS_MORGUE_SECURE, \
-	ACCESS_PARAMEDIC, \
 	ACCESS_PHARMACY, \
 	ACCESS_PLUMBING, \
 	ACCESS_PSYCHOLOGY, \
@@ -531,7 +525,6 @@
 	ACCESS_MINING_STATION, \
 	ACCESS_QM, \
 	ACCESS_SHIPPING, \
-	ACCESS_BLACKSMITH, \
 	ACCESS_VAULT, \
 )
 /// Name for the Command region.
@@ -568,7 +561,6 @@
 	/obj/item/modular_computer/pda/clown = list(REGION_GENERAL), \
 	/obj/item/modular_computer/pda/mime = list(REGION_GENERAL), \
 	/obj/item/modular_computer/pda/medical = list(REGION_MEDBAY), \
-	/obj/item/modular_computer/pda/coroner = list(REGION_MEDBAY), \
 	/obj/item/modular_computer/pda/engineering = list(REGION_ENGINEERING), \
 	/obj/item/modular_computer/pda/security = list(REGION_SECURITY), \
 	/obj/item/modular_computer/pda/detective = list(REGION_SECURITY), \

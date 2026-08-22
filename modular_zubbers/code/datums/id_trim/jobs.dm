@@ -1,9 +1,9 @@
 //New honorifics
 
-/datum/id_trim/job/blueshield
-	job = /datum/job/blueshield
-	honorifics = list("Agent", "ESS", "CPO", "CSS")
-	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
+// /datum/id_trim/job/blueshield // CRANK EDIT - get out
+// 	job = /datum/job/blueshield
+// 	honorifics = list("Agent", "ESS", "CPO", "CSS")
+// 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 
 /datum/id_trim/job/chaplain/New()
 	job = /datum/job/chaplain
@@ -11,10 +11,10 @@
 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 	return ..()
 
-/datum/id_trim/job/corrections_officer
-	job = /datum/job/corrections_officer
-	honorifics = list("Officer", "Corrections Officer", "C.O.")
-	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
+// /datum/id_trim/job/corrections_officer //CRANK EDIT - get out
+// 	job = /datum/job/corrections_officer
+// 	honorifics = list("Officer", "Corrections Officer", "C.O.")
+// 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 
 /datum/id_trim/job/curator
 	job = /datum/job/curator
@@ -37,10 +37,10 @@
 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 	return ..()
 
-/datum/id_trim/job/nanotrasen_consultant
-	job = /datum/job/nanotrasen_consultant
-	honorifics = list("Advisor", "Consultant", "Representative", "Rep.", "Interest Officer", "Liaison")
-	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
+// /datum/id_trim/job/nanotrasen_consultant //CRANK EDIT - get out
+// 	job = /datum/job/nanotrasen_consultant
+// 	honorifics = list("Advisor", "Consultant", "Representative", "Rep.", "Interest Officer", "Liaison")
+// 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 
 /datum/id_trim/job/captain/New()
 	job = /datum/job/captain
@@ -72,10 +72,10 @@
 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 	return ..()
 
-/datum/id_trim/job/security_medic
-	job = /datum/job/security_medic
-	honorifics = list("Line Medic", "Squad Physician", "Medical Specialist", "Support Specialist", "Doc.")
-	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
+// /datum/id_trim/job/security_medic //CRANK EDIT - get out
+// 	job = /datum/job/security_medic
+// 	honorifics = list("Line Medic", "Squad Physician", "Medical Specialist", "Support Specialist", "Doc.")
+// 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 
 /datum/id_trim/job/security_officer/New()
 	job = /datum/job/security_officer
@@ -113,16 +113,16 @@
 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 	return ..()
 
-/datum/id_trim/job/paramedic/New()
-	job = /datum/job/paramedic
-	honorifics += list("Paramedic", "Emergency Medical Technician", "First Responder", "E.M.T.")
-	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
-	return ..()
+// /datum/id_trim/job/paramedic/New() //CRANK EDIT - get out
+// 	job = /datum/job/paramedic
+// 	honorifics += list("Paramedic", "Emergency Medical Technician", "First Responder", "E.M.T.")
+// 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
+// 	return ..()
 
-/datum/id_trim/job/orderly/
-	job = /datum/job/orderly
-	honorifics = list("Guard", "Medical Attendant", "Medical Support Officer", "Medical Technician")
-	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
+// /datum/id_trim/job/orderly/
+// 	job = /datum/job/orderly
+// 	honorifics = list("Guard", "Medical Attendant", "Medical Support Officer", "Medical Technician")
+// 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 
 /datum/id_trim/job/shaft_miner
 	job = /datum/job/shaft_miner
@@ -149,7 +149,7 @@
 	honorifics = list("Botanist", "Gardener", "Landscaper")
 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
 
-/datum/id_trim/job/coroner/
-	job = /datum/job/coroner
-	honorifics = list("Coroner", "Medical Examiner", "Medical Investigator", "Forensic Pathologist", "Funeral Director", "Mortician", "Undertaker")
-	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
+// /datum/id_trim/job/coroner/ // CRANK EDIT - get out
+// 	job = /datum/job/coroner
+// 	honorifics = list("Coroner", "Medical Examiner", "Medical Investigator", "Forensic Pathologist", "Funeral Director", "Mortician", "Undertaker")
+// 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE

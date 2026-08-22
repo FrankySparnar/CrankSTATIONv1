@@ -335,7 +335,6 @@
 	uniform = /obj/item/clothing/under/rank/security/officer/blueshirt/skyrat/orderly
 	shoes = /obj/item/clothing/shoes/sneakers/white
 	head = /obj/item/clothing/head/beret/sec/medical
-	glasses = /obj/item/clothing/glasses/hud/medsechud/sunglasses
 	suit = /obj/item/clothing/suit/armor/vest/blueshirt/skyrat/orderly
 	r_pocket = /obj/item/reagent_containers/spray/pepper
 	l_pocket = /obj/item/restraints/handcuffs
@@ -366,7 +365,6 @@
 		ACCESS_MEDICAL,
 		ACCESS_MINERAL_STOREROOM,
 		ACCESS_MORGUE,
-		ACCESS_PARAMEDIC,
 		ACCESS_PHARMACY,
 		ACCESS_PLUMBING,
 		ACCESS_SECURITY,
@@ -382,7 +380,6 @@
 		ACCESS_MEDICAL,
 		ACCESS_MINERAL_STOREROOM,
 		ACCESS_MORGUE,
-		ACCESS_PARAMEDIC,
 		ACCESS_PHARMACY,
 		ACCESS_PLUMBING,
 		ACCESS_SECURITY,

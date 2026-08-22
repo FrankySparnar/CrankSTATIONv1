@@ -560,7 +560,7 @@ GLOBAL_LIST_INIT(all_loadout_categories, init_loadout_categories())
 		/datum/job/chief_medical_officer = COLOR_JOB_CMO,
 		/datum/job/clown = COLOR_JOB_CLOWN,
 		/datum/job/cook = COLOR_JOB_CHEF,
-		/datum/job/coroner = COLOR_JOB_DEFAULT,
+		// /datum/job/coroner = COLOR_JOB_DEFAULT, //CRANK EDIT - fuk of
 		/datum/job/curator = COLOR_DRIED_TAN,
 		/datum/job/detective = COLOR_DRIED_TAN,
 		/datum/job/geneticist = COLOR_BLUE_GRAY,

@@ -411,7 +411,7 @@
 	trim_state = "trim_paramedic"
 	department_color = COLOR_MEDICAL_BLUE
 	subdepartment_color = COLOR_MEDICAL_BLUE
-	sechud_icon_state = SECHUD_PARAMEDIC
+	sechud_icon_state = SECHUD_MEDICAL_DOCTOR
 	access = list(
 		ACCESS_BIT_DEN,
 		ACCESS_CARGO,
@@ -429,7 +429,6 @@
 		ACCESS_SURGERY,
 		ACCESS_VIROLOGY,
 		ACCESS_PHARMACY,
-		ACCESS_PARAMEDIC,
 		)
 	honorifics = list("Medical Robot")
 	honorific_positions = HONORIFIC_POSITION_FIRST | HONORIFIC_POSITION_LAST | HONORIFIC_POSITION_FIRST_FULL | HONORIFIC_POSITION_NONE
