@@ -52,11 +52,6 @@
 	name = "Shoredress Wetsuit"
 	item_path = /obj/item/clothing/under/akula_wetsuit
 
-/datum/loadout_item/uniform/jumpsuit/security_skirt_redsec
-	name = "Red Security Battledress"
-	item_path = /obj/item/clothing/under/rank/security/peacekeeper/skirt_redsec
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY)
-
 /datum/loadout_item/uniform/jumpsuit/security_trousers
 	name = "Security Trousers"
 	item_path = /obj/item/clothing/under/rank/security/peacekeeper/trousers
@@ -72,20 +67,10 @@
 	item_path = /obj/item/clothing/under/rank/security/officer/skirt
 	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY)
 
-/datum/loadout_item/uniform/jumpsuit/security_miniskirt
-	name = "Security Miniskirt"
-	item_path = /obj/item/clothing/under/rank/security/peacekeeper/miniskirt
-	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY)
-
 /datum/loadout_item/uniform/jumpsuit/security_jumpsuit
 	name = "Security Jumpsuit"
 	item_path = /obj/item/clothing/under/rank/security/peacekeeper/jumpsuit
 	restricted_roles = list(JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_HEAD_OF_SECURITY)
-
-/datum/loadout_item/uniform/jumpsuit/imperial_police_uniform
-	name = "Imperial Police Uniform"
-	item_path = /obj/item/clothing/under/colonial/nri_police
-	restricted_roles = list(JOB_WARDEN, JOB_DETECTIVE, JOB_SECURITY_OFFICER, JOB_HEAD_OF_SECURITY)
 
 /datum/loadout_item/uniform/jumpsuit/disco
 	name = "Superstar Cop Uniform"
@@ -189,14 +174,6 @@
 /datum/loadout_item/uniform/miscellaneous/christmas/green
 	name = "Green Christmas Suit"
 	item_path = /obj/item/clothing/under/costume/skyrat/christmas/green
-
-/datum/loadout_item/uniform/miscellaneous/christmas/female
-	name = "Revealing Christmas Suit"
-	item_path = /obj/item/clothing/under/costume/skyrat/christmas/croptop
-
-/datum/loadout_item/uniform/miscellaneous/christmas/female/green
-	name = "Revealing Green Christmas Suit"
-	item_path = /obj/item/clothing/under/costume/skyrat/christmas/croptop/green
 
 /datum/loadout_item/uniform/miscellaneous/buttondown
 	name = "Recolorable Buttondown Shirt with Slacks"
@@ -320,10 +297,6 @@
 	name = "Recolorable Pentagram Strapped Dress"
 	item_path = /obj/item/clothing/under/dress/skyrat/pentagram
 
-/datum/loadout_item/uniform/miscellaneous/jacarta_dress
-	name = "Jacarta Dress"
-	item_path = /obj/item/clothing/under/dress/skyrat/jute
-
 /datum/loadout_item/uniform/miscellaneous/striped_skirt
 	name = "Red Striped Skirt"
 	item_path = /obj/item/clothing/under/dress/skirt/skyrat/striped_skirt
@@ -331,10 +304,6 @@
 /datum/loadout_item/uniform/miscellaneous/red_skirt
 	name = "Red Skirt"
 	item_path = /obj/item/clothing/under/dress/skirt/skyrat/red_skirt
-
-/datum/loadout_item/uniform/miscellaneous/black_skirt
-	name = "Black Skirt (Skyrat)"
-	item_path = /obj/item/clothing/under/dress/skirt/skyrat/black_skirt
 
 /datum/loadout_item/uniform/miscellaneous/swept_skirt
 	name = "Swept Skirt"
@@ -436,18 +405,6 @@
 	name = "Colourable Maid Uniform"
 	item_path = /obj/item/clothing/under/maid_costume
 
-/datum/loadout_item/uniform/miscellaneous/yukata
-	name = "Recolorable Yukata"
-	item_path = /obj/item/clothing/under/costume/skyrat/yukata
-
-/datum/loadout_item/uniform/miscellaneous/qipao_black
-	name = "Recolorable Qipao"
-	item_path = /obj/item/clothing/under/costume/skyrat/qipao
-
-/datum/loadout_item/uniform/miscellaneous/cheongsam
-	name = "Recolorable Cheongsam"
-	item_path = /obj/item/clothing/under/costume/skyrat/cheongsam
-
 /datum/loadout_item/uniform/miscellaneous/kimono
 	name = "Fancy Kimono"
 	item_path =  /obj/item/clothing/under/costume/skyrat/kimono
@@ -460,51 +417,7 @@
 	name = "Blue Tracksuit"
 	item_path = /obj/item/clothing/under/misc/bluetracksuit
 
-/datum/loadout_item/uniform/miscellaneous/cybersleek
-	name = "Sleek Modern Coat"
-	item_path = /obj/item/clothing/under/costume/cybersleek
-
-/datum/loadout_item/uniform/miscellaneous/cybersleek_long
-	name = "Long Modern Coat"
-	item_path = /obj/item/clothing/under/costume/cybersleek/long
-
-/datum/loadout_item/uniform/miscellaneous/dutch
-	name = "Dutch Suit"
-	item_path = /obj/item/clothing/under/costume/dutch
-
-/datum/loadout_item/uniform/miscellaneous/cavalry
-	name = "Cavalry Uniform"
-	item_path = /obj/item/clothing/under/costume/skyrat/cavalry
-
-/datum/loadout_item/uniform/miscellaneous/tacticool_turtleneck
-	name = "Tacticool Turtleneck"
-	item_path = /obj/item/clothing/under/syndicate/tacticool //This has been rebalanced in modular_skyrat\master_files\code\modules\clothing\under\syndicate.dm
-
-/datum/loadout_item/uniform/miscellaneous/tactical_skirt
-	name = "Tacticool Skirtleneck"
-	item_path = /obj/item/clothing/under/syndicate/tacticool/skirt //This has been rebalanced in modular_skyrat\master_files\code\modules\clothing\under\syndicate.dm
-
-/datum/loadout_item/uniform/miscellaneous/tactical_pants
-	name = "Tactical Pants"
-	item_path = /obj/item/clothing/under/pants/tactical
-
-/datum/loadout_item/uniform/miscellaneous/blastwave_uniform
-	name = "Blastwave Uniform"
-	item_path = /obj/item/clothing/under/blastwave
-
-/datum/loadout_item/uniform/miscellaneous/royalkilt
-	name = "Royal Kilt"
-	item_path = /obj/item/clothing/under/costume/skyrat/kilt/royal
-
-/datum/loadout_item/uniform/miscellaneous/irishtact
-	name = "Irish Tactical Uniform"
-	item_path = /obj/item/clothing/under/costume/skyrat/tac/irish
-
 //HALLOWEEN
-/datum/loadout_item/uniform/miscellaneous/pj_blood
-	name = "Blood-red Pajamas"
-	item_path = /obj/item/clothing/under/syndicate/bloodred/sleepytime/sensors
-
 /datum/loadout_item/uniform/miscellaneous/gladiator
 	name = "Gladiator Uniform"
 	item_path = /obj/item/clothing/under/costume/gladiator
@@ -524,10 +437,6 @@
 /datum/loadout_item/uniform/miscellaneous/sweater
 	name = "Cableknit Sweater" //Different than the Suit item ("Sweater")!!
 	item_path = /obj/item/clothing/under/sweater
-
-/datum/loadout_item/uniform/miscellaneous/keyhole
-	name = "Keyhole Sweater"
-	item_path = /obj/item/clothing/under/sweater/keyhole
 
 /datum/loadout_item/uniform/miscellaneous/blacknwhite
 	name = "Classic Prisoner Jumpsuit"
@@ -594,10 +503,6 @@
 	name = "Cargo Tech Shorts"
 	item_path = /obj/item/clothing/under/rank/cargo/tech/alt
 
-/datum/loadout_item/uniform/miscellaneous/cargo_black
-	name = "Black Cargo Uniform"
-	item_path = /obj/item/clothing/under/rank/cargo/tech/skyrat/evil
-
 /datum/loadout_item/uniform/miscellaneous/cargo_turtle
 	name = "Cargo Turtleneck"
 	item_path = /obj/item/clothing/under/rank/cargo/tech/skyrat/turtleneck
@@ -610,27 +515,6 @@
 	name = "Quartermaster's Skirtleneck"
 	item_path = /obj/item/clothing/under/rank/cargo/qm/skyrat/turtleneck/skirt
 	restricted_roles = list(JOB_QUARTERMASTER)
-
-/datum/loadout_item/uniform/miscellaneous/qm_gorka
-	name = "Quartermaster's Gorka Uniform"
-	item_path = /obj/item/clothing/under/rank/cargo/qm/skyrat/gorka
-	restricted_roles = list(JOB_QUARTERMASTER)
-
-/datum/loadout_item/uniform/miscellaneous/eve
-	name = "Collection of Leaves"
-	item_path = /obj/item/clothing/under/misc/skyrat/gear_harness/eve
-
-/datum/loadout_item/uniform/miscellaneous/adam
-	name = "Leaf"
-	item_path = /obj/item/clothing/under/misc/skyrat/gear_harness/adam
-
-/datum/loadout_item/uniform/miscellaneous/ethereal_tunic
-	name = "Ethereal Tunic"
-	item_path = /obj/item/clothing/under/ethereal_tunic
-
-/datum/loadout_item/uniform/miscellaneous/mech_suit
-	name = "Mech Suit"
-	item_path = /obj/item/clothing/under/costume/mech_suit
 
 /*
 *	FORMAL UNDERSUITS
@@ -645,10 +529,6 @@
 /datum/loadout_item/uniform/formal/formaldressred
 	name = "Formal Red Dress"
 	item_path = /obj/item/clothing/under/dress/skyrat/redformal
-
-/datum/loadout_item/uniform/formal/countessdress
-	name = "Countess Dress"
-	item_path = /obj/item/clothing/under/dress/skyrat/countess
 
 /datum/loadout_item/uniform/formal/assistant
 	name = "Assistant Formal"
@@ -798,67 +678,6 @@
 	name = "Recolorable Formal Suitskirt"
 	item_path = /obj/item/clothing/under/suit/skyrat/recolorable/skirt
 
-/datum/loadout_item/uniform/formal/trek_command
-	name = "Trekkie Command Uniform"
-	item_path = /obj/item/clothing/under/trek/command
-
-/datum/loadout_item/uniform/formal/trek_engsec
-	name = "Trekkie Engsec Uniform"
-	item_path = /obj/item/clothing/under/trek/engsec
-
-/datum/loadout_item/uniform/formal/trek_medsci
-	name = "Trekkie Medsci Uniform"
-	item_path = /obj/item/clothing/under/trek/medsci
-
-/datum/loadout_item/uniform/formal/trek_next_command
-	name = "Trekkie TNG Command Uniform"
-	item_path = /obj/item/clothing/under/trek/command/next
-
-/datum/loadout_item/uniform/formal/trek_next_engsec
-	name = "Trekkie TNG Engsec Uniform"
-	item_path = /obj/item/clothing/under/trek/engsec/next
-
-/datum/loadout_item/uniform/formal/trek_next_medsci
-	name = "Trekkie TNG Medsci Uniform"
-	item_path = /obj/item/clothing/under/trek/medsci/next
-
-/datum/loadout_item/uniform/formal/trek_ent_command
-	name = "Trekkie ENT Command Uniform"
-	item_path = /obj/item/clothing/under/trek/command/ent
-
-/datum/loadout_item/uniform/formal/trek_ent_engsec
-	name = "Trekkie ENT Engsec Uniform"
-	item_path = /obj/item/clothing/under/trek/engsec/ent
-
-/datum/loadout_item/uniform/formal/trek_ent_medsci
-	name = "Trekkie ENT Medsci Uniform"
-	item_path = /obj/item/clothing/under/trek/medsci/ent
-
-/datum/loadout_item/uniform/formal/the_q
-	name = "French Marshall's Uniform"
-	item_path = /obj/item/clothing/under/trek/q
-
-//FAMILIES GEAR
-/datum/loadout_item/uniform/formal/osi
-	name = "OSI Uniform"
-	item_path = /obj/item/clothing/under/costume/osi
-
-/datum/loadout_item/uniform/formal/tmc
-	name = "TMC Uniform"
-	item_path = /obj/item/clothing/under/costume/tmc
-
-/datum/loadout_item/uniform/formal/inferno
-	name = "Inferno Suit"
-	item_path = /obj/item/clothing/under/suit/skyrat/inferno
-
-/datum/loadout_item/uniform/formal/inferno_skirt
-	name = "Inferno Skirt"
-	item_path = /obj/item/clothing/under/suit/skyrat/inferno/skirt
-
-/datum/loadout_item/uniform/formal/designer_inferno
-	name = "Designer Inferno Suit"
-	item_path = /obj/item/clothing/under/suit/skyrat/inferno/beeze
-
 /datum/loadout_item/uniform/formal/pencil
 	name = "Black Pencilskirt"
 	item_path = /obj/item/clothing/under/suit/skyrat/pencil
@@ -890,41 +709,3 @@
 /datum/loadout_item/uniform/formal/pencil/green
 	name = "Green Pencilskirt"
 	item_path = /obj/item/clothing/under/suit/skyrat/pencil/green
-
-/datum/loadout_item/uniform/formal/azulea_oldblood
-	name = " Oldblood's Royal Regalia"
-	item_path = /obj/item/clothing/under/rank/azulean/old_blood
-
-/datum/loadout_item/uniform/formal/azulea_oldblood/skirt
-	name = " Oldblood's Royal Regalia (Skirt)"
-	item_path = /obj/item/clothing/under/rank/azulean/old_blood/skirt
-
-/datum/loadout_item/uniform/formal/azulea_upstart
-	name = "Upstart's Noble Getup"
-	item_path = /obj/item/clothing/under/rank/azulean/upstart
-
-/datum/loadout_item/uniform/formal/azulea_upstart/skirt
-	name = "Upstart's Noble Getup (Skirt)"
-	item_path = /obj/item/clothing/under/rank/azulean/upstart/skirt
-
-// DONATOR ONLY
-/datum/loadout_item/uniform/captain_black
-	name  = "Captains Black Uniform"
-	item_path = /obj/item/clothing/under/rank/captain/skyrat/black
-	restricted_roles = list(JOB_CAPTAIN)
-	donator_only = TRUE
-
-/datum/loadout_item/uniform/donator
-	donator_only = TRUE
-
-/datum/loadout_item/uniform/donator/enclavesergeant
-	name = "Enclave - Sergeant"
-	item_path = /obj/item/clothing/under/syndicate/skyrat/enclave
-
-/datum/loadout_item/uniform/donator/enclaveofficer
-	name = "Enclave - Officer"
-	item_path = /obj/item/clothing/under/syndicate/skyrat/enclave/officer
-
-/datum/loadout_item/uniform/donator/blondie
-	name = "Blonde Cowboy Uniform"
-	item_path = /obj/item/clothing/under/rank/security/detective/cowboy/armorless

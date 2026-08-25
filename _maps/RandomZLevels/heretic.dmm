@@ -2753,7 +2753,7 @@
 /area/awaymission/caves/heretic_laboratory)
 "oz" = (
 /obj/structure/rack,
-/obj/item/gun/energy/disabler/smg,
+/obj/item/gun/energy/disabler
 /obj/effect/turf_decal/tile/dark/opposingcorners,
 /obj/effect/blessing/invisible,
 /turf/open/floor/iron/dark,

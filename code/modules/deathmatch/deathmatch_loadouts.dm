@@ -577,12 +577,12 @@
 /datum/outfit/deathmatch_loadout/traitor
 	name = "Deathmatch: Traitor"
 	display_name = "Traitor"
-	desc = "The classic; energy sword & energy bow, donning a reflector trenchcoat (stolen)."
+	desc = "The classic; energy sword & energy bow, donning a reflector vest (stolen)."
 
 	head = /obj/item/clothing/head/chameleon
 	uniform = /obj/item/clothing/under/chameleon
 	mask = /obj/item/clothing/mask/chameleon
-	suit = /obj/item/clothing/suit/hooded/ablative
+	suit = /obj/item/clothing/suit/armor/laserproof
 	shoes = /obj/item/clothing/shoes/chameleon/noslip
 	glasses = /obj/item/clothing/glasses/thermal/syndi
 	gloves = /obj/item/clothing/gloves/combat

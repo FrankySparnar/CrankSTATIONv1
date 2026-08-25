@@ -22,7 +22,6 @@
 		/obj/item/clothing/neck/face_scarf = 5,
 		/obj/item/clothing/neck/large_scarf/primitive_catgirl_off_white = 5,
 		/obj/item/clothing/neck/infinity_scarf/primitive_catgirl_blue = 5,
-		/obj/item/clothing/neck/mantle/recolorable/primitive_catgirl_off_white = 5,
 		/obj/item/clothing/neck/ranger_poncho/primitive_catgirl_leather = 5,
 		/obj/item/clothing/glasses/eyepatch/wrap = 5,
 		/obj/item/clothing/head/pelt/snow_tiger = 5,

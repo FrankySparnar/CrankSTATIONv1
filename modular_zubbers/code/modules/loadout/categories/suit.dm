@@ -16,10 +16,6 @@
 	name = "Samurai Costume"
 	item_path = /obj/item/clothing/suit/costume/samurai
 
-/datum/loadout_item/suit/bunny_tailcoat
-	name = "Bunny Tailcoat"
-	item_path = /obj/item/clothing/suit/jacket/tailcoat
-
 /datum/loadout_item/suit/pirate_coat
 	name = "Pirate Coat"
 	item_path = /obj/item/clothing/suit/costume/pirate
@@ -44,40 +40,10 @@
 	item_path = /obj/item/clothing/suit/toggle/jacket/zubber/bomber/sec
 	restricted_roles = list(ALL_JOBS_SEC)
 
-/datum/loadout_item/suit/jacket/officer/tan
-	name = "Tan Security Blazer"
-	item_path = /obj/item/clothing/suit/jacket/officer/tan
-	restricted_roles = list(ALL_JOBS_SEC)
-
 /datum/loadout_item/suit/armor/vest/secjacket
 	name = "Security Jacket"
 	item_path = /obj/item/clothing/suit/armor/vest/secjacket
 	restricted_roles = list(ALL_JOBS_SEC)
-
-/datum/loadout_item/suit/armor/vest/peacekeeper/armadyne
-	name = "Armadyne Jacket"
-	item_path = /obj/item/clothing/suit/armor/vest/peacekeeper/armadyne
-	restricted_roles = list(ALL_JOBS_SEC)
-
-/datum/loadout_item/suit/armor/vest/peacekeeper/armadyne/armor
-	name = "Armadyne Armor Vest"
-	item_path = /obj/item/clothing/suit/armor/vest/peacekeeper/armadyne/armor
-	restricted_roles = list(ALL_JOBS_SEC)
-
-/datum/loadout_item/suit/armor/vest/nri_police
-	name = "Imperial Police Vest"
-	item_path = /obj/item/clothing/suit/armor/vest/nri_police
-	restricted_roles = list(ALL_JOBS_SEC)
-
-/datum/loadout_item/suit/jacket/fedsec
-	name = "Modern Security Federation Jacket"
-	item_path = /obj/item/clothing/suit/fedcoat/modern/sec
-	restricted_roles = list(ALL_JOBS_SEC)
-
-/datum/loadout_item/suit/jacket/corrections_officer
-	name = "Correction's Officer's Blazer"
-	item_path = /obj/item/clothing/suit/toggle/jacket/corrections_officer
-	restricted_roles = list(JOB_WARDEN)
 
 // Silver Jacket Mk2 but for all of Command
 /datum/loadout_item/suit/lt3_armor/New()
@@ -120,61 +86,11 @@
 	name = "Colourable Sleeveless Sports Jacket"
 	item_path = /obj/item/clothing/suit/crop_jacket/sleeveless/long
 
-//Donator items V V V
-
-/datum/loadout_item/suit/runner_engi
-	name = "Engineer Runner Jacket"
-	item_path = /obj/item/clothing/suit/jacket/runner/engi
-	donator_only = TRUE //Dono item for Kan3
-
-/datum/loadout_item/suit/runner_syndi
-	name = "Syndicate Runner Jacket"
-	item_path = /obj/item/clothing/suit/jacket/runner/syndicate
-	donator_only = TRUE //Dono item for Kan3
-
-/datum/loadout_item/suit/collared_vest
-	name = "GLP-C 'Úlfur' Vest"
-	item_path = /obj/item/clothing/suit/armor/vest/collared_vest
-	restricted_roles = list(ALL_JOBS_SEC, ALL_JOBS_CENTRAL)
-	donator_only = TRUE //Dono item for offwrldr
-
-/datum/loadout_item/suit/highvisjacket //sprites by Keila
-	name = "High Vis Trucker Jacket"
-	item_path = /obj/item/clothing/suit/jacket/trucker/highvis
-	donator_only = TRUE //Donator item for arandomhyena
-
-/datum/loadout_item/suit/roninjacket //sprites by Keila
-	name = "Ronin Jacket"
-	item_path = /obj/item/clothing/suit/jacket/trucker/ronin
-	donator_only = TRUE //Donator item for arandomhyena
-
-/datum/loadout_item/suit/flight //Donor item for ironknight060
-	name = "MA-1 flight jacket"
-	item_path = /obj/item/clothing/suit/jacket/flight
-
-// Lore Jackets
-
-/datum/loadout_item/suit/galfed_jacket
-	name = "Galactic Federation Jacket"
-	item_path = /obj/item/clothing/suit/jacket/galfed
-
-/datum/loadout_item/suit/frontier_colonist
-	name = "Frontier Trenchcoat"
-	item_path = /obj/item/clothing/suit/jacket/frontier_colonist/loadout
-
-/datum/loadout_item/suit/frontier_colonist_short
-	name = "Frontier Jacket"
-	item_path = /obj/item/clothing/suit/jacket/frontier_colonist/short/loadout
-
 //Doppler hoodies.
 
 /datum/loadout_item/suit/hoodie/big_hoodie
 	name = "Big Hoodie"
 	item_path = /obj/item/clothing/suit/hooded/big_hoodie
-
-/datum/loadout_item/suit/hoodie/twee_hoodie
-	name = "Disconcertingly Twee Hoodie"
-	item_path = /obj/item/clothing/suit/hooded/twee_hoodie
 
 //Para Bombers
 //Unless it has armor, real armor and not just like minor acid/fire I'm just gonna leave it unrestricted because the people want their drip. Me. I'm the people.
@@ -227,10 +143,6 @@
 /datum/loadout_item/suit/parabotbomber
 	name = "Botanical Bomber Jacket"
 	item_path = /obj/item/clothing/suit/toggle/jacket/zubber/bomber/hydro
-
-/datum/loadout_item/suit/paraimposterbomber
-	name = "Suspicious Bomber Jacket"
-	item_path = /obj/item/clothing/suit/toggle/jacket/zubber/bomber/syndicate/fake
 
 /datum/loadout_item/suit/trenchcoat
 	name = "Trenchcoat"

@@ -134,11 +134,7 @@
 	return "the crusher to have the appearance of \a [forced_skin::preview_name]"
 
 /obj/item/crusher_trophy/retool_kit/add_to(obj/item/kinetic_crusher/pkc, mob/user)
-	. = ..()
-	if(!.)
-		return
-
-	pkc.update_reskin(forced_skin)
+	return FALSE //CRANK EDIT - return is false because we Is Using Our Own PKC Sprites
 
 /obj/item/crusher_trophy/retool_kit/remove_from(obj/item/kinetic_crusher/pkc)
 	pkc.update_reskin(null) // resets reskin component

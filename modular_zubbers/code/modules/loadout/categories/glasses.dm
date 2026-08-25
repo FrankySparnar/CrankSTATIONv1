@@ -110,14 +110,6 @@
 	abstract_type = /datum/loadout_item/glasses/costume
 	group = "Costumes and Silly Glasses"
 
-/datum/loadout_item/glasses/costume/fakeblindfold
-	name = "Fake Blindfold"
-	item_path = /obj/item/clothing/glasses/trickblindfold
-
-/datum/loadout_item/glasses/costume/obsoleteblindfold
-	name = "Obselete Fake Blindfold"
-	item_path = /obj/item/clothing/glasses/trickblindfold/obsolete
-
 /*
 *	JOB-LOCKED
 */
@@ -198,18 +190,9 @@
 	abstract_type = /datum/loadout_item/glasses/shades
 	group = "Sunglasses and Aviators"
 
-/datum/loadout_item/glasses/shades/aviator/gold
-	name = "Purple and Gold Aviators"
-	item_path = /obj/item/clothing/glasses/gold_aviators
-	//ckeywhitelist = list("nikohyena")
-
 /datum/loadout_item/glasses/shades/osi
 	name = "OSI Glasses"
 	item_path = /obj/item/clothing/glasses/osi
-
-/datum/loadout_item/glasses/shades/phantom
-	name = "Phantom Glasses"
-	item_path = /obj/item/clothing/glasses/phantom
 
 /datum/loadout_item/glasses/shades/fake_sunglasses
 	name = "Fake Sunglasses"

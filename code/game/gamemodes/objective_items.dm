@@ -468,15 +468,15 @@ GLOBAL_DATUM_INIT(steal_item_handler, /datum/objective_item_handler, new())
 
 /datum/objective_item/steal/ablative
 	name = "an ablative trenchcoat"
-	targetitem = /obj/item/clothing/suit/hooded/ablative
+	targetitem = /obj/item/clothing/suit/armor/laserproof
 	excludefromjob = list(JOB_HEAD_OF_SECURITY, JOB_WARDEN)
 	item_owner = list(JOB_HEAD_OF_SECURITY)
 	exists_on_map = TRUE
 	difficulty = 4
 	steal_hint = "An ablative trechcoat found on the shelves of the Armory."
 
-/obj/item/clothing/suit/hooded/ablative/add_stealing_item_objective()
-	return add_item_to_steal(src, /obj/item/clothing/suit/hooded/ablative)
+/obj/item/clothing/suit/armor/laserproof/add_stealing_item_objective()
+	return add_item_to_steal(src, /obj/item/clothing/suit/armor/laserproof)
 
 /datum/objective_item/steal/reactive
 	name = "the reactive teleport armor"

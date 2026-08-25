@@ -1065,9 +1065,6 @@
 /area/shuttle/escape)
 "FF" = (
 /obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/hairbrush/tactical{
-	pixel_y = 4
-	},
 /obj/item/lipstick/syndie{
 	pixel_y = -2;
 	pixel_x = -6

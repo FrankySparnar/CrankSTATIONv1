@@ -87,7 +87,7 @@
 
 //Clussy and Jester sprites from Splurt.
 /obj/item/clothing/head/costume/bubber/jester
-	name = "amazing jester hat"
+	name = "jester hat"
 	desc = "It's my money, it's my game, Kill Jester."
 	icon = 'modular_zubbers/icons/obj/clothing/head/hats.dmi'
 	worn_icon = 'modular_zubbers/icons/mob/clothing/head/hats.dmi'

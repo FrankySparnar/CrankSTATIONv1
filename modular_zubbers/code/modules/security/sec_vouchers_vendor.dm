@@ -266,7 +266,6 @@
 		/obj/item/gun/energy/e_gun/advtaser,
 		)
 
-/datum/voucher_set/security/primary/disabler_smg
 	name = "Pepperball AGH"
 	description = "A slower firing handgun that fires 'pepperballs', which easily drop targets to the floor."
 	icon = 'modular_skyrat/modules/modular_weapons/icons/obj/pepperball/pepperball.dmi'

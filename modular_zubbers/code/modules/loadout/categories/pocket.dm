@@ -42,33 +42,33 @@
 *	FLAGS
 */
 
-/datum/loadout_item/pocket_items/gaypride
-	name = "Rainbow Flag"
-	item_path = /obj/item/sign/flag/pride/gay
+// /datum/loadout_item/pocket_items/gaypride //CRANK EDIT - i don't think anyone this far in the future cares who's lgbt and who isn't we're all just space monkeys
+// 	name = "Rainbow Flag"
+// 	item_path = /obj/item/sign/flag/pride/gay
 
-/datum/loadout_item/pocket_items/acepride
-	name = "Asexual Flag"
-	item_path = /obj/item/sign/flag/pride/ace
+// /datum/loadout_item/pocket_items/acepride
+// 	name = "Asexual Flag"
+// 	item_path = /obj/item/sign/flag/pride/ace
 
-/datum/loadout_item/pocket_items/bipride
-	name = "Bisexual Flag"
-	item_path = /obj/item/sign/flag/pride/bi
+// /datum/loadout_item/pocket_items/bipride
+// 	name = "Bisexual Flag"
+// 	item_path = /obj/item/sign/flag/pride/bi
 
-/datum/loadout_item/pocket_items/lesbianpride
-	name = "Lesbian Flag"
-	item_path = /obj/item/sign/flag/pride/lesbian
+// /datum/loadout_item/pocket_items/lesbianpride
+// 	name = "Lesbian Flag"
+// 	item_path = /obj/item/sign/flag/pride/lesbian
 
-/datum/loadout_item/pocket_items/panpride
-	name = "Pansexual Flag"
-	item_path = /obj/item/sign/flag/pride/pan
+// /datum/loadout_item/pocket_items/panpride
+// 	name = "Pansexual Flag"
+// 	item_path = /obj/item/sign/flag/pride/pan
 
-/datum/loadout_item/pocket_items/transpride
-	name = "Trans Flag"
-	item_path = /obj/item/sign/flag/pride/trans
+// /datum/loadout_item/pocket_items/transpride
+// 	name = "Trans Flag"
+// 	item_path = /obj/item/sign/flag/pride/trans
 
-/datum/loadout_item/pocket_items/flag_galfed //sprites by Crumpaloo
-	name = "Galactic Federation Flag"
-	item_path = /obj/item/sign/flag/galfed
+// /datum/loadout_item/pocket_items/flag_galfed //sprites by Crumpaloo
+// 	name = "Galactic Federation Flag"
+// 	item_path = /obj/item/sign/flag/galfed
 
 /*
 *	NIF LENSES
@@ -136,12 +136,12 @@
 	name = "Safety Moth Lunchbox"
 	item_path = /obj/item/storage/lunchbox/safetymoth
 
-/datum/loadout_item/pocket_items/lunchbox_amongus
-	name = "Suspicious Red Lunchbox"
-	item_path = /obj/item/storage/lunchbox/amongus
+// /datum/loadout_item/pocket_items/lunchbox_amongus
+// 	name = "Suspicious Red Lunchbox"
+// 	item_path = /obj/item/storage/lunchbox/amongus
 
 /// Lustwish stuff
 
-/datum/loadout_item/pocket_items/lustwish_theme
-	name = "Lustwish MOD Plating"
-	item_path = /obj/item/mod/construction/plating/lustwish
+// /datum/loadout_item/pocket_items/lustwish_theme
+// 	name = "Lustwish MOD Plating"
+// 	item_path = /obj/item/mod/construction/plating/lustwish

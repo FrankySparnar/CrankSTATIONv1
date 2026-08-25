@@ -52,7 +52,6 @@
 		/obj/item/gun/energy/e_gun = list(PAYCHECK_CREW * 10, INFINITY, ""),
 		/obj/item/gun/energy/alien = list(PAYCHECK_CREW * 7500, INFINITY, ""),
 		/obj/item/gun/energy/disabler = list(PAYCHECK_CREW * 10, INFINITY, ""),
-		/obj/item/gun/energy/disabler/smg = list(PAYCHECK_CREW * 10, INFINITY, ""),
 		/obj/item/gun/energy/disabler/smoothbore/prime = list(PAYCHECK_CREW * 10, INFINITY, ""),
 		/obj/item/gun/energy/dueling = list(PAYCHECK_CREW * 100, INFINITY, ""),
 		/obj/item/gun/energy/e_gun/dragnet = list(PAYCHECK_CREW * 100, INFINITY, ""),

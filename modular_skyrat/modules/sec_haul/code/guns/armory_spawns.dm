@@ -30,25 +30,23 @@
 
 			gun_count++
 
-			if(istype(spawned_gun, /obj/item/gun/ballistic))
-				var/obj/item/gun/ballistic/spawned_ballistic_gun = spawned_gun
-				if(spawned_ballistic_gun.magazine && !istype(spawned_ballistic_gun.magazine, /obj/item/ammo_box/magazine/internal))
-					var/obj/item/storage/box/ammo_box/spawned_box = new(loc)
-					spawned_box.name = "ammo box - [spawned_ballistic_gun.name]"
-					for(var/i in 1 to mags_to_spawn)
-						new spawned_ballistic_gun.spawn_magazine_type (spawned_box)
+			// if(istype(spawned_gun, /obj/item/gun/ballistic))
+			// 	var/obj/item/gun/ballistic/spawned_ballistic_gun = spawned_gun
+			// 	if(spawned_ballistic_gun.magazine && !istype(spawned_ballistic_gun.magazine, /obj/item/ammo_box/magazine/internal))
+			// 		var/obj/item/storage/box/ammo_box/spawned_box = new(loc)
+			// 		spawned_box.name = "ammo box - [spawned_ballistic_gun.name]"
+			// 		for(var/i in 1 to mags_to_spawn)
+			// 			new spawned_ballistic_gun.spawn_magazine_type (spawned_box) //CRANK EDIT - don't need it
 
 /obj/effect/spawner/armory_spawn/shotguns
 	guns = list(
-		/obj/item/gun/ballistic/shotgun/riot/sol,
-		/obj/item/gun/ballistic/shotgun/riot/sol,
-		/obj/item/gun/ballistic/shotgun/riot/sol,
-		/obj/item/gun/ballistic/bow/security,
+		/obj/item/gun/ballistic/shotgun/riot,
+		/obj/item/gun/ballistic/shotgun/riot,
+		/obj/item/gun/ballistic/shotgun/riot,
 	)
 
 /obj/effect/spawner/armory_spawn/shotguns/Initialize(mapload)
 	. = ..()
-	new /obj/item/storage/bag/quiver/lesser/security/armory(loc)
 
 /obj/structure/closet/ammunitionlocker/useful/PopulateContents()
 	new /obj/item/storage/box/rubbershot(src)
@@ -60,13 +58,13 @@
 *	AMMO BOXES
 */
 
-/obj/item/storage/box/ammo_box
-	name = "ammo box"
-	desc = "A box filled with ammunition."
-	icon = 'modular_skyrat/modules/microfusion/icons/microfusion_cells.dmi'
-	icon_state = "microfusion_box"
-	illustration = null
-	layer = 2.9
+// /obj/item/storage/box/ammo_box
+// 	name = "ammo box"
+// 	desc = "A box filled with ammunition."
+// 	icon = 'modular_skyrat/modules/microfusion/icons/microfusion_cells.dmi'
+// 	icon_state = "microfusion_box"
+// 	illustration = null
+// 	layer = 2.9
 
 /obj/effect/spawner/armory_spawn/centcom_lasers
 	guns = list(
@@ -75,10 +73,10 @@
 		/obj/item/gun/energy/e_gun,
 	)
 
-/obj/effect/spawner/armory_spawn/smg
+/obj/effect/spawner/armory_spawn/laser
 	vertical_guns = FALSE
 	guns = list(
-		/obj/item/gun/ballistic/automatic/wt550,
-		/obj/item/gun/ballistic/automatic/wt550,
-		/obj/item/gun/ballistic/automatic/wt550,
+		/obj/item/gun/energy/laser,
+		/obj/item/gun/energy/laser,
+		/obj/item/gun/energy/laser,
 	)

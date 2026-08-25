@@ -215,10 +215,6 @@
 	name = "Griffon Cloak"
 	item_path = /obj/item/clothing/suit/toggle/owlwings/griffinwings
 
-/datum/loadout_item/suit/syndi
-	name = "Black And Red Space Suit Replica"
-	item_path = /obj/item/clothing/suit/syndicatefake
-
 /datum/loadout_item/suit/bee
 	name = "Bee Outfit"
 	item_path = /obj/item/clothing/suit/hooded/bee_costume
@@ -383,14 +379,6 @@
 /*
 *	MISC
 */
-
-/datum/loadout_item/suit/frenchtrench
-	name = "Blue Trenchcoat"
-	item_path = /obj/item/clothing/suit/frenchtrench
-
-/datum/loadout_item/suit/cossak
-	name = "Ukrainian Coat"
-	item_path = /obj/item/clothing/suit/cossack
 
 /datum/loadout_item/suit/parka
 	name = "Falls Parka"
@@ -562,10 +550,6 @@
 	name = "Hydroponics Winter Coat"
 	item_path = /obj/item/clothing/suit/hooded/wintercoat/hydro
 
-/datum/loadout_item/suit/coat_bar
-	name = "Bartender Winter Coat"
-	item_path = /obj/item/clothing/suit/hooded/wintercoat/skyrat/bartender
-
 /datum/loadout_item/suit/coat_cargo
 	name = "Cargo Winter Coat"
 	item_path = /obj/item/clothing/suit/hooded/wintercoat/cargo
@@ -708,20 +692,9 @@
 	name = "Deckers Hoodie"
 	item_path = /obj/item/clothing/suit/costume/deckers
 
-/datum/loadout_item/suit/soviet
-	name = "Soviet Coat"
-	item_path = /obj/item/clothing/suit/costume/soviet
-
-/datum/loadout_item/suit/yuri
-	name = "Yuri Coat"
-	item_path = /obj/item/clothing/suit/costume/yuri
-
 /*
 *	DONATOR
 */
-
-/datum/loadout_item/suit/donator
-	donator_only = TRUE
 
 /datum/loadout_item/suit/donator/furredjacket
 	name = "Furred Jacket"
@@ -742,18 +715,6 @@
 /datum/loadout_item/suit/donator/blondie
 	name = "Cowboy Vest"
 	item_path = /obj/item/clothing/suit/cowboyvest
-
-/datum/loadout_item/suit/donator/digicoat/nanotrasen
-	name = "nanotrasen digicoat"
-	item_path = /obj/item/clothing/suit/toggle/digicoat/nanotrasen
-
-/datum/loadout_item/suit/donator/digicoat/interdyne
-	name = "Interdyne Digicoat"
-	item_path = /obj/item/clothing/suit/toggle/digicoat/interdyne
-
-/datum/loadout_item/suit/digicoat_glitched //Public donator reward for Razurath.
-	name = "Glitched Digicoat"
-	item_path = /obj/item/clothing/suit/toggle/digicoat/glitched
 
 /datum/loadout_item/suit/warm_coat
 	name = "Colourable Warm Coat"

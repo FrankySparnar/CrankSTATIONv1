@@ -22,7 +22,7 @@ SUBSYSTEM_DEF(condos)
 		/obj/item/storage/belt/utility/chief, \
 		/obj/item/mod/control/pre_equipped/magnate, \
 		/obj/item/gun/ballistic/shotgun/automatic/combat/compact, \
-		/obj/item/clothing/suit/hooded/ablative, \
+		/obj/item/clothing/suit/armor/laserproof, \
 		/obj/item/nuke_core, \
 		/obj/item/nuke_core_container, \
 		/obj/item/disk/computer/hdd_theft, \

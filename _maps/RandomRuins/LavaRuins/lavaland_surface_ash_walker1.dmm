@@ -712,7 +712,6 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/blood,
-/obj/item/crusher_trophy/retool_kit/ashenskull,
 /turf/open/misc/asteroid/basalt/lava_land_surface/biome_replace,
 /area/ruin/unpowered/ash_walkers)
 "mo" = (

@@ -3559,7 +3559,7 @@
 /area/awaymission/research/interior)
 "KF" = (
 /obj/structure/rack,
-/obj/item/clothing/suit/hooded/ablative,
+/obj/item/clothing/suit/armor/laserproof,
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron,
 /area/awaymission/research/interior/security)

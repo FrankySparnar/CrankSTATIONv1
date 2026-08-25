@@ -63,7 +63,6 @@
 					/obj/item/clothing/head/beret/sec = 5,
 					/obj/item/clothing/head/costume/ushanka/sec = 10,
 					/obj/item/clothing/gloves/color/black/security = 10,
-					/obj/item/clothing/head/helmet/sec/futuristic = 5,
 					)
 	premium = list( /obj/item/clothing/under/rank/security/officer/formal = 3,
 					/obj/item/clothing/suit/jacket/officer/blue = 3,

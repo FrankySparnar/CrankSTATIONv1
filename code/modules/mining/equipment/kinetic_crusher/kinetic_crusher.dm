@@ -73,7 +73,7 @@
 		speed = 6 SECONDS, \
 		effectiveness = 110, \
 	)
-	update_reskin(null)
+	// update_reskin(null) //CRANK EDIT - using our own crusher sprites
 	//technically it's huge and bulky, but this provides an incentive to use it
 	update_wielding()
 	register_context()

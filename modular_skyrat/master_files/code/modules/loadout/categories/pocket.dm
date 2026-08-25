@@ -130,25 +130,25 @@
 *	UTILITY
 */
 
-/datum/loadout_item/pocket_items/moth_mre
-	name = "Mothic Rations Pack"
-	item_path = /obj/item/storage/box/mothic_rations
+// /datum/loadout_item/pocket_items/moth_mre //CRANK EDIT - Haven't You Got Eyes In Your Head?
+// 	name = "Mothic Rations Pack"
+// 	item_path = /obj/item/storage/box/mothic_rations
 
-/datum/loadout_item/pocket_items/cloth_ten
-	name = "Ten Cloth Sheets"
-	item_path = /obj/item/stack/sheet/cloth/ten
+// /datum/loadout_item/pocket_items/cloth_ten
+// 	name = "Ten Cloth Sheets"
+// 	item_path = /obj/item/stack/sheet/cloth/ten
 
-/datum/loadout_item/pocket_items/random_pizza
-	name = "Random Pizza Box"
-	item_path = /obj/item/pizzabox/random
+// /datum/loadout_item/pocket_items/random_pizza
+// 	name = "Random Pizza Box"
+// 	item_path = /obj/item/pizzabox/random
 
-/datum/loadout_item/pocket_items/deforest_frontiermedkit
-	name = "Empty Frontier Medical Kit"
-	item_path = /obj/item/storage/medkit/frontier
+// /datum/loadout_item/pocket_items/deforest_frontiermedkit
+// 	name = "Empty Frontier Medical Kit"
+// 	item_path = /obj/item/storage/medkit/frontier
 
-/datum/loadout_item/pocket_items/ingredients
-	name = "Wildcard Ingredient Box"
-	item_path = /obj/item/storage/box/ingredients/wildcard
+// /datum/loadout_item/pocket_items/ingredients
+// 	name = "Wildcard Ingredient Box"
+// 	item_path = /obj/item/storage/box/ingredients/wildcard
 
 /datum/loadout_item/pocket_items/six_beer
 	name = "Beer Six-Pack"
@@ -158,52 +158,52 @@
 	name = "Soda Six-Pack"
 	item_path = /obj/item/storage/cans/sixsoda
 
-/datum/loadout_item/pocket_items/soap
-	name = "Bar of Soap"
-	item_path = /obj/item/soap
+// /datum/loadout_item/pocket_items/soap
+// 	name = "Bar of Soap"
+// 	item_path = /obj/item/soap
 
-/datum/loadout_item/pocket_items/mini_extinguisher
-	name = "Mini Fire Extinguisher"
-	item_path = /obj/item/extinguisher/mini
+// /datum/loadout_item/pocket_items/mini_extinguisher
+// 	name = "Mini Fire Extinguisher"
+// 	item_path = /obj/item/extinguisher/mini
 
-/datum/loadout_item/pocket_items/binoculars
-	name = "Pair of Binoculars"
-	item_path = /obj/item/binoculars
+// /datum/loadout_item/pocket_items/binoculars
+// 	name = "Pair of Binoculars"
+// 	item_path = /obj/item/binoculars
 
-/datum/loadout_item/pocket_items/drugs_happy
-	name = "Happy Pills"
-	item_path = /obj/item/storage/pill_bottle/happy
+// /datum/loadout_item/pocket_items/drugs_happy
+// 	name = "Happy Pills"
+// 	item_path = /obj/item/storage/pill_bottle/happy
 
-/datum/loadout_item/pocket_items/drugs_lsd
-	name = "Mindbreaker Pills"
-	item_path = /obj/item/storage/pill_bottle/lsd
+// /datum/loadout_item/pocket_items/drugs_lsd
+// 	name = "Mindbreaker Pills"
+// 	item_path = /obj/item/storage/pill_bottle/lsd
 
-/datum/loadout_item/pocket_items/drugs_weed
-	name = "Cannabis Seeds"
-	item_path = /obj/item/seeds/cannabis
+// /datum/loadout_item/pocket_items/drugs_weed
+// 	name = "Cannabis Seeds"
+// 	item_path = /obj/item/seeds/cannabis
 
-/datum/loadout_item/pocket_items/drugs_reishi
-	name = "Reishi Seeds"
-	item_path = /obj/item/seeds/reishi
+// /datum/loadout_item/pocket_items/drugs_reishi
+// 	name = "Reishi Seeds"
+// 	item_path = /obj/item/seeds/reishi
 
-/datum/loadout_item/pocket_items/drugs_liberty
-	name = "Liberty Cap Seeds"
-	item_path = /obj/item/seeds/liberty
+// /datum/loadout_item/pocket_items/drugs_liberty
+// 	name = "Liberty Cap Seeds"
+// 	item_path = /obj/item/seeds/liberty
 
-/datum/loadout_item/pocket_items/hand_labeler
-	name = "Hand Labeler"
-	item_path = /obj/item/hand_labeler
+// /datum/loadout_item/pocket_items/hand_labeler
+// 	name = "Hand Labeler"
+// 	item_path = /obj/item/hand_labeler
 
 /*
 *	DONATOR
 */
 
 /datum/loadout_item/pocket_items/donator
-	donator_only = TRUE
+	donator_only = FALSE
 
-/datum/loadout_item/pocket_items/donator/coin
-	name = "Iron Coin"
-	item_path = /obj/item/coin/iron
+// /datum/loadout_item/pocket_items/donator/coin
+// 	name = "Iron Coin"
+// 	item_path = /obj/item/coin/iron
 
 /datum/loadout_item/pocket_items/donator/havana_cigar_case
 	name = "Havanian Cigars"

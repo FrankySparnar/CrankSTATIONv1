@@ -63,8 +63,6 @@
 
 	head = /obj/item/clothing/head/hats/centcom_cap
 
-	neck = /obj/item/clothing/neck/pauldron
-
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace/naval
 
 	suit_store = /obj/item/gun/ballistic/automatic/pistol/trappiste
@@ -85,8 +83,6 @@
 
 	head = /obj/item/clothing/head/hats/centcom_cap
 
-	neck = /obj/item/clothing/neck/pauldron/commander
-
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace/naval
 
 	suit_store = /obj/item/gun/ballistic/automatic/pistol/trappiste
@@ -105,8 +101,6 @@
 	id_trim = /datum/id_trim/centcom/naval/captain
 
 	head = /obj/item/clothing/head/hats/centcom_cap
-
-	neck = /obj/item/clothing/neck/pauldron/captain
 
 	suit = /obj/item/clothing/suit/armor/vest/capcarapace/naval
 

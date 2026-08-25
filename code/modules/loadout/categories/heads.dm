@@ -24,6 +24,10 @@
 	name = "Beanie (Colorable)"
 	item_path = /obj/item/clothing/head/beanie
 
+/datum/loadout_item/head/cardborg_helmet
+	name = "Cardborg Helmet"
+	item_path = /obj/item/clothing/head/costume/cardborg
+
 /datum/loadout_item/head/fancy_cap
 	name = "Fancy Hat (Colorable)"
 	item_path = /obj/item/clothing/head/costume/fancy
@@ -127,10 +131,6 @@
 /datum/loadout_item/head/ushanka
 	name ="Ushanka"
 	item_path = /obj/item/clothing/head/costume/ushanka
-
-/datum/loadout_item/head/plague_doctor
-	name = "Cap (Plague Doctor)"
-	item_path = /obj/item/clothing/head/bio_hood/plague
 
 /datum/loadout_item/head/rose
 	name = "Rose"

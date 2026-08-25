@@ -23,7 +23,7 @@
 #define TECHWEB_TIER_5_POINTS 200
 
 //! Amount of points gained per second by a single R&D server, see: [research][code/controllers/subsystem/research.dm]
-#define TECHWEB_SINGLE_SERVER_INCOME 1
+#define TECHWEB_SINGLE_SERVER_INCOME 0.8 //CRANK EDIT - original is 1
 
 //! Swab cell line types
 #define CELL_LINE_TABLE_SLUDGE "cell_line_sludge_table"

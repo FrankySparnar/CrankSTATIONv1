@@ -42,9 +42,9 @@
 	name = "Bandana (Red)"
 	item_path = /obj/item/clothing/mask/bandana/red
 
-/datum/loadout_item/mask/bandana/driscoll //Technically just looks like one but it's nicer here smiley face.
-	name = "Bandana (Driscoll)"
-	item_path = /obj/item/clothing/mask/gas/driscoll
+// /datum/loadout_item/mask/bandana/driscoll //Technically just looks like one but it's nicer here smiley face.
+// 	name = "Bandana (Driscoll)"
+// 	item_path = /obj/item/clothing/mask/gas/driscoll //CRANK EDIT - a lot of these masks are just Not Good
 
 /datum/loadout_item/mask/bandana/skull
 	name = "Bandana (Skull)"
@@ -54,17 +54,17 @@
 	name = "Bandana (Striped)"
 	item_path = /obj/item/clothing/mask/bandana/striped
 
-/datum/loadout_item/mask/bandana/facescarf
-	name = "Facescarf"
-	item_path = /obj/item/clothing/mask/facescarf
+// /datum/loadout_item/mask/bandana/facescarf
+// 	name = "Facescarf"
+// 	item_path = /obj/item/clothing/mask/facescarf
 
-/datum/loadout_item/mask/bandana/sechailer_half_mask
-	name = "Tacticool Half-Mask"
-	item_path = /obj/item/clothing/mask/gas/half_mask
+// /datum/loadout_item/mask/bandana/sechailer_half_mask
+// 	name = "Tacticool Half-Mask"
+// 	item_path = /obj/item/clothing/mask/gas/half_mask
 
-/datum/loadout_item/mask/bandana/neckgaiter
-	name = "Neck Gaiter"
-	item_path = /obj/item/clothing/mask/primitive_catgirl_greyscale_gaiter
+// /datum/loadout_item/mask/bandana/neckgaiter
+// 	name = "Neck Gaiter"
+// 	item_path = /obj/item/clothing/mask/primitive_catgirl_greyscale_gaiter
 
 
 /*
@@ -111,45 +111,45 @@
 	name = "Glass Gas Mask"
 	item_path = /obj/item/clothing/mask/gas/glass
 
-/datum/loadout_item/mask/gas/respirator
-	name = "Half Mask Respirator"
-	item_path = /obj/item/clothing/mask/gas/respirator
+// /datum/loadout_item/mask/gas/respirator
+// 	name = "Half Mask Respirator"
+// 	item_path = /obj/item/clothing/mask/gas/respirator
 
-/datum/loadout_item/mask/gas/german
-	name = "Black Gas Mask"
-	item_path = /obj/item/clothing/mask/gas/german
+// /datum/loadout_item/mask/gas/german
+// 	name = "Black Gas Mask"
+// 	item_path = /obj/item/clothing/mask/gas/german
 
-/datum/loadout_item/mask/gas/soviet
-	name = "Soviet Gas Mask"
-	item_path = /obj/item/clothing/mask/gas/soviet
+// /datum/loadout_item/mask/gas/soviet
+// 	name = "Soviet Gas Mask"
+// 	item_path = /obj/item/clothing/mask/gas/soviet
 
-/datum/loadout_item/mask/gas/nri_police
-	name = "Colonial Gas Mask"
-	item_path = /obj/item/clothing/mask/gas/nri_police
-	restricted_roles = list(ALL_JOBS_SEC)
+// /datum/loadout_item/mask/gas/nri_police
+// 	name = "Colonial Gas Mask"
+// 	item_path = /obj/item/clothing/mask/gas/nri_police
+// 	restricted_roles = list(ALL_JOBS_SEC)
 
-/datum/loadout_item/mask/gas/frontier_colonist
-	name = "Frontier Gas Mask"
-	item_path = /obj/item/clothing/mask/gas/atmos/frontier_colonist/loadout
+// /datum/loadout_item/mask/gas/frontier_colonist
+// 	name = "Frontier Gas Mask"
+// 	item_path = /obj/item/clothing/mask/gas/atmos/frontier_colonist/loadout
 
-/datum/loadout_item/mask/gas/nightlight_mask/alldono
-	name = "Commercial FIR-36 Rebreather"
-	item_path = /obj/item/clothing/mask/gas/nightlight/alldono
+// /datum/loadout_item/mask/gas/nightlight_mask/alldono
+// 	name = "Commercial FIR-36 Rebreather"
+// 	item_path = /obj/item/clothing/mask/gas/nightlight/alldono
 
-/datum/loadout_item/mask/gas/nightlight_mask
-	name = "'Royez' Half-Face Rebreather"
-	item_path = /obj/item/clothing/mask/gas/nightlight
-//	ckeywhitelist = list("farsightednightlight", "raxraus", "1ceres", "marcoalbaredaa", "itzshift_yt", "drifter7371", "AvianAviator", "Katty Kat", "Investigator77", "Dalao Azure", "Socialistion", "ChillyLobster", "Sylvara", "AmZee", "Tf4", "rb303", "Kay_Nite", "whataboutism", "taac", "Halkyon", "Lupo_di_rosa", "Merek2", "lowpowermia", "RyeanBread", "Jesterz7", "Saund_Minah", "Ruediger4")
+// /datum/loadout_item/mask/gas/nightlight_mask
+// 	name = "'Royez' Half-Face Rebreather"
+// 	item_path = /obj/item/clothing/mask/gas/nightlight
+// //	ckeywhitelist = list("farsightednightlight", "raxraus", "1ceres", "marcoalbaredaa", "itzshift_yt", "drifter7371", "AvianAviator", "Katty Kat", "Investigator77", "Dalao Azure", "Socialistion", "ChillyLobster", "Sylvara", "AmZee", "Tf4", "rb303", "Kay_Nite", "whataboutism", "taac", "Halkyon", "Lupo_di_rosa", "Merek2", "lowpowermia", "RyeanBread", "Jesterz7", "Saund_Minah", "Ruediger4")
 
-/datum/loadout_item/mask/gas/fir22
-	name = "'Kimball' Rebreather"
-	item_path = /obj/item/clothing/mask/gas/nightlight/fir22
-//	ckeywhitelist = list("farsightednightlight", "raxraus", "1ceres", "marcoalbaredaa", "itzshift_yt", "drifter7371", "AvianAviator", "Katty Kat", "Investigator77", "Dalao Azure", "Socialistion", "ChillyLobster", "Sylvara", "AmZee", "Tf4", "rb303", "Kay_Nite", "whataboutism", "taac", "Halkyon", "Lupo_di_rosa", "Merek2", "lowpowermia", "RyeanBread", "Jesterz7", "Saund_Minah", "Ruediger4")
+// /datum/loadout_item/mask/gas/fir22
+// 	name = "'Kimball' Rebreather"
+// 	item_path = /obj/item/clothing/mask/gas/nightlight/fir22
+// //	ckeywhitelist = list("farsightednightlight", "raxraus", "1ceres", "marcoalbaredaa", "itzshift_yt", "drifter7371", "AvianAviator", "Katty Kat", "Investigator77", "Dalao Azure", "Socialistion", "ChillyLobster", "Sylvara", "AmZee", "Tf4", "rb303", "Kay_Nite", "whataboutism", "taac", "Halkyon", "Lupo_di_rosa", "Merek2", "lowpowermia", "RyeanBread", "Jesterz7", "Saund_Minah", "Ruediger4")
 
-/datum/loadout_item/mask/gas/octusvox
-	name = "Sinister Visor"
-	item_path = /obj/item/clothing/mask/breath/vox/octus
-	//ckeywhitelist = list("octus")
+// /datum/loadout_item/mask/gas/octusvox
+// 	name = "Sinister Visor"
+// 	item_path = /obj/item/clothing/mask/breath/vox/octus
+// 	//ckeywhitelist = list("octus")
 
 /datum/loadout_item/mask/gas/larpswat
 	name = "Foam Force SWAT Mask"
@@ -184,10 +184,10 @@
 	name = "Rebellion Mask"
 	item_path = /obj/item/clothing/mask/rebellion
 
-/datum/loadout_item/mask/masquerade/hheart //sans undertale
-	name = "The Hollow Heart"
-	item_path = /obj/item/clothing/mask/hheart
-	//ckeywhitelist = list("inferno707")
+// /datum/loadout_item/mask/masquerade/hheart //sans undertale
+// 	name = "The Hollow Heart"
+// 	item_path = /obj/item/clothing/mask/hheart
+// 	//ckeywhitelist = list("inferno707")
 
 /*
 *	MISC
@@ -258,11 +258,11 @@
 	name = "Paper Mask"
 	item_path = /obj/item/clothing/mask/paper
 
-/datum/loadout_item/mask/costume/britches_mask
-	name = "Britches' mask"
-	item_path = /obj/item/clothing/mask/gas/britches
-	//ckeywhitelist = list("bloodrite")
-	restricted_roles = list(JOB_CLOWN)
+// /datum/loadout_item/mask/costume/britches_mask
+// 	name = "Britches' mask"
+// 	item_path = /obj/item/clothing/mask/gas/britches
+// 	//ckeywhitelist = list("bloodrite")
+// 	restricted_roles = list(JOB_CLOWN)
 
 /datum/loadout_item/mask/costume/clown/recolour
 	name = "Recolorable Clown Mask"

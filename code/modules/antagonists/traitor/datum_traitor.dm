@@ -327,7 +327,7 @@
 	name = "Traitor (Preview only)"
 
 	uniform = /obj/item/clothing/under/color/grey
-	suit = /obj/item/clothing/suit/hooded/ablative
+	suit = /obj/item/clothing/suit/armor/laserproof
 	head = /obj/item/clothing/head/hooded/ablative
 	gloves = /obj/item/clothing/gloves/color/yellow
 	mask = /obj/item/clothing/mask/gas

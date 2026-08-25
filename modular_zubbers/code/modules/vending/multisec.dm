@@ -42,7 +42,6 @@
 					/obj/item/clothing/neck/tie/bunnytie/security_assistant = 6,
 					/obj/item/clothing/mask/bandana/red = 6,
 					/obj/item/clothing/neck/pauldron = 6,
-					/obj/item/clothing/neck/pauldron/commander = 6,
 					/obj/item/clothing/neck/pauldron/captain = 6,
 					/obj/item/clothing/gloves/color/black = 6,
 					/obj/item/clothing/gloves/color/black/peacekeeper/armadyne = 6,

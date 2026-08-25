@@ -309,7 +309,7 @@
 	. = ..()
 
 	// Traitor steal objective
-	new /obj/item/clothing/suit/hooded/ablative(src)
+	new /obj/item/clothing/suit/armor/laserproof(src)
 
 /obj/structure/closet/secure_closet/armory2
 	name = "armory ballistics locker"

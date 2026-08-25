@@ -82,13 +82,13 @@
 	name = "Plush (human)"
 	item_path = /obj/item/toy/plush/human
 
-/datum/loadout_item/toys/plush/rouny
-	name = "Plush (Rouny)"
-	item_path = /obj/item/toy/plush/rouny
-
 /datum/loadout_item/toys/plush/snake
 	name = "Plush (Snake)"
 	item_path = /obj/item/toy/plush/snakeplushie
+
+/datum/loadout_item/toys/plush/space_lizard
+	name = "Plush (Space Lizard)"
+	item_path = /obj/item/toy/plush/lizard_plushie/space
 
 /datum/loadout_item/toys/plush/horse
 	name = "Plush (Horse)"

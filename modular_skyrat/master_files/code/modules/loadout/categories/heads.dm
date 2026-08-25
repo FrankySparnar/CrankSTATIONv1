@@ -190,10 +190,6 @@
 	name = "Brown Wolf Pelt"
 	item_path = /obj/item/clothing/head/pelt/wolf
 
-/datum/loadout_item/head/wolfpeltblack
-	name = "Black Wolf Pelt"
-	item_path = /obj/item/clothing/head/pelt/wolf/black
-
 /datum/loadout_item/head/wolfpeltwhite
 	name = "White Wolf Pelt"
 	item_path = /obj/item/clothing/head/pelt/wolf/white
@@ -249,10 +245,6 @@
 /datum/loadout_item/head/wedding_veil
 	name = "Wedding Veil"
 	item_path = /obj/item/clothing/head/costume/weddingveil
-
-/datum/loadout_item/head/synde
-	name = "Black Space-Helmet Replica"
-	item_path = /obj/item/clothing/head/syndicatefake
 
 /datum/loadout_item/head/glatiator
 	name = "Gladiator Helmet"
@@ -323,10 +315,6 @@
 	name = "Slime Hat"
 	item_path = /obj/item/clothing/head/collectable/slime
 
-/datum/loadout_item/head/flakhelm
-	name = "Flak Helmet"
-	item_path = /obj/item/clothing/head/hats/flakhelm
-
 /datum/loadout_item/head/maidhead
 	name = "Simple Maid Headband"
 	item_path = /obj/item/clothing/head/costume/skyrat/maid
@@ -347,19 +335,6 @@
 	name = "Dominant Cap"
 	item_path = /obj/item/clothing/head/domina_cap
 	erp_item = TRUE
-
-/datum/loadout_item/head/fashionable_cap
-	name = "Fashionable Baseball Cap"
-	item_path = /obj/item/clothing/head/soft/yankee
-
-/datum/loadout_item/head/blastwave_helmet
-	name = "Blastwave Plastic Helmet"
-	item_path = /obj/item/clothing/head/blastwave
-
-/datum/loadout_item/head/blastwave_cap
-	name = "Blastwave Peaked Cap"
-	item_path = /obj/item/clothing/head/blastwave/officer
-
 /*
 *	COWBOY
 */
@@ -384,10 +359,6 @@
 	name = "Flat-Brimmed Hat"
 	item_path = /obj/item/clothing/head/cowboy/skyrat/flat
 
-/datum/loadout_item/head/cowboyhat_flat_cowl
-	name = "Flat-Brimmed Hat with Cowl"
-	item_path = /obj/item/clothing/head/cowboy/skyrat/flat/cowl
-
 /datum/loadout_item/head/cowboyhat_sheriff
 	name = "Sheriff Hat"
 	item_path = /obj/item/clothing/head/cowboy/skyrat/flat/sheriff
@@ -395,10 +366,6 @@
 /datum/loadout_item/head/cowboyhat_deputy
 	name = "Deputy Hat"
 	item_path = /obj/item/clothing/head/cowboy/skyrat/flat/deputy
-
-/datum/loadout_item/head/cowboyhat_winter
-	name = "Winter Cowboy Hat"
-	item_path = /obj/item/clothing/head/cowboy/skyrat/flat/cowl/sheriff
 
 /*
 *	TREK HATS (JOB-LOCKED)
@@ -534,10 +501,6 @@
 /datum/loadout_item/head/tmc
 	name = "TMC Hat"
 	item_path = /obj/item/clothing/head/costume/tmc
-
-/datum/loadout_item/head/deckers
-	name = "Deckers Hat"
-	item_path = /obj/item/clothing/head/costume/deckers
 
 /*
 *	DONATOR

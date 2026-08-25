@@ -3,8 +3,6 @@
 	suit_store = /obj/item/flashlight/seclite
 	backpack_contents = list(
 		/obj/item/evidencebag = 1,
-		/obj/item/security_voucher/primary = 1,
-		/obj/item/security_voucher/utility = 1
 		)
 	glasses = /obj/item/clothing/glasses/hud/security
 
@@ -14,7 +12,6 @@
 		/obj/item/melee/baton = 1,
 		/obj/item/storage/box/evidence = 1,
 		/obj/item/flashlight/seclite = 1,
-		/obj/item/security_voucher/utility = 1
 		)
 	belt = /obj/item/storage/belt/holster/detective/full
 	l_pocket = /obj/item/modular_computer/pda/detective
@@ -26,8 +23,6 @@
 	suit_store = /obj/item/flashlight/seclite
 	backpack_contents = list(
 	/obj/item/evidencebag = 1,
-	/obj/item/security_voucher/primary = 1,
-	/obj/item/security_voucher/utility = 1
 	)
 
 //Brigmed is in it's own file
@@ -35,6 +30,5 @@
 	backpack_contents = list(
 		/obj/item/evidencebag = 1,
 		/obj/item/melee/baton/security/loaded/hos = 1,
-		/obj/item/security_voucher/utility = 1,
 		/obj/item/flashlight/seclite
 		)

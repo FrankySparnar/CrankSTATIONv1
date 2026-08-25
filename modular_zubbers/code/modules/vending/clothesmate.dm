@@ -252,11 +252,11 @@
 		)
 	)
 
-	zubbers_premium = list( //being here means you're even more artificially rare, congratulations
+	zubbers_premium = list( //being here means you're even more artificially rare, congratulations <-- //CRANK EDIT - shut up
 		/obj/item/clothing/head/razurathhat = 2,
-		/obj/item/clothing/head/soft/yankee = 3,
+		// /obj/item/clothing/head/soft/yankee = 3,
 		/obj/item/clothing/shoes/jackboots/noble = 2,
-		/obj/item/clothing/shoes/jackboots/timbs = 2,
+		// /obj/item/clothing/shoes/jackboots/timbs = 2,
 		/obj/item/clothing/suit/blackfurrich = 1,
 		/obj/item/clothing/suit/brownbattlecoat = 1,
 		/obj/item/clothing/suit/frenchtrench = 1,

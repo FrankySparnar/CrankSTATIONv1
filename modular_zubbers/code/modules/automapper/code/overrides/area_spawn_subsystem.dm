@@ -20,7 +20,6 @@
 	over_atoms = list(
 		/obj/item/gun/energy/temperature
 	)
-	desired_atom = /obj/item/gun/ballistic/rocketlauncher/security
 
 /datum/area_spawn_over/security_missile_launcher/New(...)
 	. = ..()
@@ -34,7 +33,6 @@
 	over_atoms = list(
 		/obj/item/gun/energy/temperature
 	)
-	desired_atom = /obj/item/storage/box/security_missiles
 
 /datum/area_spawn_over/security_missile_launcher_ammo/New(...)
 	. = ..()

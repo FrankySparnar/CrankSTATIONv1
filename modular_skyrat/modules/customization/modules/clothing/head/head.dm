@@ -78,24 +78,6 @@
 	flags_1 = IS_PLAYER_COLORABLE_1
 	supports_variations_flags = CLOTHING_SNOUTED_VARIATION_NO_NEW_ICON
 
-/obj/item/clothing/head/soft/yankee
-	name = "fashionable baseball cap"
-	desc = "Rimmed and brimmed."
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head.dmi'
-	icon_state = "yankeesoft"
-	soft_type = "yankee"
-	dog_fashion = /datum/dog_fashion/head/yankee
-	supports_variations_flags = CLOTHING_SNOUTED_VARIATION_NO_NEW_ICON
-
-/obj/item/clothing/head/soft/yankee/rimless
-	name = "rimless fashionable baseball cap"
-	desc = "Rimless for her pleasure."
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head.dmi'
-	icon_state = "yankeenobrimsoft"
-	soft_type = "yankeenobrim"
-
 /obj/item/clothing/head/fedora/brown //Fedora without detective's candy corn gimmick
 	name = "brown fedora"
 	icon_state = "detective"
