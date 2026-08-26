@@ -4,13 +4,13 @@
 	welcome_text = "Chat, I think there is an imposter among us on this Space Station 13. I have grown suspicious."
 
 	tag_multipliers = list(
-		TAG_DESTRUCTIVE = 0.25,
-		TAG_CHAOTIC = 0.1, //*look inside high chaos storyteller* *no chaos*
+		TAG_DESTRUCTIVE = 0.6,
+		TAG_CHAOTIC = 0.6, //*look inside high chaos storyteller* *no chaos*
 		TAG_CREW_ANTAG = 2,
 	)
-	population_min = 35
+	population_min = 25
 	antag_divisor = 5
-	storyteller_type = STORYTELLER_TYPE_INTENSE
+	storyteller_type = STORYTELLER_TYPE_ALWAYS_AVAILABLE
 
 	guarantees_roundstart_crewset = TRUE
 

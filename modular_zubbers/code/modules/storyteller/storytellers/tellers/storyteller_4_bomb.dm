@@ -1,15 +1,17 @@
 /datum/storyteller/bomb
 	name = "Destructive Event/Antag Rolls"
 	desc = "Formerly known as Bomb, this storyteller will try to make more destructive events. For when you have a full engineering team. Or not, because they all cryo'd."
-	welcome_text = "Somebody set up us the bomb."
+	welcome_text = "KABOOM!!"
 	track_data = /datum/storyteller_data/tracks/bomb
 
 	tag_multipliers = list(
-		TAG_DESTRUCTIVE = 1.5
+		TAG_COMBAT = 0.9,
+		TAG_DESTRUCTIVE = 1.5,
+		TAG_CHAOTIC = 0.9
 	)
-	population_min = 25
+	population_min = 15
 	antag_divisor = 10
-	storyteller_type = STORYTELLER_TYPE_INTENSE
+	storyteller_type = STORYTELLER_TYPE_ALWAYS_AVAILABLE
 
 /datum/storyteller/bomb/New()
 	track_data = new /datum/storyteller_data/tracks/bomb

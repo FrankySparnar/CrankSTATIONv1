@@ -1,7 +1,7 @@
 /datum/storyteller/fragile
 	name = "Mid-Low Event/Antag Rolls"
 	desc = "Formerly called Fragile, this storyteller will limit destructive, combat-focused, and chaotic events. \
-	Spawns more events and allows for more combat than the Chill, but remains lower in frequency than Default Andy. It will also repeat events less than the Chill."
+	Spawns less events and won't have as much combat as Default Andy. The storyteller for people that want their momma."
 	welcome_text = "Handle with care!"
 
 	event_repetition_multiplier = 0.5
@@ -11,9 +11,9 @@
 	tag_multipliers = list(
 		TAG_COMBAT = 0.3,
 		TAG_DESTRUCTIVE = 0.2,
-		TAG_CHAOTIC = 0.2
+		TAG_CHAOTIC = 0.4
 	)
-	storyteller_type = STORYTELLER_TYPE_ALWAYS_AVAILABLE
+	storyteller_type = STORYTELLER_TYPE_CALM
 
 /datum/storyteller/fragile/New()
 	track_data = new /datum/storyteller_data/tracks/fragile

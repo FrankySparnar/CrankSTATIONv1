@@ -5,7 +5,7 @@
 	antag_flag = ROLE_BLOODSUCKER
 	antag_datum = /datum/antagonist/bloodsucker
 	weight = 5
-	min_players = 30
+	min_players = 25
 
 	maximum_antags_global = 3
 	restricted_species = list(SPECIES_PROTEAN)

@@ -5,7 +5,7 @@
 	antag_flag = ROLE_CHANGELING
 	antag_datum = /datum/antagonist/changeling
 	weight = 8
-	min_players = 20
+	min_players = 15
 	maximum_antags_global = 4
 	restricted_species = list(SPECIES_PROTEAN)
 

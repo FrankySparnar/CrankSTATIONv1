@@ -3,12 +3,12 @@
 	tags = list(TAG_COMMUNAL)
 
 /datum/round_event_control/scrubber_overflow/threatening
-	weight = 0
-	max_occurrences = 0
+	weight = 3
+	max_occurrences = 1
 
 /datum/round_event_control/scrubber_overflow/catastrophic
-	weight = 0
-	max_occurrences = 0
+	weight = 2
+	max_occurrences = 1
 
 /datum/round_event_control/scrubber_overflow/every_vent
 	weight = 0

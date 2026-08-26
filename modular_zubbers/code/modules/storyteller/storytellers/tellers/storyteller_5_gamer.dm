@@ -11,9 +11,9 @@
 		TAG_DESTRUCTIVE = 0.7,
 		TAG_CHAOTIC = 1.3
 	)
-	population_min = 35
+	population_min = 20
 	antag_divisor = 5
-	storyteller_type = STORYTELLER_TYPE_INTENSE
+	storyteller_type = STORYTELLER_TYPE_ALWAYS_AVAILABLE
 
 /datum/storyteller/gamer/New()
 	track_data = new /datum/storyteller_data/tracks/gamer

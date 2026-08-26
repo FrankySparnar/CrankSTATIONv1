@@ -6,7 +6,7 @@
 	antag_datum = /datum/antagonist/heretic
 	weight = 6
 	max_occurrences = 4
-	min_players = 20
+	min_players = 15
 
 	maximum_antags_global = 2
 
