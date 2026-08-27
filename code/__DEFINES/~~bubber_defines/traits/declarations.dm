@@ -56,6 +56,9 @@
 // Makes it do this mob resists negative effects of being irradiated
 #define TRAIT_RAD_RESISTANCE "radiation_resistance"
 
+// Trait for quirk: Restorative Metabolism
+#define TRAIT_RESTORATIVE_METABOLISM   "restorative_metabolism"
+
 // For using secondary mutant colors
 #define TRAIT_MUTANT_COLORS_2 "mutcolors2"
 
