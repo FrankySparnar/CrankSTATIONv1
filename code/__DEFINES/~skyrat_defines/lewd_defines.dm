@@ -39,7 +39,6 @@
 		/area/centcom/interlink/dorm_rooms,\
 		/area/misc/hilbertshotel,\
 		/area/station/commons/dorms,\
-		/area/misc/condo,\
 		/area/centcom/holding,\
 		/area/centcom/holding/cafe,\
 		/area/centcom/holding/cafe/vox,\

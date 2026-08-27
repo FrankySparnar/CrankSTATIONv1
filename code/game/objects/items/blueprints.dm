@@ -202,7 +202,7 @@
 		/area/centcom/wizard_station,
 		/area/misc/hilbertshotel,
 		/area/misc/hilbertshotelstorage,
-		/area/misc/condo, //BUBBER EDIT - Adds Condos
+		// /area/misc/condo, //BUBBER EDIT - Adds Condos //CRANK EDIT - NO IT DONT
 	))
 	if(area_checking.type in special_areas)
 		return AREA_SPECIAL

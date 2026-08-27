@@ -1,5 +1,5 @@
 GLOBAL_LIST_INIT(ghost_cafe_areas, list(
-	/area/misc/condo,
+	// /area/misc/condo,
 	/area/centcom/holding,
 	/area/centcom/holding/cafe,
 	/area/centcom/holding/cafe/vox,
