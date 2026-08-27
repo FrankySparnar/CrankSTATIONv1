@@ -34,11 +34,6 @@
 	/// Did our owner's first client connection get handled yet? Useful for when some proc needs to be called once we're sure that a client has moved into our owner, like for Dullahans.
 	var/owner_first_client_connection_handled = FALSE
 
-/datum/species/dullahan/check_roundstart_eligible()
-	if(check_holidays(HALLOWEEN))
-		return TRUE
-	return ..()
-
 /datum/species/dullahan/on_species_gain(mob/living/carbon/human/human, datum/species/old_species, pref_load, regenerate_icons)
 	. = ..()
 	human.lose_hearing_sensitivity(TRAIT_GENERIC)

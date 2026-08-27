@@ -276,7 +276,7 @@ SPECIFIED_LAWS crewsimov
 ## These control what laws are available for selection if random silicon laws are active.
 ## See datums\ai_laws.dm for the full law lists
 
-## standard-ish laws. These are fairly ok to run 
+## standard-ish laws. These are fairly ok to run
 RANDOM_LAWS armadyne_safeguard
 RANDOM_LAWS asimov
 RANDOM_LAWS asimovpp
@@ -385,6 +385,7 @@ ROUNDSTART_RACES plasmaman
 #ROUNDSTART_RACES shadow
 ROUNDSTART_RACES teshari
 ROUNDSTART_RACES snail
+ROUNDSTART_RACES dullahan
 
 ## Races that are better than humans in some ways, but worse in others
 ROUNDSTART_RACES ethereal
