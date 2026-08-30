@@ -61455,7 +61455,7 @@
 /obj/effect/turf_decal/tile/neutral/anticorner/contrasted{
 	dir = 4
 	},
-/obj/effect/spawner/random/armory/laser_gun,
+/obj/effect/spawner/armory_spawn/laser,
 /turf/open/floor/iron/showroomfloor,
 /area/station/security/armory)
 "tGb" = (

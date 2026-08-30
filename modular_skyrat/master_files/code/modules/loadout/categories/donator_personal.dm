@@ -49,27 +49,27 @@
 	item_path = /obj/item/clothing/head/avipilot
 	//ckeywhitelist = list("slippyjoe")
 
-	//ckeywhitelist = list("bloodrite")
-/datum/loadout_item/head/caligram_cap_tan
-	name = "Blacktide Tan Softcap"
-	item_path = /obj/item/clothing/head/caligram_cap_tan
+	//ckeywhitelist = list("bloodrite") //CRANK EDIT - on me on me
+// /datum/loadout_item/head/caligram_cap_tan
+// 	name = "Blacktide Tan Softcap"
+// 	item_path = /obj/item/clothing/head/caligram_cap_tan
 //	ckeywhitelist = list("farsightednightlight", "raxraus", "1ceres", "marcoalbaredaa", "itzshift_yt", "drifter7371", "AvianAviator", "Katty Kat", "Investigator77", "Dalao Azure", "Socialistion", "ChillyLobster", "Sylvara", "AmZee", "Tf4", "rb303", "Kay_Nite", "whataboutism", "taac", "Halkyon", "Lupo_di_rosa", "Merek2", "lowpowermia", "RyeanBread", "Jesterz7", "Saund_Minah", "Ruediger4")
 
-/datum/loadout_item/uniform/caligram_fatigues_tan
-	name = "Blacktide Tan Fatigues"
-	item_path = /obj/item/clothing/under/jumpsuit/caligram_fatigues_tan
+// /datum/loadout_item/uniform/caligram_fatigues_tan
+// 	name = "Blacktide Tan Fatigues"
+// 	item_path = /obj/item/clothing/under/jumpsuit/caligram_fatigues_tan
 //	ckeywhitelist = list("farsightednightlight", "raxraus", "1ceres", "marcoalbaredaa", "itzshift_yt", "drifter7371", "AvianAviator", "Katty Kat", "Investigator77", "Dalao Azure", "Socialistion", "ChillyLobster", "Sylvara", "AmZee", "Tf4", "rb303", "Kay_Nite", "whataboutism", "taac", "Halkyon", "Lupo_di_rosa", "Merek2", "lowpowermia", "RyeanBread", "Jesterz7", "Saund_Minah", "Ruediger4")
 
-/datum/loadout_item/suit/caligram_parka_tan
-	name = "Blacktide Tan Coat"
-	item_path = /obj/item/clothing/suit/jacket/caligram_parka_tan
+// /datum/loadout_item/suit/caligram_parka_tan
+// 	name = "Blacktide Tan Coat"
+// 	item_path = /obj/item/clothing/suit/jacket/caligram_parka_tan
 //	ckeywhitelist = list("farsightednightlight", "raxraus", "1ceres", "marcoalbaredaa", "itzshift_yt", "drifter7371", "AvianAviator", "Katty Kat", "Investigator77", "Dalao Azure", "Socialistion", "ChillyLobster", "Sylvara", "AmZee", "Tf4", "rb303", "Kay_Nite", "whataboutism", "taac", "Halkyon", "Lupo_di_rosa", "Merek2", "lowpowermia", "RyeanBread", "Jesterz7", "Saund_Minah", "Ruediger4")
 
-/datum/loadout_item/suit/caligram_parka_vest_tan
-	name = "Blacktide Armored Coat"
-	item_path = /obj/item/clothing/suit/armor/vest/caligram_parka_vest_tan
+// /datum/loadout_item/suit/caligram_parka_vest_tan
+// 	name = "Blacktide Armored Coat"
+// 	item_path = /obj/item/clothing/suit/armor/vest/caligram_parka_vest_tan
 //	ckeywhitelist = list("farsightednightlight", "raxraus", "1ceres", "marcoalbaredaa", "itzshift_yt", "drifter7371", "AvianAviator", "Katty Kat", "Investigator77", "Dalao Azure", "Socialistion", "ChillyLobster", "Sylvara", "AmZee", "Tf4", "rb303", "Kay_Nite", "whataboutism", "taac", "Halkyon", "Lupo_di_rosa", "Merek2", "lowpowermia", "RyeanBread", "Jesterz7", "Saund_Minah", "Ruediger4")
-	restricted_roles = list(JOB_HEAD_OF_SECURITY, JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_DETECTIVE)
+	// restricted_roles = list(JOB_HEAD_OF_SECURITY, JOB_SECURITY_OFFICER, JOB_WARDEN, JOB_DETECTIVE)
 
 /datum/loadout_item/suit/brasspriest
 	name = "Brasspriest Coat"

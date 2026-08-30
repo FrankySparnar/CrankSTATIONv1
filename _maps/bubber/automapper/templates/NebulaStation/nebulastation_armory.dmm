@@ -33,11 +33,6 @@
 /obj/machinery/ammo_workbench,
 /turf/open/floor/iron/dark/textured_large,
 /area/station/security/armory)
-"v" = (
-/obj/item/storage/belt/sheath/sabre/cargo,
-/obj/item/storage/belt/sheath/sabre/cargo{
-	pixel_x = -7
-	},
 /turf/template_noop,
 /area/template_noop)
 "x" = (
@@ -79,7 +74,7 @@
 /area/template_noop)
 "Z" = (
 /obj/structure/table/reinforced,
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/armory_spawn/laser,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark/textured_large,

@@ -127,7 +127,7 @@
 "C" = (
 /obj/effect/turf_decal/delivery/red,
 /obj/structure/rack/gunrack,
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/armory_spawn/laser,
 /turf/open/floor/iron/smooth,
 /area/station/security/armory)
 "D" = (
@@ -270,7 +270,7 @@
 /obj/structure/rack,
 /obj/item/gun/energy/ionrifle,
 /obj/item/gun/energy/temperature/security,
-/obj/item/clothing/suit/hooded/ablative,
+/obj/item/clothing/suit/armor/laserproof,
 /obj/item/gun/grenadelauncher,
 /obj/item/storage/box/teargas{
 	pixel_x = 1;

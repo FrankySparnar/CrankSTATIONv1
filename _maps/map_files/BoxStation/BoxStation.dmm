@@ -31666,6 +31666,7 @@
 /area/station/maintenance/solars/port/fore)
 "fdm" = (
 /obj/effect/turf_decal/delivery/red,
+/obj/effect/spawner/armory_spawn/laser,
 /obj/structure/rack/gunrack,
 /turf/open/floor/iron/smooth,
 /area/station/security/armory)
@@ -63781,12 +63782,6 @@
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/delivery/red,
 /obj/structure/rack/gunrack,
-/obj/item/storage/belt/sheath/sabre/cargo{
-	pixel_x = 2
-	},
-/obj/item/storage/belt/sheath/sabre/cargo{
-	pixel_x = -6
-	},
 /turf/open/floor/iron/smooth,
 /area/station/security/armory)
 "qXk" = (
@@ -70697,7 +70692,7 @@
 "tEf" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /obj/structure/rack,
-/obj/item/clothing/suit/hooded/ablative,
+/obj/item/clothing/suit/armor/laserproof,
 /obj/item/gun/energy/temperature/security,
 /obj/item/gun/energy/ionrifle,
 /turf/open/floor/iron/dark,

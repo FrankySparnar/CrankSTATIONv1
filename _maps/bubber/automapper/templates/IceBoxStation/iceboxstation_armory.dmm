@@ -37,7 +37,7 @@
 /obj/structure/rack,
 /obj/item/gun/energy/ionrifle,
 /obj/item/gun/energy/temperature/security,
-/obj/item/clothing/suit/hooded/ablative,
+/obj/item/clothing/suit/armor/laserproof,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 8
 	},
@@ -130,7 +130,7 @@
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 4
 	},
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/armory_spawn/laser,
 /turf/open/floor/iron/dark/textured,
 /area/station/security/armory)
 

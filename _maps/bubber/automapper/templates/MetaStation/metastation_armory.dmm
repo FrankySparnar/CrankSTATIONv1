@@ -41,7 +41,7 @@
 /obj/structure/rack,
 /obj/item/gun/energy/ionrifle,
 /obj/item/gun/energy/temperature/security,
-/obj/item/clothing/suit/hooded/ablative,
+/obj/item/clothing/suit/armor/laserproof,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 8
 	},
@@ -61,7 +61,7 @@
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 8
 	},
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/random/armory/laser_gun,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
 "s" = (
@@ -116,12 +116,18 @@
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
 "A" = (
+/obj/structure/rack,
+/obj/item/storage/box/flashes{
+	pixel_x = 3
+	},
+/obj/item/storage/box/teargas{
+	pixel_x = 1;
+	pixel_y = -2
+	},
+/obj/item/gun/grenadelauncher,
 /obj/effect/turf_decal/tile/blue/half/contrasted{
 	dir = 4
 	},
-/obj/structure/closet/secure_closet/armory_kiboko,
-/obj/item/ammo_box/c980grenade/riot,
-/obj/item/ammo_box/c980grenade/smoke,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
 "B" = (

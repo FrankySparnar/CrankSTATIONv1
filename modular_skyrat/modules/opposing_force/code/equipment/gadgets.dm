@@ -49,11 +49,11 @@
 	description = "A modified flashbang able to hypnotize targets. If the target is not in a mentally vulnerable state, it will only confuse and pacify them temporarily."
 	admin_note = "Able to hypnotize people with the next phrase said after exposure."
 
-/datum/opposing_force_equipment/gadget/plap
-	name = "PLAP Capsule"
-	description = "A Portable Listening Advanced Post, fully self-contained in a capsule. \
-			Deploy it inside an area with power! Takes up a 3x3 area!"
-	item_type = /obj/item/survivalcapsule/plap
+// /datum/opposing_force_equipment/gadget/plap
+// 	name = "PLAP Capsule"
+// 	description = "A Portable Listening Advanced Post, fully self-contained in a capsule. \
+// 			Deploy it inside an area with power! Takes up a 3x3 area!"
+// 	item_type = /obj/item/survivalcapsule/plap
 
 
 /datum/opposing_force_equipment/gadget_stealth

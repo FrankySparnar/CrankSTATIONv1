@@ -75,7 +75,7 @@
 	new /obj/item/clothing/neck/cloak/hop(src)
 	new /obj/item/clothing/shoes/laceup(src)
 //Duplication from Commdrobe
-	new /obj/item/clothing/head/playbunnyears/hop(src)
+	// new /obj/item/clothing/head/playbunnyears/hop(src)
 	new /obj/item/clothing/under/rank/civilian/hop_bunnysuit(src)
 	new /obj/item/clothing/suit/armor/hop_tailcoat(src)
 	new /obj/item/clothing/neck/tie/bunnytie/hop(src)
@@ -142,10 +142,10 @@
 	new /obj/item/clothing/neck/mantle/rdmantle(src)
 	new /obj/item/clothing/suit/toggle/labcoat(src)
 	new /obj/item/clothing/suit/toggle/labcoat/research_director(src)
-	new	/obj/item/clothing/head/playbunnyears/rd(src)
-	new /obj/item/clothing/under/rank/rnd/research_director/bunnysuit(src)
+	// new	/obj/item/clothing/head/playbunnyears/rd(src)
+	// new /obj/item/clothing/under/rank/rnd/research_director/bunnysuit(src)
 	new /obj/item/clothing/suit/toggle/labcoat/research_director/tailcoat(src)
-	new /obj/item/clothing/neck/tie/bunnytie/rd(src)
+	// new /obj/item/clothing/neck/tie/bunnytie/rd(src)
 
 
 /obj/item/storage/bag/garment/chief_medical/PopulateContents()
@@ -168,10 +168,10 @@
 //Duplication from Commdrobe
 	new /obj/item/clothing/head/beret/medical/cmo/alt(src)
 	new /obj/item/clothing/neck/mantle/cmomantle(src)
-	new /obj/item/clothing/head/playbunnyears/cmo(src)
-	new /obj/item/clothing/under/rank/medical/cmo_bunnysuit(src)
+	// new /obj/item/clothing/head/playbunnyears/cmo(src)
+	// new /obj/item/clothing/under/rank/medical/cmo_bunnysuit(src)
 	new /obj/item/clothing/suit/toggle/labcoat/cmo/doctor_tailcoat(src)
-	new /obj/item/clothing/neck/tie/bunnytie/cmo(src)
+	// new /obj/item/clothing/neck/tie/bunnytie/cmo(src)
 
 /obj/item/storage/bag/garment/engineering_chief/PopulateContents()
 	new /obj/item/clothing/under/rank/engineering/chief_engineer(src)
@@ -209,7 +209,7 @@
 	new /obj/item/clothing/suit/toggle/jacket/supply/head(src)
 	new /obj/item/clothing/under/rank/cargo/qm/skyrat/formal(src)
 	new /obj/item/clothing/under/rank/cargo/qm/skyrat/formal/skirt(src)
-	new /obj/item/clothing/head/playbunnyears/quartermaster(src)
+	// new /obj/item/clothing/head/playbunnyears/quartermaster(src)
 	new /obj/item/clothing/under/rank/cargo/quartermaster_bunnysuit(src)
 	new /obj/item/clothing/suit/jacket/tailcoat/quartermaster(src)
 	new /obj/item/clothing/neck/tie/bunnytie/cargo(src)

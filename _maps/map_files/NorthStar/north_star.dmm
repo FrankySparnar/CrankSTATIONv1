@@ -776,7 +776,6 @@
 	},
 /obj/effect/turf_decal/tile/blue/full,
 /obj/effect/turf_decal/bot_white,
-/obj/item/storage/belt/sheath/sabre/cargo,
 /obj/item/ammo_box/speedloader/c357,
 /obj/item/clothing/neck/stethoscope,
 /turf/open/floor/iron/dark/side{
@@ -36971,12 +36970,6 @@
 /obj/machinery/light_switch/directional/west,
 /obj/structure/rack,
 /obj/effect/turf_decal/bot,
-/obj/item/storage/belt/sheath/sabre/cargo{
-	pixel_x = 2
-	},
-/obj/item/storage/belt/sheath/sabre/cargo{
-	pixel_x = -7
-	},
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
 "jmc" = (
@@ -71085,7 +71078,7 @@
 	req_access = list("armory")
 	},
 /obj/effect/turf_decal/bot,
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/armory_spawn/laser,
 /obj/structure/rack,
 /obj/effect/turf_decal/tile/red/fourcorners,
 /turf/open/floor/iron/recharge_floor,

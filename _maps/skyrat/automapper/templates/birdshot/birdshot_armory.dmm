@@ -29,7 +29,7 @@
 	},
 /obj/structure/rack/gunrack,
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/armory_spawn/laser,
 /turf/open/floor/iron/dark/small,
 /area/station/security/armory)
 "A" = (

@@ -5,7 +5,7 @@
 "y" = (
 /obj/structure/rack/gunrack,
 /obj/structure/window/reinforced/spawner/directional/west,
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/armory_spawn/laser,
 /turf/open/floor/iron/dark,
 /area/station/security/armory)
 "F" = (

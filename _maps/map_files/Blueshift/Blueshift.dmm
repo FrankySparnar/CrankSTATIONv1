@@ -6765,7 +6765,7 @@
 /area/station/command/heads_quarters/rd)
 "bqj" = (
 /obj/effect/turf_decal/stripes/box,
-/obj/item/clothing/suit/hooded/ablative,
+/obj/item/clothing/suit/armor/laserproof,
 /obj/item/gun/energy/temperature/security,
 /obj/structure/rack/shelf,
 /obj/structure/cable,
@@ -82585,7 +82585,7 @@
 /obj/structure/rack/gunrack,
 /obj/effect/turf_decal/delivery,
 /obj/structure/cable,
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/armory_spawn/laser,
 /turf/open/floor/iron,
 /area/station/security/armory)
 "pOr" = (

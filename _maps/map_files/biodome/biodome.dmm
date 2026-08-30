@@ -3325,7 +3325,7 @@
 /area/station/commons/vacant_room/office)
 "blm" = (
 /obj/structure/rack,
-/obj/item/clothing/suit/hooded/ablative,
+/obj/item/clothing/suit/armor/laserproof,
 /obj/item/gun/energy/temperature/security,
 /obj/item/gun/energy/ionrifle,
 /obj/effect/turf_decal/delivery/red,
@@ -26527,7 +26527,7 @@
 /turf/open/floor/plating,
 /area/station/hallway/secondary/entry)
 "jvF" = (
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/armory_spawn/laser,
 /obj/structure/rack/gunrack,
 /obj/effect/turf_decal/delivery,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -41691,12 +41691,6 @@
 /area/station/command/heads_quarters/hop)
 "oCE" = (
 /obj/structure/rack/gunrack,
-/obj/item/storage/belt/sheath/sabre/cargo{
-	pixel_x = 2
-	},
-/obj/item/storage/belt/sheath/sabre/cargo{
-	pixel_x = -6
-	},
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/security/armory)

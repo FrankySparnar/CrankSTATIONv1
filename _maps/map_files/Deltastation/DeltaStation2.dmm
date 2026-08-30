@@ -3222,7 +3222,7 @@
 /obj/item/gun/ballistic/automatic/battle_rifle{
 	pixel_y = 3
 	},
-/obj/item/clothing/suit/hooded/ablative,
+/obj/item/clothing/suit/armor/laserproof,
 /obj/item/gun/energy/temperature/security,
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/effect/turf_decal/bot,

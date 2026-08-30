@@ -1,6 +1,6 @@
 /obj/structure/closet/secure_closet/security/sec/PopulateContents()
 	. = ..()
-	new /obj/item/storage/toolbox/guncase/skyrat/pistol/sec_glock(src)
+	// new /obj/item/storage/toolbox/guncase/skyrat/pistol/sec_glock(src) //CRANK EDIT - get your guns from cargo, sincerely the zombies
 
 /obj/structure/closet/secure_closet/warden/PopulateContents()
 	. = ..()

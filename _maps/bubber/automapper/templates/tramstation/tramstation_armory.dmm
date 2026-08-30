@@ -166,7 +166,7 @@
 /area/station/security/armory)
 "N" = (
 /obj/structure/rack,
-/obj/item/clothing/suit/hooded/ablative,
+/obj/item/clothing/suit/armor/laserproof,
 /obj/item/gun/energy/ionrifle,
 /obj/item/gun/energy/temperature/security,
 /obj/structure/reagent_dispensers/wall/peppertank/directional/north,
@@ -198,7 +198,7 @@
 /obj/structure/window/reinforced/spawner/directional/west,
 /obj/structure/window/reinforced/spawner/directional/east,
 /obj/structure/cable,
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/armory_spawn/laser,
 /turf/open/floor/iron,
 /area/station/security/armory)
 "R" = (

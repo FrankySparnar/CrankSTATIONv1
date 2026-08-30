@@ -58147,7 +58147,7 @@
 /area/station/medical/treatment_center)
 "tTz" = (
 /obj/structure/rack,
-/obj/item/clothing/suit/hooded/ablative,
+/obj/item/clothing/suit/armor/laserproof,
 /obj/item/gun/energy/temperature/security,
 /obj/item/gun/energy/ionrifle,
 /obj/item/gun/ballistic/automatic/battle_rifle{

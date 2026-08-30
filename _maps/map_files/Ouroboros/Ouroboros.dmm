@@ -36189,7 +36189,7 @@
 /obj/effect/turf_decal/bot,
 /obj/structure/rack/gunrack,
 /obj/item/gun/energy/temperature/security,
-/obj/item/clothing/suit/hooded/ablative,
+/obj/item/clothing/suit/armor/laserproof,
 /obj/item/gun/energy/ionrifle,
 /turf/open/floor/engine,
 /area/station/security/armory)
@@ -74349,7 +74349,7 @@
 	dir = 1
 	},
 /obj/effect/turf_decal/bot,
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/armory_spawn/laser,
 /turf/open/floor/engine,
 /area/station/security/armory)
 "vxo" = (

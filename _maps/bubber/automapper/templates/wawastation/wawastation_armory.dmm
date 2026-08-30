@@ -39,7 +39,7 @@
 /area/station/security/armory)
 "w" = (
 /obj/structure/rack/gunrack,
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/armory_spawn/laser,
 /obj/effect/turf_decal/tile/red/half/contrasted{
 	dir = 8
 	},

@@ -22628,7 +22628,7 @@
 	},
 /obj/structure/sign/poster/official/ion_rifle/directional/east,
 /obj/effect/turf_decal/delivery,
-/obj/effect/spawner/armory_spawn/smg,
+/obj/effect/spawner/armory_spawn/laser,
 /turf/open/floor/engine,
 /area/station/security/armory)
 "gEV" = (
@@ -59438,7 +59438,7 @@
 /area/station/maintenance/port/fore)
 "qBO" = (
 /obj/structure/table/reinforced,
-/obj/item/clothing/suit/hooded/ablative{
+/obj/item/clothing/suit/armor/laserproof{
 	pixel_y = 7
 	},
 /obj/item/gun/energy/temperature/security{

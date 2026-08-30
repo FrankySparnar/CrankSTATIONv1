@@ -309,7 +309,7 @@
 	},
 /obj/item/gun/energy/temperature/security,
 /obj/effect/turf_decal/bot,
-/obj/item/clothing/suit/hooded/ablative,
+/obj/item/clothing/suit/armor/laserproof,
 /obj/machinery/light_switch/directional/east,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
