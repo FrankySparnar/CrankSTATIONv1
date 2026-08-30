@@ -393,7 +393,7 @@
 		/obj/item/stack/sheet/iron/fifty = 1,
 		/obj/item/stack/sheet/plasteel/twenty = 1,
 	)
-	head = /obj/item/clothing/head/utility/hardhat/welding
+	head = /obj/item/clothing/head/utility/hardhat
 	mask = /obj/item/clothing/mask/gas/atmos
 	l_hand = /obj/item/blueprints
 

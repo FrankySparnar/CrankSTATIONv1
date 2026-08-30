@@ -354,7 +354,7 @@
 	desc = "Contains two experimental thermal cannons for use by mechs. \
 		When used simultaneously, their excess power used to heat and cool the opposing weapon, \
 		increasing the reload speed."
-	cost = CARGO_CRATE_VALUE * 25
+	cost = CARGO_CRATE_VALUE * 24
 	contains = list(
 		/obj/item/mecha_parts/mecha_equipment/weapon/energy/thermal/cryo,
 		/obj/item/mecha_parts/mecha_equipment/weapon/energy/thermal/inferno,
@@ -366,7 +366,7 @@
 	desc = "Contains four single-use hemoparasite testing tools. \
 		These devices accurately report whether a patient is inhabited by a hemoparasite, such as the infamous space-faring blood worm. \
 		The DeForest Medical Corporation claims no liability for any mental and/or physical trauma caused to patients from the improper use of these devices."
-	cost = CARGO_CRATE_VALUE * 50 // These aren't meant to be bought en-masse.
+	cost = CARGO_CRATE_VALUE * 6.5
 	access_view = ACCESS_SECURITY
 	contains = list(/obj/item/blood_worm_tester = 4)
 	crate_name = "hemoparasite testing crate"

@@ -88,13 +88,13 @@
 	crate_name = "\improper PACMAN generator crate"
 	crate_type = /obj/structure/closet/crate/nakamura
 
-/datum/supply_pack/engineering/power
-	name = "Power Cell Crate"
-	desc = "Looking for power overwhelming? Look no further. Contains three high-voltage power cells."
-	cost = CARGO_CRATE_VALUE * 3
-	contains = list(/obj/item/stock_parts/power_store/cell/high = 3)
-	crate_name = "power cell crate"
-	crate_type = /obj/structure/closet/crate/engineering/electrical
+// /datum/supply_pack/engineering/power
+// 	name = "Power Cell Crate"
+// 	desc = "Looking for power overwhelming? Look no further. Contains three high-voltage power cells."
+// 	cost = CARGO_CRATE_VALUE * 3
+// 	contains = list(/obj/item/stock_parts/power_store/cell/high = 3)
+// 	crate_name = "power cell crate"
+// 	crate_type = /obj/structure/closet/crate/engineering/electrical
 
 /datum/supply_pack/engineering/shuttle_engine
 	name = "Shuttle Engine Crate"

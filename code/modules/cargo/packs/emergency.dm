@@ -21,7 +21,7 @@
 	desc = "Explosions got you down? These supplies are guaranteed to patch up holes, \
 		in stations and people alike! Comes with two floorbots, two medbots, five oxygen \
 		masks and five small oxygen tanks."
-	cost = CARGO_CRATE_VALUE * 5
+	cost = CARGO_CRATE_VALUE * 11.5
 	contains = list(
 		/mob/living/basic/bot/medbot = 2,
 		/mob/living/basic/bot/repairbot = 2,

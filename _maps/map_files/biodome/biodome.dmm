@@ -50772,7 +50772,6 @@
 /obj/structure/broken_flooring/pile/directional/east,
 /obj/item/melee/baton/security/cattleprod,
 /obj/effect/mob_spawn/corpse/human/assistant,
-/obj/item/clothing/head/utility/hardhat/welding,
 /obj/item/clothing/suit/hazardvest,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,

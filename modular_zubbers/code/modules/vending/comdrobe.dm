@@ -156,7 +156,6 @@
 	access_lists["[ACCESS_CE]"] = list(
 		/obj/item/clothing/head/beret/engi/ce = 1,
 		/obj/item/clothing/head/utility/hardhat/white = 1,
-		/obj/item/clothing/head/utility/hardhat/welding/white = 1,
 		/obj/item/clothing/under/rank/engineering/chief_engineer = 1,
 		/obj/item/clothing/under/rank/engineering/chief_engineer/turtleneck = 1,
 		/obj/item/clothing/under/rank/engineering/chief_engineer/skirt = 1,

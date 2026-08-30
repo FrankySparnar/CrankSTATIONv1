@@ -66,18 +66,6 @@
 				)
 	crate_type = /obj/structure/closet/crate/wooden
 
-/datum/supply_pack/misc/commandkeys
-	name = "Command Encryption Key Crate"
-	desc = "A pack of encryption keys that give access to the command radio network. \
-		Nanotrasen reminds unauthorized employees not to eavesdrop in on secure communications channels, \
-		or at least to keep heckling of the command staff to a minimum."
-	access_view = ACCESS_COMMAND
-	access = ACCESS_COMMAND
-	cost = CARGO_CRATE_VALUE * 4
-	contains = list(/obj/item/encryptionkey/headset_com = 3)
-	crate_type = /obj/structure/closet/crate/secure/centcom
-	crate_name = "command encryption key crate"
-
 /datum/supply_pack/misc/exploration_drone
 	name = "Exploration Drone"
 	desc = "A replacement long-range exploration drone."
@@ -262,10 +250,3 @@
 	cost = CARGO_CRATE_VALUE * 2
 	contains = list(/obj/structure/reagent_dispensers/water_cooler/jugless = 1, /obj/item/reagent_containers/cooler_jug/water = 1)
 	crate_name = "water cooler crate"
-
-/datum/supply_pack/misc/punch_cooler
-	name = "Liquid Cooler - Fruit Punch"
-	desc = "A liquid cooler, stocked with exotic fruit punch that can heal injuries! Be sure to remain near the liquid cooler while drinking, for your own health and safety. Seriously, do NOT drink this stuff away from the cooler."
-	cost = CARGO_CRATE_VALUE * 6
-	contains = list(/obj/structure/reagent_dispensers/water_cooler/jugless = 1, /obj/item/reagent_containers/cooler_jug/punch = 1)
-	crate_name = "punch cooler crate"

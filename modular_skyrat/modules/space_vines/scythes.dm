@@ -114,14 +114,14 @@
 
 /datum/supply_pack/organic/tier3_scythe
 	name = "Tier 3 Scythe"
-	desc = "Have pesky vines and need a way to chop it down faster? Order this crate now!"
-	cost = CARGO_CRATE_VALUE * 20
-	contains = list(/obj/item/scythe/tier3)
+	desc = "Have pesky vines and need a way to chop them down faster? Order this crate now! Contains three tier 3 scythes."
+	cost = CARGO_CRATE_VALUE * 11.5
+	contains = list(/obj/item/scythe/tier3 = 3)
 	crate_name = "tier 3 scythe supply crate"
 
 /datum/supply_pack/organic/tier4_scythe
 	name = "Tier 4 Scythe"
-	desc = "Have pesky vines and need a way to chop it down faster? Order this crate now!"
-	cost = CARGO_CRATE_VALUE * 40
-	contains = list(/obj/item/scythe/tier4)
+	desc = "Have pesky vines and need a way to chop them down faster? Order this crate now! Contains three tier 4 scythes."
+	cost = CARGO_CRATE_VALUE * 14
+	contains = list(/obj/item/scythe/tier4 = 3)
 	crate_name = "tier 4 scythe supply crate"

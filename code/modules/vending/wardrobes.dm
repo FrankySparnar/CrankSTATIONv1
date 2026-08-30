@@ -133,7 +133,6 @@ GLOBAL_VAR_INIT(roaches_deployed, FALSE)
 	products = list(
 		/obj/item/clothing/accessory/pocketprotector = 3,
 		/obj/item/clothing/head/utility/hardhat = 3,
-		/obj/item/clothing/head/utility/hardhat/welding = 3,
 		/obj/item/clothing/head/beret/engi = 3,
 		/obj/item/clothing/mask/bandana/striped/engineering = 3,
 		/obj/item/clothing/under/rank/engineering/engineer = 3,

@@ -13,8 +13,8 @@
 	initial_products = list(
 		/obj/item/gun/ballistic/automatic/sol_rifle/machinegun = list(PAYCHECK_CREW * 1200, INFINITY),
 		/obj/item/ammo_box/magazine/c40sol_rifle/standard = list(PAYCHECK_CREW * 60, INFINITY),
-		/obj/item/gun/ballistic/automatic/lanca = list(PAYCHECK_CREW * 500, INFINITY),
-		/obj/item/ammo_box/magazine/lanca = list(PAYCHECK_CREW * 10, INFINITY),
+		// /obj/item/gun/ballistic/automatic/lanca = list(PAYCHECK_CREW * 500, INFINITY),
+		// /obj/item/ammo_box/magazine/lanca = list(PAYCHECK_CREW * 10, INFINITY),
 		/obj/item/gun/ballistic/automatic/m90/unrestricted = list(PAYCHECK_CREW * 5000, INFINITY),
 		/obj/item/ammo_box/magazine/m223 = list(PAYCHECK_CREW * 12, INFINITY),
 		/obj/item/gun/ballistic/automatic/napad = list(PAYCHECK_CREW * 400, INFINITY),

@@ -1700,7 +1700,6 @@
 /obj/item/cigarette/robust,
 /obj/structure/closet/emcloset,
 /obj/item/clothing/suit/utility/fire/heavy,
-/obj/item/clothing/head/utility/hardhat/welding/atmos,
 /obj/item/survivalcapsule/bathroom,
 /turf/open/floor/plating/rust,
 /area/awaymission/caves/maintsroom)

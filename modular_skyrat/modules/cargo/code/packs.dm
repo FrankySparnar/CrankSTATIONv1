@@ -220,17 +220,17 @@
 	cost = CARGO_CRATE_VALUE * 15
 	crate_name = "double extended emergency tank crate"
 
-/datum/supply_pack/engineering/advanced_extinguisher
-	name = "Advanced Foam Extinguisher Crate"
-	desc = "Contains advanced fire extinguishers which use foam as extinguishing agent."
-	access_view = ACCESS_ENGINE_EQUIP
-	contains = list(
-		/obj/item/extinguisher/advanced,
-		/obj/item/extinguisher/advanced,
-		/obj/item/extinguisher/advanced,
-	)
-	cost = CARGO_CRATE_VALUE * 18
-	crate_name = "advanced extinguisher crate"
+// /datum/supply_pack/engineering/advanced_extinguisher
+// 	name = "Advanced Foam Extinguisher Crate"
+// 	desc = "Contains advanced fire extinguishers which use foam as extinguishing agent."
+// 	access_view = ACCESS_ENGINE_EQUIP
+// 	contains = list(
+// 		/obj/item/extinguisher/advanced,
+// 		/obj/item/extinguisher/advanced,
+// 		/obj/item/extinguisher/advanced,
+// 	)
+// 	cost = CARGO_CRATE_VALUE * 18
+// 	crate_name = "advanced extinguisher crate"
 
 /datum/supply_pack/engineering/modsuit_engineering
 	name = "Engineering MODsuit Crate"

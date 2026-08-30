@@ -8336,9 +8336,6 @@
 /area/station/service/chapel)
 "cgg" = (
 /obj/effect/decal/remains/human,
-/obj/item/clothing/head/utility/hardhat/welding/atmos{
-	pixel_x = 1
-	},
 /turf/open/floor/engine/hull,
 /area/space/nearstation)
 "cgm" = (
