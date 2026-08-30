@@ -484,7 +484,7 @@
 /datum/loadout_item/head/beret_coroner
 	name = "Coroner Beret"
 	item_path = /obj/item/clothing/head/beret/medical/coroner
-	restricted_roles = list(JOB_CHIEF_MEDICAL_OFFICER)
+	restricted_roles = list(JOB_CHIEF_MEDICAL_OFFICER, JOB_MEDICAL_DOCTOR)
 
 /datum/loadout_item/head/beret_sci
 	name = "Scientist Beret"

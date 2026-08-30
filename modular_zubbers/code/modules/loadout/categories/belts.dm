@@ -60,10 +60,10 @@
 	name = "Lantern"
 	item_path = /obj/item/flashlight/lantern
 
-/datum/loadout_item/belts/darksabresheath
-	name = "Dark Sabre Sheath"
-	item_path = /obj/item/storage/belt/sheath/sabre/darksabre
-	//ckeywhitelist = list("inferno707")
+// /datum/loadout_item/belts/darksabresheath
+// 	name = "Dark Sabre Sheath"
+// 	item_path = /obj/item/storage/belt/sheath/sabre/darksabre
+// 	//ckeywhitelist = list("inferno707")
 
 /datum/loadout_item/belts/trinket_belt
 	name = "Trinket Belt"
@@ -73,43 +73,44 @@
 /*
 * Webbings
 */
+// Crank Edit - Keeping the utility related ones, less Dude With Machine Gun-core aboard the station unless you buy it
 
-/datum/loadout_item/belts/webbing
-	name = "Webbing - Basic"
-	item_path = /obj/item/storage/belt/webbing
+// /datum/loadout_item/belts/webbing
+// 	name = "Webbing - Basic"
+// 	item_path = /obj/item/storage/belt/webbing
 
-/datum/loadout_item/belts/webbing_colonial
-	name = "Webbing - Colonial"
-	item_path = /obj/item/storage/belt/webbing/colonial_webbing
+// /datum/loadout_item/belts/webbing_colonial
+// 	name = "Webbing - Colonial"
+// 	item_path = /obj/item/storage/belt/webbing/colonial_webbing
 
-/datum/loadout_item/belts/webbing_vest_brown
-	name = "Webbing - Vest, Brown"
-	item_path = /obj/item/storage/belt/webbing_vest
+// /datum/loadout_item/belts/webbing_vest_brown
+// 	name = "Webbing - Vest, Brown"
+// 	item_path = /obj/item/storage/belt/webbing_vest
 
-/datum/loadout_item/belts/webbing_vest_black
-	name = "Webbing - Vest, Black"
-	item_path = /obj/item/storage/belt/webbing_vest/black
+// /datum/loadout_item/belts/webbing_vest_black
+// 	name = "Webbing - Vest, Black"
+// 	item_path = /obj/item/storage/belt/webbing_vest/black
 
-/datum/loadout_item/belts/webbing_vest_white
-	name = "Webbing - Vest, White"
-	item_path = /obj/item/storage/belt/webbing_vest/white
+// /datum/loadout_item/belts/webbing_vest_white
+// 	name = "Webbing - Vest, White"
+// 	item_path = /obj/item/storage/belt/webbing_vest/white
 
 /datum/loadout_item/belts/webbing_pouch_brown
-	name = "Webbing - Drop Pouches, Brown"
+	name = "Brown Drop Pouch"
 	item_path = /obj/item/storage/belt/webbing_pouch
 
 /datum/loadout_item/belts/webbing_pouch_black
-	name = "Webbing - Drop Pouches, Black"
+	name = "Black Drop Pouch"
 	item_path = /obj/item/storage/belt/webbing_pouch/black
 
 /datum/loadout_item/belts/webbing_pouch_white
-	name = "Webbing - Drop Pouches, White"
+	name = "White Drop Pouch"
 	item_path = /obj/item/storage/belt/webbing_pouch/white
 
 /datum/loadout_item/belts/webbing_pilot_standard
-	name = "Webbing - Rigging, Standard"
+	name = "Body Rigging"
 	item_path = /obj/item/storage/belt/webbing_pilot
 
 /datum/loadout_item/belts/webbing_pilot_low
-	name = "Webbing - Rigging, Low Slung"
+	name = "Low-slung Rigging"
 	item_path = /obj/item/storage/belt/webbing_pilot/low

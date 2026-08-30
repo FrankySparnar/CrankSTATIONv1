@@ -8,6 +8,7 @@
 	lose_text = "<span class='notice'>You no longer feel like being a pet...</span>"
 	quirk_flags = QUIRK_HIDE_FROM_SCAN | QUIRK_PROCESSES
 	erp_quirk = TRUE
+	hidden_quirk = TRUE // CRANK EDIT
 	var/mob/living/last_dom
 
 /datum/quirk_constant_data/well_trained

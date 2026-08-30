@@ -53,8 +53,5 @@ GLOBAL_LIST_INIT(erp_items, list(
 	/obj/item/storage/box/xstand_kit,
 	/obj/item/strapon_dildo,
 	/obj/item/tickle_feather,
-	/obj/item/toy/plush/aeri,
-	/obj/item/toy/plush/noble,
-	/obj/item/toy/plush/protective_protogen,
 	/obj/item/vending_refill/lustwish,
 ))

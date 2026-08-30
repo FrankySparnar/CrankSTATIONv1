@@ -17,10 +17,10 @@
 	name = "Henchmen Flat Cap"
 	item_path = /obj/item/clothing/head/henchmen_hat
 
-/datum/loadout_item/head/alien_fake
-	name = "Kabrus Utility Helmet"
-	item_path = /obj/item/clothing/head/helmet/abductor/fake
-	donator_only = TRUE //Dono item for MyphicBowser
+// /datum/loadout_item/head/alien_fake
+// 	name = "Kabrus Utility Helmet"
+// 	item_path = /obj/item/clothing/head/helmet/abductor/fake
+// 	donator_only = TRUE //Dono item for MyphicBowser
 
 /datum/loadout_item/head/hats/warden/drill
 	name = "Warden's Campaign Hat"
@@ -48,22 +48,22 @@
 	donator_only = TRUE
 	restricted_roles = list(JOB_HEAD_OF_SECURITY)
 
-/datum/loadout_item/head/hats/nanotrasen_consultant/drill
-	name = "Nanotrasen Representative's Campaign Hat"
-	item_path = /obj/item/clothing/head/hats/warden/drill/nanotrasen
-	donator_only = TRUE
-	restricted_roles = list(JOB_NT_REP)
+// /datum/loadout_item/head/hats/nanotrasen_consultant/drill  - Crank Edit - Removed roles and otherwise very samey
+// 	name = "Nanotrasen Representative's Campaign Hat"
+// 	item_path = /obj/item/clothing/head/hats/warden/drill/nanotrasen
+// 	donator_only = TRUE
+// 	restricted_roles = list(JOB_NT_REP)
 
-/datum/loadout_item/head/hats/blueshield_beret
-	name = "Blueshield's Beret"
-	item_path = /obj/item/clothing/head/beret/blueshield
-	restricted_roles = list(JOB_BLUESHIELD)
+// /datum/loadout_item/head/hats/blueshield_beret
+// 	name = "Blueshield's Beret"
+// 	item_path = /obj/item/clothing/head/beret/blueshield
+// 	restricted_roles = list(JOB_BLUESHIELD)
 
 
-/datum/loadout_item/head/hats/blueshield_beret_navy
-	name = "Navy Blueshield's Beret"
-	item_path = /obj/item/clothing/head/beret/blueshield/navy
-	restricted_roles = list(JOB_BLUESHIELD)
+// /datum/loadout_item/head/hats/blueshield_beret_navy
+// 	name = "Navy Blueshield's Beret"
+// 	item_path = /obj/item/clothing/head/beret/blueshield/navy
+// 	restricted_roles = list(JOB_BLUESHIELD)
 
 /datum/loadout_item/head/security_cap/soft
 	name = "Security Soft Cap"
@@ -106,10 +106,10 @@
 	item_path = /obj/item/clothing/head/beret/sec
 	restricted_roles = list(ALL_JOBS_SEC)
 
-/datum/loadout_item/head/beret/sec/peacekeeper/white
-	name = "Peacekeeper White Beret"
-	item_path = /obj/item/clothing/head/beret/sec/white
-	restricted_roles = list(ALL_JOBS_SEC)
+// /datum/loadout_item/head/beret/sec/peacekeeper/white Crank Edit - not white, nor do we care
+// 	name = "Peacekeeper White Beret"
+// 	item_path = /obj/item/clothing/head/beret/sec/white
+// 	restricted_roles = list(ALL_JOBS_SEC)
 
 /datum/loadout_item/head/helmet/sec/redsec
 	name = "Security Red Helmet"
@@ -165,9 +165,9 @@
 	name = "Skull Helmet"
 	item_path = /obj/item/clothing/head/helmet/skull/fake
 
-/datum/loadout_item/head/soft/plasmax_black
-	name = "PlasMAX Envirosuit Helmet"
-	item_path = /obj/item/clothing/head/helmet/space/plasmaman/plasmax_black
+// /datum/loadout_item/head/soft/plasmax_black  Crank Edit - Oddly singleton head choice with no addendum suit unless you're a plasmaman (?)
+// 	name = "PlasMAX Envirosuit Helmet"
+// 	item_path = /obj/item/clothing/head/helmet/space/plasmaman/plasmax_black
 
 /datum/loadout_item/head/colonial
 	name = "Colonial Cap"

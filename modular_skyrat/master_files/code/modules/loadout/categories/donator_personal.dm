@@ -200,9 +200,9 @@
 	//ckeywhitelist = list("boisterousbeebz", "aether217")
 
 /datum/loadout_item/uniform/tactichill
-	name = "Tactichill Jacket"
+	name = "Chill Shirt"
 	item_path = /obj/item/clothing/under/tactichill
-	//ckeywhitelist = list("kaynite")
+
 
 /datum/loadout_item/suit/techpriest
 	name = "Techpriest Robes"

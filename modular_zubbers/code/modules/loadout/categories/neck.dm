@@ -13,34 +13,34 @@
 	name = "Tracking Collar"
 	item_path = /obj/item/clothing/neck/kink_collar/locked/gps
 
-/datum/loadout_item/neck/binary
-	name = "Crow Feather Cloak"
-	item_path = /obj/item/clothing/neck/binary
+// /datum/loadout_item/neck/binary   Crank edit - Insert reference here
+// 	name = "Crow Feather Cloak"
+// 	item_path = /obj/item/clothing/neck/binary
 
-/datum/loadout_item/neck/security_cape
-	name = "Security Cape"
-	item_path = /obj/item/clothing/neck/security_cape
-	restricted_roles = list(ALL_JOBS_SEC)
+// /datum/loadout_item/neck/security_cape   Crank edit - Strange choices
+// 	name = "Security Cape"
+// 	item_path = /obj/item/clothing/neck/security_cape
+// 	restricted_roles = list(ALL_JOBS_SEC)
 
-/datum/loadout_item/neck/security_cape/armplate
-	name = "Security Gauntlet"
-	item_path = /obj/item/clothing/neck/security_cape/armplate
-	restricted_roles = list(ALL_JOBS_SEC)
+// /datum/loadout_item/neck/security_cape/armplate
+// 	name = "Security Gauntlet"
+// 	item_path = /obj/item/clothing/neck/security_cape/armplate
+// 	restricted_roles = list(ALL_JOBS_SEC)
 
-/datum/loadout_item/neck/pauldron
-	name = "Lieutenant Commander's Pauldron"
-	item_path = /obj/item/clothing/neck/pauldron
-	restricted_roles = list(ALL_JOBS_SEC)
+// /datum/loadout_item/neck/pauldron 
+// 	name = "Lieutenant Commander's Pauldron"
+// 	item_path = /obj/item/clothing/neck/pauldron
+// 	restricted_roles = list(ALL_JOBS_SEC)
 
-/datum/loadout_item/neck/pauldron/captain
-	name = "Commander's Pauldron"
-	item_path = /obj/item/clothing/neck/pauldron/captain
-	restricted_roles = list(ALL_JOBS_SEC)
+// /datum/loadout_item/neck/pauldron/captain
+// 	name = "Commander's Pauldron"
+// 	item_path = /obj/item/clothing/neck/pauldron/captain
+// 	restricted_roles = list(ALL_JOBS_SEC)
 
-/datum/loadout_item/neck/pauldron/commander
-	name = "Captain's Pauldron"
-	item_path = /obj/item/clothing/neck/pauldron/commander
-	restricted_roles = list(ALL_JOBS_SEC)
+// /datum/loadout_item/neck/pauldron/commander 
+// 	name = "Captain's Pauldron"
+// 	item_path = /obj/item/clothing/neck/pauldron/commander
+// 	restricted_roles = list(ALL_JOBS_SEC)
 
 /datum/loadout_item/neck/imperial_cloak
 	name = "Imperial Police Cloak"
@@ -51,9 +51,9 @@
 	name = "Rabbit Pendant"
 	item_path = /obj/item/clothing/neck/bunny_pendant
 
-/datum/loadout_item/neck/scarf/pride
-	name = "Pride Scarf"
-	item_path = /obj/item/clothing/neck/scarf/pride
+/datum/loadout_item/neck/scarf/pride // Crank edit - Renamed as pride is normalized in the far future, but a rainbow scarf is always an option
+ 	name = "Rainbow Scarf"
+ 	item_path = /obj/item/clothing/neck/scarf/pride
 
 /datum/loadout_item/neck/holobadge/hos
 	name = "Head of Security's Holobadge"
@@ -70,9 +70,9 @@
 	item_path = /obj/item/clothing/accessory/badge/holo/detective
 	restricted_roles = list(JOB_DETECTIVE)
 
-/datum/loadout_item/neck/warrior_cape_worn
-	name = "Tattered Cloak"
-	item_path = /obj/item/clothing/neck/warrior_cape/loadout
+/datum/loadout_item/neck/warrior_cape_worn    //Crank edit - What is this, mistborn? Whatever its kinda funny 
+ 	name = "Tattered Cloak"
+ 	item_path = /obj/item/clothing/neck/warrior_cape/loadout
 
 /datum/loadout_item/neck/scarf/shadekin
 	name = "Shadekin Fur Scarf"

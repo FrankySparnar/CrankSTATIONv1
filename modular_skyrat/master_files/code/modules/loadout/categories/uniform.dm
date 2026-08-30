@@ -492,7 +492,7 @@
 	item_path = /obj/item/clothing/under/misc/skyrat/gear_harness
 
 /datum/loadout_item/uniform/miscellaneous/taccas
-	name = "Tacticasual Uniform"
+	name = "Casual Tanktop"
 	item_path = /obj/item/clothing/under/misc/skyrat/taccas
 
 /datum/loadout_item/uniform/miscellaneous/cargo_casual

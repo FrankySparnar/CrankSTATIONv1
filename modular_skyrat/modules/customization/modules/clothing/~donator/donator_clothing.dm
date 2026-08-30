@@ -1440,8 +1440,8 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/poster/contraband/korpstech, 32)
 
 // Donation reward for Kay-Nite
 /obj/item/clothing/under/tactichill
-	name = "tactichill jacket"
-	desc = "The brighter variant of the tacticool clotheswear, for when you want to look even cooler than usual and still operate at the same time."
+	name = "Chill Shirt"
+	desc = "For when you want to look even cooler than usual and still perfectly relaxed."
 	icon = 'modular_skyrat/master_files/icons/donator/obj/clothing/uniform.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/donator/mob/clothing/uniform.dmi'
 	worn_icon_digi = 'modular_skyrat/master_files/icons/donator/mob/clothing/uniform_digi.dmi'

@@ -243,6 +243,7 @@
 	medical_record_text = "Subject has sadism."
 	icon = FA_ICON_HAMMER
 	erp_quirk = TRUE
+	hidden_quirk = TRUE
 
 /datum/quirk/sadism/post_add()
 	. = ..()
@@ -298,6 +299,7 @@
 	lose_text = span_notice("Being restrained doesn't arouse you anymore.")
 	icon = FA_ICON_HANDCUFFS
 	erp_quirk = TRUE
+	hidden_quirk = TRUE
 
 /datum/quirk/ropebunny/post_add()
 	. = ..()
@@ -320,6 +322,7 @@
 	lose_text = span_notice("Rope knots looks complicated again.")
 	icon = FA_ICON_CHAIN_BROKEN
 	erp_quirk = TRUE
+	hidden_quirk = TRUE
 
 /datum/quirk/rigger/post_add()
 	. = ..()

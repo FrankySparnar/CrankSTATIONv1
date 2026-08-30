@@ -3,7 +3,6 @@
 /datum/loadout_item/uniform/security/hecu
 	name = "Urban Camouflage BDU"
 	item_path = /obj/item/clothing/under/rank/security/officer/hecu
-	donator_only = TRUE
 	restricted_roles = list(ALL_JOBS_SEC)
 
 /datum/loadout_item/uniform/security/camo
@@ -15,60 +14,57 @@
 	name = "Camouflage Uniform"
 	item_path = /obj/item/clothing/under/rank/civilian/bubber/camo
 
-/datum/loadout_item/uniform/command/stripper //Sprites by SierraGenevese
-	name = "Command Bikini"
-	item_path = /obj/item/clothing/under/rank/civilian/head_of_personnel/stripper
-	restricted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_CHIEF_ENGINEER, JOB_CHIEF_MEDICAL_OFFICER, JOB_QUARTERMASTER, JOB_NT_REP)
+// /datum/loadout_item/uniform/command/stripper //Sprites by SierraGenevese  Crank edit - Ok
+// 	name = "Command Bikini"
+// 	item_path = /obj/item/clothing/under/rank/civilian/head_of_personnel/stripper
+// 	restricted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_CHIEF_ENGINEER, JOB_CHIEF_MEDICAL_OFFICER, JOB_QUARTERMASTER, JOB_NT_REP)
 
-/datum/loadout_item/uniform/nanotrasen_consultant/stripper //Sprites by SierraGenevese
-	name = "Consultant Bikini"
-	item_path = /obj/item/clothing/under/rank/nanotrasen_consultant/stripper
-	restricted_roles = list(JOB_NT_REP)
+// /datum/loadout_item/uniform/nanotrasen_consultant/stripper //Sprites by SierraGenevese
+// 	name = "Consultant Bikini"
+// 	item_path = /obj/item/clothing/under/rank/nanotrasen_consultant/stripper
+// 	restricted_roles = list(JOB_NT_REP)
 
 /datum/loadout_item/uniform/command/blueshield_suit
-	name = "Blueshield's Suit"
+	name = "Command Dress Shirt"
 	item_path = /obj/item/clothing/under/rank/blueshield
-	restricted_roles = list(JOB_BLUESHIELD)
+	restricted_roles = list(JOB_CAPTAIN, JOB_CHIEF_ENGINEER, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_HEAD_OF_PERSONNEL, JOB_HEAD_OF_SECURITY, JOB_CHIEF_MEDICAL_OFFICER)
 
 /datum/loadout_item/uniform/command/blueshield_suitskirt
-	name = "Blueshield's Suitskirt"
+	name = "Command Dress Skirt"
 	item_path = /obj/item/clothing/under/rank/blueshield/skirt
-	restricted_roles = list(JOB_BLUESHIELD)
+	restricted_roles = list(JOB_CAPTAIN, JOB_CHIEF_ENGINEER, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_HEAD_OF_PERSONNEL, JOB_HEAD_OF_SECURITY, JOB_CHIEF_MEDICAL_OFFICER)
 
 /datum/loadout_item/uniform/command/blueshield_turtleneck
-	name = "Blueshield's Turtleneck"
+	name = "Command Turtleneck"
 	item_path = /obj/item/clothing/under/rank/blueshield/turtleneck
-	restricted_roles = list(JOB_BLUESHIELD)
+	restricted_roles = list(JOB_CAPTAIN, JOB_CHIEF_ENGINEER, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_HEAD_OF_PERSONNEL, JOB_HEAD_OF_SECURITY, JOB_CHIEF_MEDICAL_OFFICER)
 
 /datum/loadout_item/uniform/command/blueshield_turtleneckskirt
-	name = "Blueshield's Skirtleneck"
+	name = "Command Skirtleneck"
 	item_path = /obj/item/clothing/under/rank/blueshield/turtleneck/skirt
-	restricted_roles = list(JOB_BLUESHIELD)
+	restricted_roles = list(JOB_CAPTAIN, JOB_CHIEF_ENGINEER, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_HEAD_OF_PERSONNEL, JOB_HEAD_OF_SECURITY, JOB_CHIEF_MEDICAL_OFFICER)
 
 /datum/loadout_item/uniform/command/blueshield_consult
-	name = "Blueshield's Consulting Suit"
+	name = "Command Consulting Suit"
 	item_path = /obj/item/clothing/under/rank/blueshield/consult
-	restricted_roles = list(JOB_BLUESHIELD)
+	restricted_roles = list(JOB_CAPTAIN, JOB_CHIEF_ENGINEER, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_HEAD_OF_PERSONNEL, JOB_HEAD_OF_SECURITY, JOB_CHIEF_MEDICAL_OFFICER)
 
 /datum/loadout_item/uniform/command/blueshield_consultskirt
-	name = "Blueshield's Consulting Skirt"
+	name = "Command Consulting Skirt"
 	item_path = /obj/item/clothing/under/rank/blueshield/consult/skirt
-	restricted_roles = list(JOB_BLUESHIELD)
+	restricted_roles = list(JOB_CAPTAIN, JOB_CHIEF_ENGINEER, JOB_RESEARCH_DIRECTOR, JOB_QUARTERMASTER, JOB_HEAD_OF_PERSONNEL, JOB_HEAD_OF_SECURITY, JOB_CHIEF_MEDICAL_OFFICER)
 
 /datum/loadout_item/uniform/command/blueshield_sweat
-	name = "Blueshield's Sweatsuit"
+	name = "Sweatsuit"
 	item_path = /obj/item/clothing/under/rank/blueshield/russian
-	restricted_roles = list(JOB_BLUESHIELD)
 
 /datum/loadout_item/uniform/command/blueshield_formal
-	name = "Blueshield's Formal Uniform"
+	name = "Slapdash Formal Uniform"
 	item_path = /obj/item/clothing/under/rank/blueshield/formal
-	restricted_roles = list(JOB_BLUESHIELD)
 
 /datum/loadout_item/uniform/command/blueshield_naval
-	name = "Blueshield's Naval Uniform"
+	name = "Naval Uniform"
 	item_path = /obj/item/clothing/under/rank/blueshield/naval
-	restricted_roles = list(JOB_BLUESHIELD)
 
 // /datum/loadout_item/uniform/medrscrubs //CRANK EDIT - we don't got no security medics no more
 // 	name = "Security Medic's Scrubs"
@@ -145,19 +141,18 @@
 	item_path = /obj/item/clothing/under/rank/security/corrections_officer/sweater/skirt
 	restricted_roles = list(JOB_WARDEN)
 
-/datum/loadout_item/uniform/miscellaneous/ba_cheerleader
-	name = "NT Cheerleading Outfit"
-	item_path = /obj/item/clothing/under/costume/ba_cheerleader
+// /datum/loadout_item/uniform/miscellaneous/ba_cheerleader  Crank edit - NO THANKS
+// 	name = "NT Cheerleading Outfit"
+// 	item_path = /obj/item/clothing/under/costume/ba_cheerleader
 
-/datum/loadout_item/uniform/command/ba_cheerleader
-	name = "NT Command Cheerleading Uniform"
-	item_path = /obj/item/clothing/under/rank/centcom/ba_cheerleader
-	restricted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_CHIEF_ENGINEER, JOB_CHIEF_MEDICAL_OFFICER, JOB_QUARTERMASTER, JOB_NT_REP)
+// /datum/loadout_item/uniform/command/ba_cheerleader
+// 	name = "NT Command Cheerleading Uniform"
+// 	item_path = /obj/item/clothing/under/rank/centcom/ba_cheerleader
+// 	restricted_roles = list(JOB_CAPTAIN, JOB_HEAD_OF_PERSONNEL, JOB_HEAD_OF_SECURITY, JOB_RESEARCH_DIRECTOR, JOB_CHIEF_ENGINEER, JOB_CHIEF_MEDICAL_OFFICER, JOB_QUARTERMASTER, JOB_NT_REP)
 
 /datum/loadout_item/uniform/miscellaneous/tactical_maid //Donor item for skyefree
-	name = "Tactical Maid Costume"
+	name = "Dark Maid Costume"
 	item_path = /obj/item/clothing/under/misc/maid/tactical
-	donator_only = TRUE
 
 /datum/loadout_item/uniform/miscellaneous/bubber/clown/skirt/red
 	name = "Clown Skirt"
@@ -178,11 +173,11 @@
 	item_path = /obj/item/clothing/under/dress/bubber/strapped
 
 /datum/loadout_item/uniform/miscellaneous/syndicate_skyrat_overalls_unarmoured
-	name = "Tacticool Utility Overalls"
+	name = "Utility Overalls"
 	item_path = /obj/item/clothing/under/syndicate/skyrat/overalls/unarmoured
 
 /datum/loadout_item/uniform/miscellaneous/syndicate_skyrat_overalls_unarmoured_skirt
-	name = "Tacticool Utility Skirt and Suspenders"
+	name = "Utility Skirt and Suspenders"
 	item_path = /obj/item/clothing/under/syndicate/skyrat/overalls/unarmoured/skirt
 
 /datum/loadout_item/uniform/miscellaneous/loincloth
@@ -253,9 +248,9 @@
 	name = "Latex Maid Costume"
 	item_path = /obj/item/clothing/under/costume/lewdmaid
 
-/datum/loadout_item/uniform/miscellaneous/stripper_outfit
-	name = "Stripper Outfit"
-	item_path = /obj/item/clothing/under/stripper_outfit
+// /datum/loadout_item/uniform/miscellaneous/stripper_outfit  Crank edit - relax man
+// 	name = "Stripper Outfit"
+// 	item_path = /obj/item/clothing/under/stripper_outfit
 
 /datum/loadout_item/uniform/miscellaneous/greyscale_turtleneck
 	name = "Greyscale Turtleneck and Pants"

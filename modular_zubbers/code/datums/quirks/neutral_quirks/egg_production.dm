@@ -6,6 +6,7 @@
 	gain_text = span_notice("You suddenly feel rather productive.")
 	lose_text = span_warning("You no longer feel productive. Sad.")
 	medical_record_text = "Patient possesses the capability to produce eggs."
+	hidden_quirk = TRUE // CRANK EDIT
 
 //Quirk addition
 /datum/quirk/egg_production/add(client/client_source)
