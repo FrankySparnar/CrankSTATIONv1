@@ -10553,4 +10553,5 @@
 #include "modular_zubbers\modules\taur_mechanics\taur_clothing_offset.dm"
 #include "modular_zubbers\modules\voskhod\code\mod_suit.dm"
 #include "modular_zubbers\modules\wood_walls\code\new_floors.dm"
+#include "modular_zzzrank\code\modules\mining\equipment\kinetic_crusher.dm"
 // END_INCLUDE
